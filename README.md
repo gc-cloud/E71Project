@@ -62,7 +62,7 @@ stakeholder. The user persona details are clearly documented in your git
 repo's README. 1.0 pts
  
   (TO DO ADD A PICTURE HERE)
-  Betty
+  Betty 
   
   She has working as a teacher for 30 years at Mexico's Telephony 
   Company.  Currently, she  writes exams manually and photocopies

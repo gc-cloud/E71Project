@@ -9,6 +9,7 @@ Teams" groups in Canvas. 2.0 pts
 * You have named your team. You have created a Slack channel in the course 
 Slack team with your team name. 2.0 pts
   * Fair Weather Software
+  * [Slack Channel](https://agilefall2016.slack.com/messages/fair-weather-software/)
 
 * You have created a public git repository for your team and submitted 
 the repo URL as the solution to this assignment. 1.0 pts

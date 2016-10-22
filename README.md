@@ -57,10 +57,11 @@ in your git repo's README. 1.0 pts
    * Teacher - Beatriz Hernandez
    
 
-* Your team has constructed a detailed user persona for your real stakeholder. 
-The user persona details are clearly documented in your git repo's README. 1.0 pts
+* Your team has constructed a detailed user persona for your real 
+stakeholder. The user persona details are clearly documented in your git 
+repo's README. 1.0 pts
  
-  (SAM TO ADD A PICTURE HERE)
+  (TO DO ADD A PICTURE HERE)
   Betty
   
   She has working as a teacher for 30 years at Mexico's Telephony 
@@ -95,23 +96,33 @@ backlog. 10.0 pts
   * See link above
   
 * Your product backlog is ordered. Your rationale for how you 
-ordered your backlog is clearly documented in your git repo's README. 1.0 pts
-  * Items were ordered based on delivering the most value for the 
+ordered your backlog is clearly documented in your git repo's README. 
+1.0 pts
+  
+  Items were ordered based on delivering the most value for the 
   user as soon as possible
     
 
-* You have a Definition of Ready for product backlog items. Your 
-Definition of Ready includes at least these items: 
-a) Title, 
-b) User story opening sentence, 
-c) Additional details, 
-d) Estimated in story points. 
+* You have a Definition of Ready for product backlog items. 
+Definition of ready 
+a) Title
+b) User story opening sentence
+c) Additional details
+d) Estimated in story points
+( TO DO - TEAM TO ADD ITEMS IF DESIRED)
+
 Your Definition of Ready is clearly documented in your git repo's README. 5.0 pts
 
-* Estimate your PBIs, starting at the top of the backlog and working your way down to the bottom. Your backlog with estimated PBIs is stored in an online tool such as Trello or Google Spreadsheets. The URL of your backlog is clearly documented in your git repo's README. Course staff members can view your backlog. 4.0 pts
+* Estimate your PBIs, starting at the top of the backlog and working your 
+way down to the bottom. Your backlog with estimated PBIs is stored in an 
+online tool such as Trello or Google Spreadsheets. The URL of your backlog 
+is clearly documented in your git repo's README. Course staff members can 
+view your backlog. 4.0 pts
 
 * You estimated your PBIs in story points. 1.0 pts
 
-* You did a whole team relative size estimating activity. You documented the name of the activity in your README. 1.0 pts
+* You did a whole team relative size estimating activity. You documented t
+he name of the activity in your README. 1.0 pts
 
-* Only Development Team members participated in creating the estimates. You've made note of this in your README. 1.0 pts
+* Only Development Team members participated in creating the estimates. 
+You've made note of this in your README. 1.0 pts

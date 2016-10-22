@@ -119,6 +119,7 @@ online tool such as Trello or Google Spreadsheets. The URL of your backlog
 is clearly documented in your git repo's README. Course staff members can 
 view your backlog. 4.0 pts
 
+
 * You estimated your PBIs in story points. 1.0 pts
 
 * You did a whole team relative size estimating activity. You documented t

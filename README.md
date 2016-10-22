@@ -33,8 +33,7 @@ The roster includes each team member's name and the role they play on the team. 
 * Your team has identified articulated a far vision for the product. It 
 is clearly documented in your git repo's README. 1.0 pts
 
-Enable easy, seamless and collaborative exam content creation in a secure 
-and distributed environment
+Provide the world's most collaborative and user-friendly assessment platform.
 
    * Teachers can rate questions and collaboratively select the 
    best ones
@@ -43,7 +42,7 @@ and distributed environment
 of the product, which you will build in this project. It is clearly documented 
 in your git repo's README. 1.0 pts
 
-Teachers can create exams from a list of questions that they created 
+Enable teachers to easily create exam questions, maintain question bank, and generate exams.
 
 * Your team has identified at least three stakeholder types whose needs 
 are fulfilled by your product. They are clearly documented in your git 

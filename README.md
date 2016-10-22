@@ -1,41 +1,112 @@
 # E71Project
-Final project for CSCIE71 Scrum Team 1
+Final project for CSCIE71 - Fair Weather Software
 
 ##Criteria Total Points: 48.0
-* You have self-organized into a team. You have joined one of the "Scrum Teams" groups in Canvas. 2.0 pts
+* You have self-organized into a team. You have joined one of the "Scrum 
+Teams" groups in Canvas. 2.0 pts
+  * Joined Project Team 1
 
-* You have named your team. You have created a Slack channel in the course Slack team with your team name. 2.0 pts
+* You have named your team. You have created a Slack channel in the course 
+Slack team with your team name. 2.0 pts
+  * Fair Weather Software
 
-* You have created a public git repository for your team and submitted the repo URL as the solution to this assignment. 1.0 pts
+* You have created a public git repository for your team and submitted 
+the repo URL as the solution to this assignment. 1.0 pts
+  * [Project Repo](https://github.com/gc-cloud/E71Project)
+  
 
-* The README in your git repo clearly lists your team name and roster. The roster includes each team member's name and the role they play on the team. 1.0 pts
-   * Alberto Garza
-   * Ran Zhang
-   * Rafael Flores
-   * Samuel Chao
-   * Gerardo Castaneda
+* The README in your git repo clearly lists your team name and roster. 
+The roster includes each team member's name and the role they play on the team. 1.0 pts
+   * Alberto Garza - Developer /  Scrum Master
+   * Ran Zhang - Developer
+   * Rafael Flores - Developer  
+   * Samuel Chao - Developer
+   * Gerardo Castaneda - Developer
+   * Guest  Luis Hidalgo - Product Owner
+   
 
-* Your team has identified an open source product to create and given it a name. The name is clearly documented in your git repo's README. 1.0 pts
+* Your team has identified an open source product to create and given it
+ a name. The name is clearly documented in your git repo's README. 1.0 pts
+   * Test Vault
 
-* Your team has identified articulated a far vision for the product. It is clearly documented in your git repo's README. 1.0 pts
+* Your team has identified articulated a far vision for the product. It 
+is clearly documented in your git repo's README. 1.0 pts
 
-* Your team has identified articulated a near vision for the first iteration of the product, which you will build in this project. It is clearly documented in your git repo's README. 1.0 pts
+Enable easy, seamless and collaborative exam content creation in a secure 
+and distributed environment
 
-* Your team has identified at least three stakeholder types whose needs are fulfilled by your product. They are clearly documented in your git repo's README. 3.0 pts
+   * Teachers can rate questions and collaboratively select the 
+   best ones
 
-* At least one of your stakeholders is a real person whose needs are fulfilled by your product. The person's name is clearly documented in your git repo's README. 1.0 pts
+* Your team has identified articulated a near vision for the first iteration 
+of the product, which you will build in this project. It is clearly documented 
+in your git repo's README. 1.0 pts
 
-* Your team has constructed a detailed user persona for your real stakeholder. The user persona details are clearly documented in your git repo's README. 1.0 pts
+Teachers can create exams from a list of questions that they created 
 
-* Your team has constructed an initial product backlog. The backlog is stored in an online tool such as Trello or Google Spreadsheets. The URL of your backlog is clearly documented in your git repo's README. Course staff members can view your backlog. 1.0 pts
+* Your team has identified at least three stakeholder types whose needs 
+are fulfilled by your product. They are clearly documented in your git 
+repo's README. 3.0 pts
+   * Teacher - Creates questions and exams
+   * Students - Take exams
+   * Teaching Assistant - Prints, administers and grades exams 
+         
+* At least one of your stakeholders is a real person whose needs 
+are fulfilled by your product. The person's name is clearly documented 
+in your git repo's README. 1.0 pts
+   * Teacher - Beatriz Hernandez
+   
 
-* There are at least 10 product backlog items in your product backlog. 10.0 pts
+* Your team has constructed a detailed user persona for your real stakeholder. 
+The user persona details are clearly documented in your git repo's README. 1.0 pts
+ 
+  (SAM TO ADD A PICTURE HERE)
+  Betty
+  
+  She has working as a teacher for 30 years at Mexico's Telephony 
+  Company.  Currently, she  writes exams manually and photocopies
+  the write up.  
+  
+  Betty has two daughters and one son.  All of them are in their 
+  20's.
 
-* All product backlog items are expressed as excellent user stories. 10.0 pts
+  Betty is a fun person and likes to spend time with her husband and 
+  friends on the weekends. Unfortunately she spends so much time writing
+  exams that she has to work on the weekends quite frequently.
+  
+  Betty would like to use Test Vault for multiple reasons
+  1. It will allow her to re-use content and save time
+  2. It will allow other teachers to collaborate by adding other
+  questions to Test Vault
+  3. The questions will be available for future re-use
+  
+* Your team has constructed an initial product backlog. The backlog
+ is stored in an online tool such as Trello or Google Spreadsheets. 
+ The URL of your backlog is clearly documented in your git repo's 
+ README. Course staff members can view your backlog. 1.0 pts
+ (TO DO ADD LINK TO GOOGLE SPREADSHEET)
 
-* Your product backlog is ordered. Your rationale for how you ordered your backlog is clearly documented in your git repo's README. 1.0 pts
+* There are at least 10 product backlog items in your product 
+backlog. 10.0 pts
+  * See link above 
 
-* You have a Definition of Ready for product backlog items. Your Definition of Ready includes at least these items: a) Title, b) User story opening sentence, c) Additional details, d) Estimated in story points. Your Definition of Ready is clearly documented in your git repo's README. 5.0 pts
+* All product backlog items are expressed as excellent user stories.
+ 10.0 pts
+  * See link above
+  
+* Your product backlog is ordered. Your rationale for how you 
+ordered your backlog is clearly documented in your git repo's README. 1.0 pts
+  * Items were ordered based on delivering the most value for the 
+  user as soon as possible
+    
+
+* You have a Definition of Ready for product backlog items. Your 
+Definition of Ready includes at least these items: 
+a) Title, 
+b) User story opening sentence, 
+c) Additional details, 
+d) Estimated in story points. 
+Your Definition of Ready is clearly documented in your git repo's README. 5.0 pts
 
 * Estimate your PBIs, starting at the top of the backlog and working your way down to the bottom. Your backlog with estimated PBIs is stored in an online tool such as Trello or Google Spreadsheets. The URL of your backlog is clearly documented in your git repo's README. Course staff members can view your backlog. 4.0 pts
 

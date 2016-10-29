@@ -105,3 +105,7 @@
 >    * Rafael Flores - Developer  
 >    * Samuel Chao - Developer
 >    * Gerardo Castaneda - Developer
+
+###Framework
+>  Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend
+> 

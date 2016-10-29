@@ -1,5 +1,7 @@
-# Harvard Extension School: Final Project CSCI E71 - Project Team  1
-## Testorama.net (A Fair Weather Software Product)
+# Final Project CSCI E71 - Team  1
+## Testorama.net (A Fair Weather Software Product)   
+## Harvard Extension School    
+
 
 ###Criteria
 

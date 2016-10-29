@@ -85,7 +85,7 @@ repo's README. 1.0 pts
  is stored in an online tool such as Trello or Google Spreadsheets. 
  The URL of your backlog is clearly documented in your git repo's 
  README. Course staff members can view your backlog. 1.0 pts
- (TO DO ADD LINK TO GOOGLE SPREADSHEET)
+ [Backlog](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
 
 * There are at least 10 product backlog items in your product 
 backlog. 10.0 pts

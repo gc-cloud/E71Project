@@ -39,6 +39,7 @@
 >  * Teacher - Creates questions and exams
 >  * Students - Take exams
 >  * Teaching Assistant - Prints, administers and grades exams 
+>  * Administrative Personnel - Manages the application and all the accounts.
          
 #### At least one of your stakeholders is a real person whose needs are fulfilled by your product. The person's name is clearly documented in your git repo's README. 1.0 pts
 >  * Teacher - Beatriz Hernandez

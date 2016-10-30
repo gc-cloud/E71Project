@@ -44,7 +44,8 @@
 >  * Teacher - Beatriz Hernandez
    
 #### Your team has constructed a detailed user persona for your real stakeholder. The user persona details are clearly documented in your git repo's README. 1.0 pts 
-  (RAFAEL TO DO ADD A PICTURE HERE)
+  
+![Alt text](BetyImg.JPG?raw=true "Picture of Betty")
   
 >  Betty 
 >  

@@ -39,17 +39,19 @@
 >  * Teacher - Creates questions and exams
 >  * Students - Take exams
 >  * Teaching Assistant - Prints, administers and grades exams 
+>  * Administrative Personnel - Manages the application and all the accounts.
          
 #### At least one of your stakeholders is a real person whose needs are fulfilled by your product. The person's name is clearly documented in your git repo's README. 1.0 pts
 >  * Teacher - Beatriz Hernandez
    
 #### Your team has constructed a detailed user persona for your real stakeholder. The user persona details are clearly documented in your git repo's README. 1.0 pts 
-  (RAFAEL TO DO ADD A PICTURE HERE)
+  
+![Alt text](BetyImg.JPG?raw=true "Picture of Betty")
   
 >  Betty 
 >  
 >  Betty has worked as a teacher for 30 years at Mexico's Telephony 
->  Company.  Currently, she  writes exams manually and photocopies
+>  Company Union.  Currently, she  writes exams manually and photocopies
 >  the write up.  
 >
 >  Betty has two daughters and one son.  All of them are in their 
@@ -59,9 +61,9 @@
 >  friends on the weekends. Unfortunately she spends so much time writing
 >  exams and has to work on the weekends quite frequently.
 >
->  Betty would like to use Test Vault for multiple reasons
+>  Betty would like to use Testorama for multiple reasons
 >    * It will allow her to re-use content and save time
->    * It will allow other teachers to collaborate by adding other questions to Test Vault
+>    * It will allow other teachers to collaborate by adding other questions to Testorama
 >    * The questions will be available for future re-use
   
 #### Your team has constructed an initial product backlog. The backlog is stored in an online tool such as Trello or Google Spreadsheets. The URL of your backlog is clearly documented in your git repo's README. Course staff members can view your backlog. 1.0 pts
@@ -74,8 +76,9 @@
 >  * [Product Backlog in Google Docs](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
   
 #### Your product backlog is ordered. Your rationale for how you ordered your backlog is clearly documented in your git repo's README. 1.0 pts
->  * Items were ordered based on delivering the most value for the user as soon as possible including 
->  any prerequisites    
+>  * Items were ordered based on delivering the most value for the user as soon as possible including any prerequisites   
+>  * Note:  Only MVP backlog has been ordered at this time.  Ordering of backlog beyond MVP will be conducted later.  The reasoning behind this is that the MVP backlog is crucial and the process of completing the MVP backlog will help make clear how additional features should be ordered.
+ 
 
 #### You have a Definition of Ready for product backlog items. Your Definition of Ready is clearly documented in your git repo's README. 5.0 pts
 >  **Fair Weather's Definition of Ready:**
@@ -84,9 +87,8 @@
 >    * Additional details
 >    * CRUD Operation
 >    * Estimated story points
->    * Developer(s)
+>    * Developers
 >    * Status
->    * How to test
 
 #### Estimate your PBIs, starting at the top of the backlog and working your way down to the bottom. Your backlog with estimated PBIs is stored in an online tool such as Trello or Google Spreadsheets. The URL of your backlog  is clearly documented in your git repo's README. Course staff members can view your backlog. 4.0 pts
 >  * [Product Backlog in Google Docs](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
@@ -95,13 +97,13 @@
 >  * [Product Backlog in Google Docs](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
 
 #### You did a whole team relative size estimating activity. You documented the name of the activity in your README. 1.0 pts
->  * [Product Backlog in Google Docs](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
+>  The estimates were produced collaboratively over two Google Hangout sessions. We decided to adopt  a Fibonacci approach
+>  using 5 as a reference for the amount of work needed to develop a typical web form, and came to a consensus on the level
+>  of effort for the other backlog items using the initial benchmark of 5.
 
 #### Only Development Team members participated in creating the estimates. You've made note of this in your README. 1.0 pts
 
->  The estimates were produced collaboratively over two Google Hangout sessions. We decided to adopt  a Fibonacci approach
->  using 5 as a reference for the amount of work needed to develop a typical web form.  Participants on 
->  the hangouts were:
+>  Participants on the hangouts were:
 >    * Alberto Garza - Developer
 >    * Ran Zhang - Developer
 >    * Rafael Flores - Developer  

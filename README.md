@@ -48,7 +48,7 @@
   
 ![Alt text](BetyImg.JPG?raw=true "Picture of Betty")
   
->  Betty 
+>  **Betty**
 >  
 >  Betty has worked as a teacher for 30 years at Mexico's Telephony 
 >  Company Union.  Currently, she  writes exams manually and photocopies
@@ -98,8 +98,9 @@
 
 #### You did a whole team relative size estimating activity. You documented the name of the activity in your README. 1.0 pts
 >  The estimates were produced collaboratively over two Google Hangout sessions. We decided to adopt  a Fibonacci approach
->  using 5 as a reference for the amount of work needed to develop a typical web form, and came to a consensus on the level
->  of effort for the other backlog items using the initial benchmark of 5.
+>  using 5 as a reference for the amount of work needed to develop a typical web form.  Using the initial benchmark of 5, we debated and talked through the story points
+>  needed to complete each task based on our individual experiences/expertise and came to a consensus on the level
+>  of effort for the other backlog items.
 
 #### Only Development Team members participated in creating the estimates. You've made note of this in your README. 1.0 pts
 

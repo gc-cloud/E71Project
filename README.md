@@ -77,7 +77,7 @@
   
 #### Your product backlog is ordered. Your rationale for how you ordered your backlog is clearly documented in your git repo's README. 1.0 pts
 >  * Items were ordered based on delivering the most value for the user as soon as possible including any prerequisites   
->  * Note:  Only MVP backlog has been ordered at this time.  Ordering of backlog beyond MVP will be conducted later.  The reasoning behind this is that the MVP backlog is crucial and the process of completing the MVP backlog will help make clear how additional features should be ordered.
+>  * Note:  Only MVP backlog has been ordered at this time.  Ordering of backlog beyond MVP will be conducted later.  The reasoning behind this is that the MVP backlog is crucial and the process of completing the MVP backlog will help make clear how the additional features should be ordered.
  
 
 #### You have a Definition of Ready for product backlog items. Your Definition of Ready is clearly documented in your git repo's README. 5.0 pts

@@ -48,7 +48,7 @@
   
 ![Alt text](BetyImg.JPG?raw=true "Picture of Betty")
   
->  Betty 
+>  **Betty**
 >  
 >  Betty has worked as a teacher for 30 years at Mexico's Telephony 
 >  Company Union.  Currently, she  writes exams manually and photocopies
@@ -77,7 +77,9 @@
   
 #### Your product backlog is ordered. Your rationale for how you ordered your backlog is clearly documented in your git repo's README. 1.0 pts
 >  * Items were ordered based on delivering the most value for the user as soon as possible including any prerequisites   
->  * Note:  Only MVP backlog has been ordered at this time.  Ordering of backlog beyond MVP will be conducted later.  The reasoning behind this is that the MVP backlog is crucial and the process of completing the MVP backlog will help make clear how additional features should be ordered.
+>  * Note:  Only MVP backlog has been ordered at this time.  Ordering of backlog beyond MVP will be conducted later.
+> The reasoning behind this is that the MVP backlog is crucial for adding the business value and the process of completing the
+> MVP backlog will help make clear how additional features should be ordered.
  
 
 #### You have a Definition of Ready for product backlog items. Your Definition of Ready is clearly documented in your git repo's README. 5.0 pts
@@ -98,8 +100,9 @@
 
 #### You did a whole team relative size estimating activity. You documented the name of the activity in your README. 1.0 pts
 >  The estimates were produced collaboratively over two Google Hangout sessions. We decided to adopt  a Fibonacci approach
->  using 5 as a reference for the amount of work needed to develop a typical web form, and came to a consensus on the level
->  of effort for the other backlog items using the initial benchmark of 5.
+>  using 5 as a reference for the amount of work needed to develop a typical web form.  Using the initial benchmark of 5, we debated and talked through the story points
+>  needed to complete each task based on our individual experiences/expertise and came to a consensus on the level
+>  of effort for the other backlog items.
 
 #### Only Development Team members participated in creating the estimates. You've made note of this in your README. 1.0 pts
 
@@ -111,5 +114,5 @@
 >    * Gerardo Castaneda - Developer
 
 ###Framework
->  Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend
+>  Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.
 > 

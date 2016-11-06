@@ -24,7 +24,7 @@ public class HomeController extends Controller {
      * Test method to render an HTML page with a welcome message, bootstrap and
      * Testorator menus
      */
-    public Result testorator(){
+    public Result testorama(){
         return ok(views.html.master.render());
     }
 }

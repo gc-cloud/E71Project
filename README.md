@@ -116,3 +116,6 @@
 ###Framework
 >  Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.
 > 
+
+###Credits
+> Photostock from pexels.com

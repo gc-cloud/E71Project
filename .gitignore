@@ -5,5 +5,5 @@ target
 /.classpath
 /.project
 /.settings
-build.sbt
 /RUNNING_PID
+

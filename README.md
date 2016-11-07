@@ -3,7 +3,7 @@
 ## Harvard Extension School    
 
 
-###Criteria
+###Project Part 1 Criteria
 
 #### You have self-organized into a team. You have joined one of the "Scrum Teams" groups in Canvas. 2.0 pts
 >  * Joined [Project Team 1](https://canvas.harvard.edu/groups/19345)
@@ -119,3 +119,56 @@
 
 ###Credits
 > Photostock from pexels.com
+
+
+###Project Part 2 / Sprint 1 Criteria
+
+#### You have a forecast of how many story points your team can complete during the sprint. The forecast is documented in your README. 1.0 pts
+
+#### The rationale for your forecast is documented in your README. 1.0 pts
+
+#### You pulled stories into your sprint backlog. You pulled stories from the top of your product backlog. The aggregate size of the stories does not exceed your forecast. Only Development Team members participated in this activity. 4.0 pts
+
+#### All of the stories in your sprint backlog have size less than half your forecast velocity. If you noticed PBIs that are too large to get done in a sprint, you refined them by splitting them into smaller stories and estimating the smaller stories. 1.0 pts
+
+#### You decomposed stories into tasks. The tasks are clearly listed in your sprint backlog. 2.0 pts
+
+#### Your sprint backlog, including both stories and tasks, is represented in a kanban board. The kanban board, or a URL of the kanban board, is documented in your README. Richard can view the kanban board. 3.0 pts
+
+#### You have a sprint burndown chart. On the x-axis, you display time markers in units of 1 day. On the y-axis, you display story points remaining to get done. There is a linear curve descending from left to right; the leftmost point of the curve is number of story points in your sprint at sprint day 1; the rightmost point is 0 story points remaining on the last day of the sprint. The burndown chart, or the URL of the burndown chart, is document in your README. Richard can view the burndown chart. 8.0 pts
+
+#### You have conducted multiple Daily Scrums. You have evidence of at least one daily scrum documented in your README. 5.0 pts
+
+#### - What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts
+
+#### - What will you do in the next 24 hours to help the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members plan to do which activities. 5.0 pts
+
+#### - Do you see any impediment that prevents me or the Development Team from meeting the Sprint Goal? What are the impediments? What is your impediment removal plan? 3.0 pts
+
+#### Update your sprint backlog task board and burndown chart. Make sure the URLs or images are available in your GitHub repo's README. 2.0 pts
+
+#### There is evidence that you paired or mobbed on your code. The evidence could be a photo or video of your team working together, or it could be some other kind of evidence. The evidence is included in your README. 5.0 pts
+
+#### There is evidence that you are building your product test-first. There is at least 1 BDD / A-TDD test in your test suite, and it passes. There are at least 10 unit tests in your test suite, and they all pass. 11.0 pts
+
+#### Your team conducts an in-class Sprint Review. 1.0 pts
+
+#### - Your Product Owner explains your product's far vision and near vision. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 3.0 pts
+
+#### - Your PO describes your stakeholders and user personas. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 5.0 pts
+
+#### - Your Development Team demonstrates your product increment. You demonstrate each product backlog item that you completed. You use big visible information radiators (e.g., your sprint backlog with details of the user stories) to facilitate your stakeholders' ability to follow along. 3.0 pts
+
+#### - Your product increment is working software. 1.0 pts
+
+#### - Your PO solicits feedback from your stakeholders (using class attendees as stand-ins). You ask them what they would like the next product increment to contain, now that they've seen this increment. You revise your product backlog based on the feedback you receive. 3.0 pts
+
+#### - Your PO shares future plans for your product. 1.0 pts
+
+#### - Your PO begins the sprint review by stating its purpose. You welcome your stakeholders to the event, tell them how grateful you are for their participation, and that you're eager to hear their feedback after you show them the product increment. 4.0 pts
+
+#### - Your PO wraps up the sprint review with a forecast of what you might deliver in the next sprint (pretend there will be a next sprint), a brief summary of this sprint review, and a message of gratitude to your Scrum team and stakeholders. 3.0 pts
+
+#### - Your Scrum Master facilitates as needed: keep track of time, prompt your PO and Development Team at the right moments, etc. 2.0 pts
+
+#### - You rehearsed your sprint review at least once before the event. 1.0 pts

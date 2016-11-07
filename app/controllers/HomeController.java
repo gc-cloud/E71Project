@@ -17,7 +17,8 @@ public class HomeController extends Controller {
      * <code>GET</code> request with a path of <code>/</code>.
      */
     public Result index() {
-        return ok(index.render("Your new application is ready."));
+        return ok(index.render());
+//        return ok("Your new application is ready.");
     }
 
     /**
@@ -26,7 +27,8 @@ public class HomeController extends Controller {
      */
     public Result testorama(){
 
-        return ok(views.html.master.render());
+//        return ok(views.html.master.render());
+        return ok(views.html.index.render());
     }
 
     /**
@@ -49,7 +51,7 @@ public class HomeController extends Controller {
      */
 
     public Result generateExams(){
-        Result ok = ok("Generate exams page goes here");
+        Result ok = ok(views.html.generateExams.render());
         return ok;
 
     }
@@ -60,7 +62,7 @@ public class HomeController extends Controller {
      */
 
     public Result viewExams(){
-        Result ok = ok("View exams page goes here");
+        Result ok = ok(views.html.viewExams.render());
         return ok;
     }
 
@@ -69,7 +71,7 @@ public class HomeController extends Controller {
      *
      */
     public Result addQuestions(){
-        Result ok = ok("addQuestions page goes here");
+        Result ok = ok(views.html.addQuestions.render());
         return ok;
     }
 
@@ -77,17 +79,17 @@ public class HomeController extends Controller {
      * Process request to edit questions
      *
      */
-   public Result editQuestions(){
-       Result ok = ok("Edit questions page goes here");
-       return ok;
-   }
+    public Result editQuestions(){
+        Result ok = ok(views.html.editQuestions.render());
+        return ok;
+    }
 
     /**
      * Process request to print exams
      *
      */
     public Result printExams(){
-        Result ok = ok("Print Exams page goes here");
+        Result ok = ok(views.html.printExams.render());
         return ok;
     }
 
@@ -96,7 +98,7 @@ public class HomeController extends Controller {
      *
      */
     public Result signup(){
-        Result ok = ok("Sign up page goes here");
+        Result ok = ok(views.html.signup.render());
         return ok;
     }
 }

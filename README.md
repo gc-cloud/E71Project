@@ -125,16 +125,19 @@
 
 #### You have a forecast of how many story points your team can complete during the sprint. The forecast is documented in your README. 1.0 pts
 
-Forecast is 151 story points out of 373 total in MVP backlog, consisting of 4 PBIs out of 13.
+> Forecast is 151 story points out of 373 total in MVP backlog, consisting of 4 PBIs out of 13.
 
 #### The rationale for your forecast is documented in your README. 1.0 pts
 
 > The forecast for the first sprint consists of the first 4 PBIs:
 
-1) Set up App
-2) Add Q&A
-3) Add Seeder Content
-4) View Question/Answer Bank
+> 1) Set up App
+
+> 2) Add Q&A
+
+> 3) Add Seeder Content
+
+> 4) View Question/Answer Bank
 
 > The rationale for this selection is that these 4 PBIS consist of setting up the framework, setting up the initial styling of site, and adding basic functionality for the Q&A
 > form so that questions and answers can be added and viewed.  These items are pivotal to complete early on because of potential technical issues that may come up while
@@ -151,17 +154,20 @@ Forecast is 151 story points out of 373 total in MVP backlog, consisting of 4 PB
 #### All of the stories in your sprint backlog have size less than half your forecast velocity. If you noticed PBIs that are too large to get done in a sprint, you refined them by splitting them into smaller stories and estimating the smaller stories. 1.0 pts
 
 > All the stories in the sprint backlog have size less tha half of the total forecast.  Below are the sizes of each backlog item:
+ 
+> 1) Set up App - 49
 
-1) Set up App - 49
-2) Add Q&A - 55
-3) Add Seeder Content - 21
-4) View Question/Answer Bank - 26
+> 2) Add Q&A - 55
+
+> 3) Add Seeder Content - 21
+
+> 4) View Question/Answer Bank - 26
 
 > Total sprint backlog size: 151
 
 > Initially, backlog items #2 & #3, Add Q&A and Add Seeder Content, were a single item with 76 story points, but they were split up into two separate stories, "As a teacher, I want to add
 > exam questions and answers to repository....." and "As a teacher, I want to be able to see pre-populated content" to ensure all stories are less than half the total forecast
-> and enable more efficient management of our sprint backlog items.
+> and to enable more efficient management of our sprint backlog items.
 
 #### You decomposed stories into tasks. The tasks are clearly listed in your sprint backlog. 2.0 pts
 

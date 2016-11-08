@@ -10,4 +10,6 @@ libraryDependencies ++= Seq(
   javaJdbc,
   cache,
   javaWs
+//  "mysql" % "mysql-connector-java" % "5.7.16" // Driver  needed if we use MySQL
 )
+

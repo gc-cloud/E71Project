@@ -3,7 +3,7 @@
 ## Harvard Extension School    
 
 
-###Criteria
+###Project Part 1 Criteria
 
 #### You have self-organized into a team. You have joined one of the "Scrum Teams" groups in Canvas. 2.0 pts
 >  * Joined [Project Team 1](https://canvas.harvard.edu/groups/19345)
@@ -117,5 +117,104 @@
 >  Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.
 > 
 
-###Credits
+### Credits
 > Photostock from pexels.com
+
+
+### Project Part 2 / Sprint 1 Criteria
+
+#### You have a forecast of how many story points your team can complete during the sprint. The forecast is documented in your README. 1.0 pts
+
+> Forecast is 151 story points out of 373 total in MVP backlog, consisting of 4 PBIs out of 13.
+
+#### The rationale for your forecast is documented in your README. 1.0 pts
+
+> The forecast for the first sprint consists of the first 4 PBIs:
+
+> 1) Set up App
+
+> 2) Add Q&A
+
+> 3) Add Seeder Content
+
+> 4) View Question/Answer Bank
+
+> The rationale for this selection is that these 4 PBIS consist of setting up the framework, setting up the initial styling of site, and adding basic functionality for the Q&A
+> form so that questions and answers can be added and viewed.  These items are pivotal to complete early on because of potential technical issues that may come up while
+> setting up the Play Framework, and also because the other important operations such Updating Q&As, Deleting Q&As, creating/printing exams, and authentication will
+> extend these basic functions.  The total story points for Sprint 1 is estimated to be 151 out of 373 in the total MVP backlog.
+
+#### You pulled stories into your sprint backlog. You pulled stories from the top of your product backlog. The aggregate size of the stories does not exceed your forecast. Only Development Team members participated in this activity. 4.0 pts
+
+> [Sprint 1 Backlog in Google Docs - Sprint 1 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
+
+> The aggregate size of the stories that were pulled from the project backlog to the first sprint does not exceed total forecast.  Four of the 13 MPV PBIs
+> were selected for fist sprint.  Only Development Team Members participated in pulling stories into sprint backlog.
+
+#### All of the stories in your sprint backlog have size less than half your forecast velocity. If you noticed PBIs that are too large to get done in a sprint, you refined them by splitting them into smaller stories and estimating the smaller stories. 1.0 pts
+
+> All the stories in the sprint backlog have size less tha half of the total forecast.  Below are the sizes of each backlog item:
+ 
+> 1) Set up App - 49
+
+> 2) Add Q&A - 55
+
+> 3) Add Seeder Content - 21
+
+> 4) View Question/Answer Bank - 26
+
+> Total sprint backlog size: 151
+
+> Initially, backlog items #2 & #3, Add Q&A and Add Seeder Content, were a single item with 76 story points, but they were split up into two separate stories, "As a teacher, I want to add
+> exam questions and answers to repository....." and "As a teacher, I want to be able to see pre-populated content" to ensure all stories are less than half the total forecast
+> and to enable more efficient management of our sprint backlog items.
+
+#### You decomposed stories into tasks. The tasks are clearly listed in your sprint backlog. 2.0 pts
+
+> All stories were aready decomposed into tasks in the first deliverable of project.
+
+> [Sprint 1 Backlog in Google Docs - Sprint 1 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
+
+#### Your sprint backlog, including both stories and tasks, is represented in a kanban board. The kanban board, or a URL of the kanban board, is documented in your README. Richard can view the kanban board. 3.0 pts
+
+> [Kanban Board on Trello.com](https://trello.com/b/ctBXfXtq/testorama)
+
+#### You have a sprint burndown chart. On the x-axis, you display time markers in units of 1 day. On the y-axis, you display story points remaining to get done. There is a linear curve descending from left to right; the leftmost point of the curve is number of story points in your sprint at sprint day 1; the rightmost point is 0 story points remaining on the last day of the sprint. The burndown chart, or the URL of the burndown chart, is document in your README. Richard can view the burndown chart. 8.0 pts
+
+> [Sprint 1 Backlog in Google Docs - Sprint 1 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
+
+#### You have conducted multiple Daily Scrums. You have evidence of at least one daily scrum documented in your README. 5.0 pts
+
+#### - What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts
+
+#### - What will you do in the next 24 hours to help the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members plan to do which activities. 5.0 pts
+
+#### - Do you see any impediment that prevents me or the Development Team from meeting the Sprint Goal? What are the impediments? What is your impediment removal plan? 3.0 pts
+
+#### Update your sprint backlog task board and burndown chart. Make sure the URLs or images are available in your GitHub repo's README. 2.0 pts
+
+#### There is evidence that you paired or mobbed on your code. The evidence could be a photo or video of your team working together, or it could be some other kind of evidence. The evidence is included in your README. 5.0 pts
+
+#### There is evidence that you are building your product test-first. There is at least 1 BDD / A-TDD test in your test suite, and it passes. There are at least 10 unit tests in your test suite, and they all pass. 11.0 pts
+
+#### Your team conducts an in-class Sprint Review. 1.0 pts
+
+#### - Your Product Owner explains your product's far vision and near vision. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 3.0 pts
+
+#### - Your PO describes your stakeholders and user personas. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 5.0 pts
+
+#### - Your Development Team demonstrates your product increment. You demonstrate each product backlog item that you completed. You use big visible information radiators (e.g., your sprint backlog with details of the user stories) to facilitate your stakeholders' ability to follow along. 3.0 pts
+
+#### - Your product increment is working software. 1.0 pts
+
+#### - Your PO solicits feedback from your stakeholders (using class attendees as stand-ins). You ask them what they would like the next product increment to contain, now that they've seen this increment. You revise your product backlog based on the feedback you receive. 3.0 pts
+
+#### - Your PO shares future plans for your product. 1.0 pts
+
+#### - Your PO begins the sprint review by stating its purpose. You welcome your stakeholders to the event, tell them how grateful you are for their participation, and that you're eager to hear their feedback after you show them the product increment. 4.0 pts
+
+#### - Your PO wraps up the sprint review with a forecast of what you might deliver in the next sprint (pretend there will be a next sprint), a brief summary of this sprint review, and a message of gratitude to your Scrum team and stakeholders. 3.0 pts
+
+#### - Your Scrum Master facilitates as needed: keep track of time, prompt your PO and Development Team at the right moments, etc. 2.0 pts
+
+#### - You rehearsed your sprint review at least once before the event. 1.0 pts

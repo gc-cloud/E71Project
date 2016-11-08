@@ -1,6 +1,45 @@
-@main(title = "Add Questions") {
-    <!-- Page Content -->
+@main(title = "Add Questions"){
     <div class="container">
-        <h1>Add Questions</h1>
+        <h1>Add Question</h1>
+        @helper.form(action = routes.QuestionController.submit(),'id -> "questionForm"){
+
+            <div class="form-group">
+                <label for="topic">Pick a Topic</label>
+                <select class="form-control" id="topic">
+                    <option>Circuit Transmitters</option>
+                    <option>Policies and Procedures</option>
+                    <option>Magical Creatures and Where to Find Them</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question">Type your question</label>
+                <textarea class="form-control" id="question" rows="3"></textarea>
+            </div>
+            <fieldset class="form-group">
+                <legend>Points</legend>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="points1" id="points1" value="5" checked>
+                        5 Points
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="points2" id="points2" value="10">
+                        10 Points
+                    </label>
+                </div>
+            </fieldset>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">
+                    Verified
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+
+            }
     </div>
 }
+

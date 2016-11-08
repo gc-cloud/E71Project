@@ -1,7 +1,7 @@
 package controllers;
 
-import play.mvc.*;
 
+import play.mvc.*;
 import views.html.*;
 
 /**
@@ -18,7 +18,6 @@ public class HomeController extends Controller {
      */
     public Result index() {
         return ok(index.render());
-//        return ok("Your new application is ready.");
     }
 
     /**
@@ -27,8 +26,7 @@ public class HomeController extends Controller {
      */
     public Result testorama(){
 
-//        return ok(views.html.master.render());
-        return ok(views.html.index.render());
+        return ok(index.render());
     }
 
     /**
@@ -51,7 +49,7 @@ public class HomeController extends Controller {
      */
 
     public Result generateExams(){
-        Result ok = ok(views.html.generateExams.render());
+        Result ok = ok(generateExams.render());
         return ok;
 
     }
@@ -62,25 +60,7 @@ public class HomeController extends Controller {
      */
 
     public Result viewExams(){
-        Result ok = ok(views.html.viewExams.render());
-        return ok;
-    }
-
-    /**
-     * Process request to add Questions
-     *
-     */
-    public Result addQuestions(){
-        Result ok = ok(views.html.addQuestions.render());
-        return ok;
-    }
-
-    /**
-     * Process request to edit questions
-     *
-     */
-    public Result editQuestions(){
-        Result ok = ok(views.html.editQuestions.render());
+        Result ok = ok(viewExams.render());
         return ok;
     }
 
@@ -89,7 +69,7 @@ public class HomeController extends Controller {
      *
      */
     public Result printExams(){
-        Result ok = ok(views.html.printExams.render());
+        Result ok = ok(printExams.render());
         return ok;
     }
 
@@ -98,7 +78,9 @@ public class HomeController extends Controller {
      *
      */
     public Result signup(){
-        Result ok = ok(views.html.signup.render());
+        Result ok = ok(signup.render());
         return ok;
     }
+
+
 }

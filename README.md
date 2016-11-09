@@ -139,7 +139,7 @@
 
 > 4) View Question/Answer Bank
 
-> The rationale for this selection is that these 4 PBIS consist of setting up the framework, setting up the initial styling of site, and adding basic functionality for the Q&A
+> The rationale for this selection is that these 4 PBIs consist of setting up the framework, setting up the initial styling of site, and adding basic functionality for the Q&A
 > form so that questions and answers can be added and viewed.  These items are pivotal to complete early on because of potential technical issues that may come up while
 > setting up the Play Framework, and also because the other important operations such Updating Q&As, Deleting Q&As, creating/printing exams, and authentication will
 > extend these basic functions.  The total story points for Sprint 1 is estimated to be 151 out of 373 in the total MVP backlog.
@@ -209,11 +209,11 @@ Will do : Research on how to link db to form.
 Block : No
 
 
-#### - What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts
+#### What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts
 
-#### - What will you do in the next 24 hours to help the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members plan to do which activities. 5.0 pts
+#### What will you do in the next 24 hours to help the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members plan to do which activities. 5.0 pts
 
-#### - Do you see any impediment that prevents me or the Development Team from meeting the Sprint Goal? What are the impediments? What is your impediment removal plan? 3.0 pts
+#### Do you see any impediment that prevents me or the Development Team from meeting the Sprint Goal? What are the impediments? What is your impediment removal plan? 3.0 pts
 
 #### Update your sprint backlog task board and burndown chart. Make sure the URLs or images are available in your GitHub repo's README. 2.0 pts
 
@@ -221,24 +221,9 @@ Block : No
 
 #### There is evidence that you are building your product test-first. There is at least 1 BDD / A-TDD test in your test suite, and it passes. There are at least 10 unit tests in your test suite, and they all pass. 11.0 pts
 
-#### Your team conducts an in-class Sprint Review. 1.0 pts
+#### Your team conducts a Sprint Review. 1.0 pts
 
-#### - Your Product Owner explains your product's far vision and near vision. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 3.0 pts
+#### Your product increment is working software. 1.0 pts
 
-#### - Your PO describes your stakeholders and user personas. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 5.0 pts
+#### At least one stakeholder attends your sprint review. You revise your product backlog based on the feedback you receive. 2.0 pts
 
-#### - Your Development Team demonstrates your product increment. You demonstrate each product backlog item that you completed. You use big visible information radiators (e.g., your sprint backlog with details of the user stories) to facilitate your stakeholders' ability to follow along. 3.0 pts
-
-#### - Your product increment is working software. 1.0 pts
-
-#### - Your PO solicits feedback from your stakeholders (using class attendees as stand-ins). You ask them what they would like the next product increment to contain, now that they've seen this increment. You revise your product backlog based on the feedback you receive. 3.0 pts
-
-#### - Your PO shares future plans for your product. 1.0 pts
-
-#### - Your PO begins the sprint review by stating its purpose. You welcome your stakeholders to the event, tell them how grateful you are for their participation, and that you're eager to hear their feedback after you show them the product increment. 4.0 pts
-
-#### - Your PO wraps up the sprint review with a forecast of what you might deliver in the next sprint (pretend there will be a next sprint), a brief summary of this sprint review, and a message of gratitude to your Scrum team and stakeholders. 3.0 pts
-
-#### - Your Scrum Master facilitates as needed: keep track of time, prompt your PO and Development Team at the right moments, etc. 2.0 pts
-
-#### - You rehearsed your sprint review at least once before the event. 1.0 pts

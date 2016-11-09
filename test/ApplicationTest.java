@@ -19,7 +19,6 @@ import play.twirl.api.Content;
 import static play.test.Helpers.*;
 import static org.junit.Assert.*;
 
-
 /**
  *
  * Simple (JUnit) tests that can call all parts of a play app.
@@ -28,18 +27,37 @@ import static org.junit.Assert.*;
  */
 public class ApplicationTest {
 
+    /* Confirm a simple test works */
     @Test
-    public void simpleCheck() {
+    public void simpleTest() {
         int a = 1 + 1;
         assertEquals(2, a);
     }
 
+    /* Confirm boostrap href is loaded to body */
     @Test
-    public void renderTemplate() {
-        Content html = views.html.index.render("Your new application is ready.");
+    public void renderBootstrap() {
+        Content html = views.html.index.render();
         assertEquals("text/html", html.contentType());
-        assertTrue(html.body().contains("Your new application is ready."));
+        assertTrue(html.body().contains("<link href=\"/assets/stylesheets/bootstrap.min.css\" rel=\"stylesheet\">"));
     }
 
+    /* Confirm CSS  is loaded to body */
+    @Test
+    public void renderCSS() {
+        Content html = views.html.index.render();
+        assertEquals("text/html", html.contentType());
+        assertTrue(html.body().contains("<link href=\"/assets/stylesheets/modern-business.css\" rel=\"stylesheet\">"));
+    }
+
+    /* Confirm addQuestions page shows expected topics */
+    @Test
+    public void renderQuestionTopics(){
+        Content html = views.html.addQuestions.render();
+        assertEquals("text/html", html.contentType());
+        assertTrue(html.body().contains("<option>Circuit Transmitters</option>"));
+        assertTrue(html.body().contains("<option>Policies and Procedures</option>"));
+        assertTrue(html.body().contains("<option>Magical Creatures and Where to Find Them</option>"));
+    }
 
 }

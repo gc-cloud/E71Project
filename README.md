@@ -188,7 +188,7 @@
 **Scrum 11/8/2016**
 ![Alt text](scrum20161108.png?raw=true "Picture of scrum 11/8/2106")
 Team updates
->    * Alberto Garza 
+>    * Alberto Garza <br />
 >Done : Setup the DEV environment and re-install IntelliJ
 >Will do : Research db connect
 >Block : No

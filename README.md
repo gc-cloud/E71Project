@@ -197,17 +197,11 @@
 
 #### There is evidence that you are building your product test-first. There is at least 1 BDD / A-TDD test in your test suite, and it passes. There are at least 10 unit tests in your test suite, and they all pass. 11.0 pts
 
-#### Your team conducts an in-class Sprint Review. 1.0 pts
-
-#### - Your Product Owner explains your product's far vision and near vision. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 3.0 pts
-
-#### - Your PO describes your stakeholders and user personas. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 5.0 pts
-
-#### - Your Development Team demonstrates your product increment. You demonstrate each product backlog item that you completed. You use big visible information radiators (e.g., your sprint backlog with details of the user stories) to facilitate your stakeholders' ability to follow along. 3.0 pts
+#### Your team conducts a Sprint Review. 1.0 pts
 
 #### - Your product increment is working software. 1.0 pts
 
-#### - Your PO solicits feedback from your stakeholders (using class attendees as stand-ins). You ask them what they would like the next product increment to contain, now that they've seen this increment. You revise your product backlog based on the feedback you receive. 3.0 pts
+#### - - At least one stakeholder attends your sprint review. You revise your product backlog based on the feedback you receive. 2.0 pts
 
 #### - Your PO shares future plans for your product. 1.0 pts
 

@@ -184,6 +184,30 @@
 > [Sprint 1 Backlog in Google Docs - Sprint 1 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
 
 #### You have conducted multiple Daily Scrums. You have evidence of at least one daily scrum documented in your README. 5.0 pts
+**Scrums 11/8/2016**
+![Alt text](scrum20161108.png?raw=true "Picture of scrum 11/8/2106")
+Team updates
+>    * Alberto Garza 
+Done : Setup the DEV environment and re-install IntelliJ
+Will do : Research db connect
+Block : No
+>    * Ran Zhang 
+Done : Setup the DEV environment
+Will do : Research db connect and http post process in Play framework
+Block : No
+>    * Rafael Flores 
+Done : Setup the domain
+Will do : Research on db setup
+Block : No
+>    * Samuel Chao - Developer
+Done : Did research on play framework, setup dev environment
+Will do : Research on db setup, tables design, and featured we can add.
+Block : No
+>    * Gerardo Castaneda - Developer
+Done : Setup the core framework, host server and styling library
+Will do : Research on how to link db to form.
+Block : No
+
 
 #### - What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts
 

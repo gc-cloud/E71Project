@@ -189,24 +189,24 @@
 ![Alt text](scrum20161108.png?raw=true "Picture of scrum 11/8/2106")
 Team updates
 >    * Alberto Garza <br />
->Done : Setup the DEV environment and re-install IntelliJ
->Will do : Research db connect
+>Done : Setup the DEV environment and re-install IntelliJ<br />
+>Will do : Research db connect<br />
 >Block : No
->    * Ran Zhang
->Done : Setup the DEV environment
->Will do : Research db connect and http post process in Play framework
+>    * Ran Zhang<br />
+>Done : Setup the DEV environment<br />
+>Will do : Research db connect and http post process in Play framework<br />
 >Block : No
->    * Rafael Flores
->Done : Setup the domain
->Will do : Research on db setup
+>    * Rafael Flores<br />
+>Done : Setup the domain<br />
+>Will do : Research on db setup<br />
 >Block : No
->    * Samuel Chao
->Done : Did research on play framework, setup dev environment
->Will do : Research on db setup, tables design, and featured we can add
+>    * Samuel Chao<br />
+>Done : Did research on play framework, setup dev environment<br />
+>Will do : Research on db setup, tables design, and featured we can add<br />
 >Block : No
->    * Gerardo Castaneda
-> Done : Setup the core framework, host server and styling library
-> Will do : Research on how to link db to form.
+>    * Gerardo Castaneda<br />
+> Done : Setup the core framework, host server and styling library<br />
+> Will do : Research on how to link db to form.<br />
 > Block : No
 
 #### What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts

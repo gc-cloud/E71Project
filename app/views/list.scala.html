@@ -4,10 +4,10 @@
 * Helper generating navigation links    *
 ****************************************@
 @link(newPage:Int, newSortBy:String) = @{
-    
+
     var sortBy = currentSortBy
     var order = currentOrder
-    
+
     if(newSortBy != null) {
         sortBy = newSortBy
         if(currentSortBy == newSortBy) {
@@ -20,15 +20,15 @@
             order = "asc"
         }
     }
-    
+
     // Generate the link
     routes.QuestionController.list(newPage, sortBy, order, currentFilter)
-    
+
 }
 
-@**********************************
-* Helper generating table headers *
-***********************************@
+    @**********************************
+    * Helper generating table headers *
+    ***********************************@
 @header(key:String, title:String) = {
     <th class="@key.replace(".","_") header @if(currentSortBy == key) @{if(currentOrder == "asc") "headerSortDown" else "headerSortUp"}">
         <a href="@link(0, key)">@title</a>
@@ -36,88 +36,87 @@
 }
 
 @main(title = "List Questions")  {
-    
-    <h1 id="homeTitle">@Messages("questions.list.title", currentPage.getTotalRowCount)</h1>
+    <div class="container">
+        <h1 id="homeTitle">@Messages("List Questions", currentPage.getTotalRowCount)</h1>
 
-    @if(flash.containsKey("success")) {
-        <div class="alert-message warning">
-            <strong>Done!</strong> @flash.get("success")
-        </div>
-    } 
+        @if(flash.containsKey("success")) {
+            <div class="alert-message warning">
+                <strong>Done!</strong> @flash.get("success")
+            </div>
+        }
 
-    <div id="actions">
-        
-        <form action="@link(0, "name")" method="GET">
-            <input type="search" id="searchbox" name="f" value="@currentFilter" placeholder="Filter by question name...">
-            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
-        </form>
-        
-        <a class="btn success" id="add" href="@routes.QuestionController.create()">Add a new question</a>
-        
-    </div>
-    
-    @if(currentPage.getTotalRowCount == 0) {
-        
-        <div class="well">
-            <em>Nothing to display</em>
+        <div id="actions">
+
+            <form action="@link(0, "name")" method="GET">
+                <input type="search" id="searchbox" name="f" value="@currentFilter" placeholder="Filter by question name...">
+                <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+            </form>
+
+            <a class="btn success" id="add" href="@routes.QuestionController.create()">Add a new question</a>
+
         </div>
-        
-    } else {
-        
-        <table class="questions zebra-striped">
-            <thead>
-                <tr>
-                    @header("name", "Question name")
-                    @header("question.category", "Category")
-                </tr>
-            </thead>
-            <tbody>
+
+        @if(currentPage.getTotalRowCount == 0) {
+
+            <div class="well">
+                <em>Nothing to display</em>
+            </div>
+
+        } else {
+
+            <table class="questions zebra-striped">
+                <thead>
+                    <tr>
+                        @header("name", "Question name")
+                        @header("question.category", "Category")
+                    </tr>
+                </thead>
+                <tbody>
 
                 @for(question <- currentPage.getList) {
                     <tr>
                         <td><a href="@routes.QuestionController.edit(question.id)">@question.name</a></td>
 
                         <td>
-                            @if(question.category == null) {
-                                <em>-</em>
-                            } else {
-                                @question.category.name
-                            }
+                        @if(question.category == null) {
+                            <em>-</em>
+                        } else {
+                            @question.category.name
+                        }
                         </td>
                     </tr>
                 }
 
-            </tbody>
-        </table>
+                </tbody>
+            </table>
 
-        <div id="pagination" class="pagination">
-            <ul>
-                @if(currentPage.hasPrev) {
-                    <li class="prev">
-                        <a href="@link(currentPage.getPageIndex - 1, null)">&larr; Previous</a>
+            <div id="pagination" class="pagination">
+                <ul>
+                    @if(currentPage.hasPrev) {
+                        <li class="prev">
+                            <a href="@link(currentPage.getPageIndex - 1, null)">&larr; Previous</a>
+                        </li>
+                    } else {
+                        <li class="prev disabled">
+                            <a>&larr; Previous</a>
+                        </li>
+                    }
+                    <li class="current">
+                        <a>Displaying @currentPage.getDisplayXtoYofZ(" to "," of ")</a>
                     </li>
-                } else {
-                    <li class="prev disabled">
-                        <a>&larr; Previous</a>
-                    </li>
-                }
-                <li class="current">
-                    <a>Displaying @currentPage.getDisplayXtoYofZ(" to "," of ")</a>
-                </li>
-                @if(currentPage.hasNext) {
-                    <li class="next">
-                        <a href="@link(currentPage.getPageIndex + 1, null)">Next &rarr;</a>
-                    </li>
-                } else {
-                    <li class="next disabled">
-                        <a>Next &rarr;</a>
-                    </li>
-                }
-            </ul>
+                    @if(currentPage.hasNext) {
+                        <li class="next">
+                            <a href="@link(currentPage.getPageIndex + 1, null)">Next &rarr;</a>
+                        </li>
+                    } else {
+                        <li class="next disabled">
+                            <a>Next &rarr;</a>
+                        </li>
+                    }
+                </ul>
+            </div>
         </div>
-        
-    }
-        
+}
 }
 
             

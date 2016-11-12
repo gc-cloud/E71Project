@@ -29,6 +29,7 @@
     @**********************************
     * Helper generating table headers *
     ***********************************@
+<
 @header(key:String, title:String) = {
     <th class="@key.replace(".","_") header @if(currentSortBy == key) @{if(currentOrder == "asc") "headerSortDown" else "headerSortUp"}">
         <a href="@link(0, key)">@title</a>
@@ -49,10 +50,12 @@
 
             <form action="@link(0, "name")" method="GET">
                 <input type="search" id="searchbox" name="f" value="@currentFilter" placeholder="Filter by question name...">
-                <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+                <input type="submit" id="searchsubmit" value="Filter by name" class="btn btn-primary">
+                <a class="btn btn-success" id="add" href="@routes.QuestionController.create()">Add a new question</a>
+
             </form>
 
-            <a class="btn success" id="add" href="@routes.QuestionController.create()">Add a new question</a>
+
 
         </div>
 
@@ -64,7 +67,8 @@
 
         } else {
 
-            <table class="questions zebra-striped">
+            <!--table class="questions zebra-striped"-->
+            <table class="table table-striped">
                 <thead>
                     <tr>
                         @header("name", "Question name")
@@ -91,7 +95,7 @@
             </table>
 
             <div id="pagination" class="pagination">
-                <ul>
+                <ul class="pagination">
                     @if(currentPage.hasPrev) {
                         <li class="prev">
                             <a href="@link(currentPage.getPageIndex - 1, null)">&larr; Previous</a>

@@ -2,18 +2,17 @@ package controllers;
 
 
 
-//import static play.data.Form.*;
+
 import models.*; // recognize Models
 import com.avaje.ebean.Ebean;
 import com.avaje.ebean.Transaction;
 import javax.inject.Inject; // @Inject
 import javax.persistence.PersistenceException;
-
 import play.data.*; // FormFactory
-
 import play.mvc.Controller;
 import play.mvc.*;
-import views.html.*;
+//import views.html.*;
+//import static play.data.Form.*;
 
 
 /**
@@ -37,8 +36,8 @@ public class QuestionController extends Controller {
     );
 
     /**
-     * This is a test method to list prepopulated
-     * data
+     * List questions
+     *
      */
     public Result list(int page, String sortBy, String order, String filter) {
         return ok(

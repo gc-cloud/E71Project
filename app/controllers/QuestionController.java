@@ -55,7 +55,7 @@ public class QuestionController extends Controller {
     public Result create() {
         Form<Question> questionForm = formFactory.form(Question.class);
         return ok(
-               // views.html.createForm.render(questionForm)
+               views.html.createForm.render(questionForm)
         );
     }
 

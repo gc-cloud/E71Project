@@ -12,17 +12,16 @@ create table category (
 create table question (
   id                        bigint not null,
   name                      varchar(255),
-  category_id                bigint,
+  category_id               bigint,
+  answer1                   varchar(255),
+  answer2                   varchar(255),
+  answer3                   varchar(255),
+  answer4                   varchar(255),
+  correct_answer            varchar(255),
   constraint pk_question primary key (id))
 
 ;
 
-create table answer (
-  id                        bigint not null,
-  name                      varchar(255),
-  constraint pk_answer primary key (id))
-
-;
 
 create sequence category_seq start with 1000;
 

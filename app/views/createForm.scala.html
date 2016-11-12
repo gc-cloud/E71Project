@@ -13,6 +13,18 @@
         <fieldset>
             @b3.text(questionForm("name"), '_label -> "Question name", '_help -> "")
 
+            @b3.text(questionForm("answer1"), '_label -> "Answer Choice 1", '_help -> "")
+            @b3.text(questionForm("answer2"), '_label -> "Answer Choice 2", '_help -> "")
+            @b3.text(questionForm("answer3"), '_label -> "Answer Choice 3", '_help -> "")
+            @b3.text(questionForm("answer4"), '_label -> "Answer Choice 4", '_help -> "")
+
+            @b3.select(
+                questionForm("correct_answer"),
+                options=Seq("1"->"1","2"->"2","3"->"3","4"->"4"),
+                '_label -> "Correct Answer", '_default -> "-- Choose the correct answer --",
+                '_showConstraints -> false
+            )
+
             @b3.select(
                 questionForm("category.id"),
                 options(Category.options),

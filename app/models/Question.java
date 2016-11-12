@@ -22,7 +22,20 @@ public class Question extends Model{
     @Constraints.Required
     public String name;
 
+    @Constraints.Required
+    public String answer1;
+    @Constraints.Required
+    public String answer2;
+    @Constraints.Required
+    public String answer3;
+    @Constraints.Required
+    public String answer4;
 
+    @Constraints.Required
+    public String correct_answer;
+
+    //TODO: this should be mandatory
+    @Constraints.Required
     @ManyToOne
     public Category category;
 

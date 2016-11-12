@@ -1,0 +1,31 @@
+@(questionForm: Form[Question])
+
+@import helper._
+
+@import b3.vertical.fieldConstructor
+
+@main(title = "Add Questions") {
+    
+    <h1>Add a question</h1>
+    
+    @b3.form(routes.QuestionController.save()) {
+        
+        <fieldset>
+            @b3.text(questionForm("name"), '_label -> "Question name", '_help -> "")
+
+            @b3.select(
+                questionForm("category.id"),
+                options(Category.options),
+                '_label -> "Category", '_default -> "-- Choose a category --",
+                '_showConstraints -> false
+            )
+        </fieldset>
+        
+        <div class="actions">
+            <input type="submit" value="Create this question" class="btn primary"> or
+            <a href="@routes.QuestionController.list()" class="btn">Cancel</a>
+        </div>
+        
+    }
+    
+}

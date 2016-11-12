@@ -13,7 +13,7 @@ import javax.inject.Inject; // @Inject
 import play.data.*; // FormFactory
 
 import play.mvc.Controller;
-import play.mvc.Result;
+import play.mvc.*;
 import views.html.*;
 
 /**
@@ -28,6 +28,13 @@ public class QuestionController extends Controller {
     public QuestionController(FormFactory formFactory) {
         this.formFactory = formFactory;
     }
+
+    /**
+     * This result directly redirect to application home.
+     */
+    public Result GO_HOME = Results.redirect(
+            routes.QuestionController.list(0, "name", "asc", "")
+    );
 
     /**
      * This is a test method to list prepopulated
@@ -51,6 +58,20 @@ public class QuestionController extends Controller {
                // views.html.createForm.render(questionForm)
         );
     }
+
+    /**
+     * Handle the 'new question form' submission
+     */
+    public Result save() {
+        Form<Question> questionForm = formFactory.form(Question.class).bindFromRequest();
+        if(questionForm.hasErrors()) {
+            return badRequest(views.html.createForm.render(questionForm));
+        }
+        questionForm.get().save();
+        flash("success", "Question " + questionForm.get().name + " has been created");
+        return GO_HOME;
+    }
+
 
     /**
      * Display the 'edit form' of a existing Question.

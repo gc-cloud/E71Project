@@ -46,7 +46,7 @@
    
 #### Your team has constructed a detailed user persona for your real stakeholder. The user persona details are clearly documented in your git repo's README. 1.0 pts 
   
-![Alt text](BetyImg.JPG?raw=true "Picture of Betty")
+![Alt text](readmeImages/BetyImg.JPG?raw=true "Picture of Betty")
   
 >  **Betty**
 >  
@@ -113,12 +113,6 @@
 >    * Samuel Chao - Developer
 >    * Gerardo Castaneda - Developer
 
-###Framework
->  Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.
-> 
-
-### Credits
-> Photostock from pexels.com
 
 
 ### Project Part 2 / Sprint 1 Criteria
@@ -179,14 +173,14 @@
 
 > [Kanban Board on Trello.com](https://trello.com/b/ctBXfXtq/testorama)
 
-#### You have a sprint burndown chart. On the x-axis, you display time markers in units of 1 day. On the y-axis, you display story points remaining to get done. There is a linear curve descending from left to right; the leftmost point of the curve is number of story points in your sprint at sprint day 1; the rightmost point is 0 story points remaining on the last day of the sprint. The burndown chart, or the URL of the burndown chart, is document in your README. Richard can view the burndown chart. 8.0 pts
+#### You have a sprint burn-down chart. On the x-axis, you display time markers in units of 1 day. On the y-axis, you display story points remaining to get done. There is a linear curve descending from left to right; the leftmost point of the curve is number of story points in your sprint at sprint day 1; the rightmost point is 0 story points remaining on the last day of the sprint. The burndown chart, or the URL of the burndown chart, is document in your README. Richard can view the burndown chart. 8.0 pts
 
 > [Sprint 1 Backlog in Google Docs - Sprint 1 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
 
 #### You have conducted multiple Daily Scrums. You have evidence of at least one daily scrum documented in your README. 5.0 pts
 
 **Scrum 11/8/2016**
-![Alt text](scrum20161108.png?raw=true "Picture of scrum 11/8/2106")
+![Alt text](readmeImages/scrum20161108.png?raw=true "Scrum session 11/8/2106")
 Team updates
 >    * Alberto Garza <br />
 >Done : Setup the DEV environment and re-install IntelliJ<br />
@@ -209,6 +203,32 @@ Team updates
 > Will do : Research on how to link db to form.<br />
 > Block : No
 
+
+**Scrum 11/12/2016**
+![Alt text](readmeImages/scrum20161112.png?raw=true "Scrum session 11/12/2016")
+Team updates
+>    * Alberto Garza <br />
+>Done : Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
+>Will do : Research into persistent database<br />
+>Block : None
+>    * Ran Zhang<br />
+>Done : Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
+>Will do : Research into persistent database<br />
+>Block : No
+>    * Rafael Flores<br />
+>Done : Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
+>Will do : Looking into domain and setting up dev environment<br />
+>Block : Dev environment issues
+>    * Samuel Chao<br />
+>Done : Research on database connection and examples. Mob programmed add/update/delete question functionality. Mock data tables<br />
+>Will do : Research into persistent database<br />
+>Block : None
+>    * Gerardo Castaneda<br />
+> Done : Set up H2 database. Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
+> Will do : Research into category field constraints. Code cleanup.<br />
+> Block : None
+
+
 #### What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts
 
 #### What will you do in the next 24 hours to help the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members plan to do which activities. 5.0 pts
@@ -227,3 +247,9 @@ Team updates
 
 #### At least one stakeholder attends your sprint review. You revise your product backlog based on the feedback you receive. 2.0 pts
 
+
+
+### Credits
+> Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.
+> Photostock from pexels.com
+> Solution inspired by Will Sargent's [play ebean example.](https://github.com/playframework/play-ebean-example)

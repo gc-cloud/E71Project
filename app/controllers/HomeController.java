@@ -11,36 +11,26 @@ import views.html.*;
 public class HomeController extends Controller {
 
     /**
-     * An action that renders an HTML page with a welcome message.
-     * The configuration in the <code>routes</code> file means that
-     * this method will be called when the application receives a
-     * <code>GET</code> request with a path of <code>/</code>.
+     * Renders index page.
      */
     public Result index() {
-        return ok(index.render());
-    }
-
-    /**
-     * Test method to render an HTML page with a welcome message, bootstrap and
-     * Testorator menus
-     */
-    public Result testorama(){
 
         return ok(index.render());
     }
 
+
     /**
-     * Test various page results
+     * Manage various http request  results
      *
      */
-    public Result aResult(){
-        Result ok = ok("Hello world!");
+    public Result oops(){
+          Result ok = ok("Hello world!");
 //        Result notFound = notFound();
 //        Result pageNotFound = notFound("<h1>Page not found</h1>").as("text/html");
 //        Result badRequest = badRequest(views.html.form.render(formWithErrors));
 //        Result oops = internalServerError("Oops");
 //        Result anyStatus = status(488, "Strange response type");
-        return ok;
+          return ok;
     }
 
     /**

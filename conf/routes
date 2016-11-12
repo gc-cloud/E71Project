@@ -2,16 +2,11 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-# An example controller showing a sample home page
-#GET     /                          controllers.HomeController.index
-GET     /                           controllers.HomeController.testorama
+# Go to home page
+GET     /                           controllers.HomeController.index
 
-GET     /result                     controllers.HomeController.aResult
-
-# An example controller showing how to use dependency injection
-GET     /count                      controllers.CountController.count
-# An example controller showing how to write asynchronous code
-GET     /message                    controllers.AsyncController.message
+# Manage various http request issues
+GET     /oops                       controllers.HomeController.oops
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
@@ -20,20 +15,17 @@ GET     /generateExams              controllers.HomeController.generateExams
 GET     /viewExams                  controllers.HomeController.viewExams
 GET     /signup                     controllers.HomeController.signup
 
-# Question controller
-GET     /addQuestions               controllers.QuestionController.addQuestions
-POST    /addQuestions               controllers.QuestionController.submit
-GET     /editQuestions              controllers.QuestionController.editQuestions
-
-# Delete a question
-POST    /questions/:id/delete       controllers.QuestionController.delete(id:Long)
-
-# Test listing questions
+# List Questions
 GET     /listQuestions              controllers.QuestionController.list(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
+
 # Add question
 GET     /questions/new              controllers.QuestionController.create()
 POST    /questions                  controllers.QuestionController.save()
 
+# Delete Questions
+POST    /questions/:id/delete       controllers.QuestionController.delete(id:Long)
+
 # Edit existing question
 GET     /questions/:id              controllers.QuestionController.edit(id:Long)
 POST    /questions/:id              controllers.QuestionController.update(id:Long)
+

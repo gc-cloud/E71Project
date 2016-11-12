@@ -25,11 +25,15 @@ GET     /addQuestions               controllers.QuestionController.addQuestions
 POST    /addQuestions               controllers.QuestionController.submit
 GET     /editQuestions              controllers.QuestionController.editQuestions
 
+# Delete a question
+POST    /questions/:id/delete       controllers.QuestionController.delete(id:Long)
 
 # Test listing questions
 GET     /listQuestions              controllers.QuestionController.list(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
 # Add question
 GET     /questions/new              controllers.QuestionController.create()
 POST    /questions                  controllers.QuestionController.save()
+
 # Edit existing question
 GET     /questions/:id              controllers.QuestionController.edit(id:Long)
+POST    /questions/:id              controllers.QuestionController.update(id:Long)

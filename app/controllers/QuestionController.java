@@ -4,17 +4,17 @@ package controllers;
 
 //import static play.data.Form.*;
 import models.*; // recognize Models
-//import com.avaje.ebean.Ebean;
-//import com.avaje.ebean.Transaction;
-//import play.mvc.*;
+import com.avaje.ebean.Ebean;
+import com.avaje.ebean.Transaction;
 import javax.inject.Inject; // @Inject
-//import javax.persistence.PersistenceException;
+import javax.persistence.PersistenceException;
 
 import play.data.*; // FormFactory
 
 import play.mvc.Controller;
 import play.mvc.*;
 import views.html.*;
+
 
 /**
  * This controller contains methods to handle questions.
@@ -72,6 +72,14 @@ public class QuestionController extends Controller {
         return GO_HOME;
     }
 
+    /**
+     * Handle question deletion
+     */
+    public Result delete(Long id) {
+        Question.find.ref(id).delete();
+        flash("success", "Question has been deleted");
+        return GO_HOME;
+    }
 
     /**
      * Display the 'edit form' of a existing Question.
@@ -83,8 +91,44 @@ public class QuestionController extends Controller {
                 Question.find.byId(id)
         );
         return ok(
-              //  views.html.editForm.render(id, questionForm)
+                views.html.editForm.render(id, questionForm)
         );
+    }
+
+    /**
+     * Handle the 'edit form' submission
+     *
+     * @param id Id of the question to edit
+     */
+    public Result update(Long id) throws PersistenceException {
+        Form<Question> questionForm = formFactory.form(Question.class).bindFromRequest();
+        if(questionForm.hasErrors()) {
+            return badRequest(views.html.editForm.render(id, questionForm));
+        }
+
+        Transaction txn = Ebean.beginTransaction();
+        try {
+            Question savedQuestion = Question.find.byId(id);
+            if (savedQuestion != null) {
+                Question newQuestionData = questionForm.get();
+
+                savedQuestion.category = newQuestionData.category;
+                savedQuestion.name = newQuestionData.name;
+                savedQuestion.answer1 = newQuestionData.answer1;
+                savedQuestion.answer2 = newQuestionData.answer2;
+                savedQuestion.answer3 = newQuestionData.answer3;
+                savedQuestion.answer4 = newQuestionData.answer4;
+                savedQuestion.correct_answer = newQuestionData.correct_answer;
+
+                savedQuestion.update();
+                flash("success", "Question " + questionForm.get().name + " has been updated");
+                txn.commit();
+            }
+        } finally {
+            txn.end();
+        }
+
+        return GO_HOME;
     }
 
 

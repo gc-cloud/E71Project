@@ -27,8 +27,9 @@ GET     /editQuestions              controllers.QuestionController.editQuestions
 
 
 # Test listing questions
-GET     /listQuestions               controllers.QuestionController.list(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
+GET     /listQuestions              controllers.QuestionController.list(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
 # Add question
-GET     /questions/new               controllers.QuestionController.create()
+GET     /questions/new              controllers.QuestionController.create()
+POST    /questions                  controllers.QuestionController.save()
 # Edit existing question
-GET     /questions/:id               controllers.QuestionController.edit(id:Long)
+GET     /questions/:id              controllers.QuestionController.edit(id:Long)

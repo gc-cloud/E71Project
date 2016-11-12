@@ -119,6 +119,7 @@
 
 ### Credits
 > Photostock from pexels.com
+> [Solution inspired by Will Sargent's example.](https://github.com/playframework/play-ebean-example)
 
 
 ### Project Part 2 / Sprint 1 Criteria
@@ -208,6 +209,32 @@ Team updates
 > Done : Setup the core framework, host server and styling library<br />
 > Will do : Research on how to link db to form.<br />
 > Block : No
+
+
+**Scrum 11/12/2016**
+![Alt text](scrum20161108.png?raw=true "Picture of scrum 11/8/2106")
+Team updates
+>    * Alberto Garza <br />
+>Done : Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
+>Will do : Research into persistent database<br />
+>Block : None
+>    * Ran Zhang<br />
+>Done : Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
+>Will do : Research into persistent database<br />
+>Block : No
+>    * Rafael Flores<br />
+>Done : Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
+>Will do : Looking into domain and setting up dev environment<br />
+>Block : Dev environment issues
+>    * Samuel Chao<br />
+>Done : Research on database connection and examples. Mob programmed add/update/delete question functionality. Mock data tables<br />
+>Will do : Research into persistent database<br />
+>Block : None
+>    * Gerardo Castaneda<br />
+> Done : Set up H2 database. Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
+> Will do : Research into category field constraints. Code cleanup.<br />
+> Block : None
+
 
 #### What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts
 

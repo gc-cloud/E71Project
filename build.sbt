@@ -10,8 +10,7 @@ libraryDependencies ++= Seq(
   javaJdbc,
   cache,
   javaWs,
-  "com.adrianhurt" %% "play-bootstrap" % "1.0-P25-B3"
-
-  //"mysql" % "mysql-connector-java" % "5.1.28"
+  "com.adrianhurt" %% "play-bootstrap" % "1.0-P25-B3",
+  "mysql" % "mysql-connector-java" % "5.1.28"
 )
 

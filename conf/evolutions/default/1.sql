@@ -3,14 +3,14 @@
 # --- !Ups
 
 create table category (
-  id                        bigint not null,
+  id                        bigint(20) NOT NULL AUTO_INCREMENT,
   name                      varchar(255),
   constraint pk_category primary key (id))
 
 ;
 
 create table question (
-  id                        bigint not null,
+  id                        bigint(20) NOT NULL AUTO_INCREMENT,
   name                      varchar(255),
   category_id               bigint,
   answer1                   varchar(255),
@@ -23,9 +23,6 @@ create table question (
 ;
 
 
-create sequence category_seq start with 1000;
-
-create sequence question_seq start with 1000;
 
 alter table question add constraint fk_question_category_1 foreign key (category_id) references category (id) on delete restrict on update restrict;
 create index ix_question_category_1 on question (category_id);
@@ -33,15 +30,9 @@ create index ix_question_category_1 on question (category_id);
 
 # --- !Downs
 
-SET REFERENTIAL_INTEGRITY FALSE;
-
-drop table if exists category;
-
+SET FOREIGN_KEY_CHECKS=0;
 drop table if exists question;
+drop table if exists category;
+SET FOREIGN_KEY_CHECKS=1;
 
-SET REFERENTIAL_INTEGRITY TRUE;
-
-drop sequence if exists category_seq;
-
-drop sequence if exists question_seq;
 

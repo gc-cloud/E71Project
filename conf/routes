@@ -3,7 +3,7 @@
 # ~~~~
 
 # An example controller showing a sample home page
-#GET     /                           controllers.HomeController.index
+#GET     /                          controllers.HomeController.index
 GET     /                           controllers.HomeController.testorama
 
 GET     /result                     controllers.HomeController.aResult
@@ -26,3 +26,9 @@ POST    /addQuestions               controllers.QuestionController.submit
 GET     /editQuestions              controllers.QuestionController.editQuestions
 
 
+# Test listing questions
+GET     /listQuestions               controllers.QuestionController.list(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
+# Add question
+GET     /questions/new               controllers.QuestionController.create()
+# Edit existing question
+GET     /questions/:id               controllers.QuestionController.edit(id:Long)

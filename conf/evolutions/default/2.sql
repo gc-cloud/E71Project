@@ -19,5 +19,7 @@ insert into question (id,name,category_id,answer1,answer2,answer3,answer4,correc
 
 # --- !Downs
 
-delete from category;
+SET FOREIGN_KEY_CHECKS=0;
 delete from question;
+delete from category;
+SET FOREIGN_KEY_CHECKS=1;

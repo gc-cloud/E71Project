@@ -233,25 +233,56 @@ Team updates
 > Block : None
 
 
+**Scrum 11/13/2016**
+<br />
+![Alt text](readmeImages/scrum20161112.png?raw=true "Scrum session 11/12/2016")
+<br />
+Team updates
+>    * Alberto Garza <br />
+>Done : Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
+>Will do : Research into persistent database<br />
+>Block : None
+>    * Ran Zhang<br />
+>Done : Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
+>Will do : Research into persistent database<br />
+>Block : No
+>    * Rafael Flores<br />
+>Done : Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
+>Will do : Looking into domain and setting up dev environment<br />
+>Block : Dev environment issues
+>    * Samuel Chao<br />
+>Done : Research on database connection and examples. Mob programmed add/update/delete question functionality. Mock data tables<br />
+>Will do : Research into persistent database<br />
+>Block : None
+>    * Gerardo Castaneda<br />
+> Done : Set up H2 database. Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
+> Will do : Research into category field constraints. Code cleanup.<br />
+> Block : None
+
+*Unit Test Evidence - All Tests Passed*
+<br />
+![Alt text](readmeImages/JunitEvidence.png?raw=true )
+
+
+
 #### What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts
-
+> See Above
 #### What will you do in the next 24 hours to help the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members plan to do which activities. 5.0 pts
-
+> See Above
 #### Do you see any impediment that prevents me or the Development Team from meeting the Sprint Goal? What are the impediments? What is your impediment removal plan? 3.0 pts
-
+> See Above
 #### Update your sprint backlog task board and burndown chart. Make sure the URLs or images are available in your GitHub repo's README. 2.0 pts
-
+> See Link Above
 #### There is evidence that you paired or mobbed on your code. The evidence could be a photo or video of your team working together, or it could be some other kind of evidence. The evidence is included in your README. 5.0 pts
-
+> See Above
 #### There is evidence that you are building your product test-first. There is at least 1 BDD / A-TDD test in your test suite, and it passes. There are at least 10 unit tests in your test suite, and they all pass. 11.0 pts
-
+>> See Above
 #### Your team conducts a Sprint Review. 1.0 pts
-
+> To be done In Class
 #### Your product increment is working software. 1.0 pts
-
+> Check out [www.testorama.online](http://www.testorama.online)
 #### At least one stakeholder attends your sprint review. You revise your product backlog based on the feedback you receive. 2.0 pts
-
-
+> To be done In Class
 
 ### Credits
 > Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.

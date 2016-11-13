@@ -280,11 +280,16 @@ Team updates
 #### There is evidence that you are building your product test-first. There is at least 1 BDD / A-TDD test in your test suite, and it passes. There are at least 10 unit tests in your test suite, and they all pass. 11.0 pts
 >> See Above
 #### Your team conducts a Sprint Review. 1.0 pts
-> To be done In Class
+> We did a sprint review after our last scrum session.  At the end of our last scrum session, we completed all the Spring 1 backlog items.  During our Sprint 1 review,
+> we determined what we did a good job pulling the Sprint 1 backlog from the total product backlog, because we finished just in time.  We also determined that TDD was more
+> time-consuming than originally perceived due to the fact that we were all new to it.  Subsequently, there were ome initial challenges.  In the next sprint, a bit more time
+> will be allotted to developing our unit tests to ensure we have enough time to both develop and test the items in Sprint 2.
+
 #### Your product increment is working software. 1.0 pts
 > Check out [www.testorama.online](http://www.testorama.online)
+
 #### At least one stakeholder attends your sprint review. You revise your product backlog based on the feedback you receive. 2.0 pts
-> To be done In Class
+> We had Luis Hidalgo, our Product Owner, attend our sprint review.  Per his review, there did not need to be changes to the MVP backlog at this time.
 
 ### Credits
 > Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.

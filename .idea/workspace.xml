@@ -4,10 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/conf/application.conf" line="31" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be8123ef-1c39-4574-9bf7-6444a474f9a2" name="Default" comment="Initial Web App commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="be8123ef-1c39-4574-9bf7-6444a474f9a2" name="Default" comment="added images. changed readme">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readmeImages/scrum20161113.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <list id="5196bcb2-cada-4fc5-acf5-0523a2a30304" name="Rejected commit: Default" comment="Git ignore for Play Framework" />
     <ignored path="E71Project.iws" />
@@ -77,8 +76,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="167">
-                <caret line="264" column="38" selection-start-line="264" selection-start-column="38" selection-end-line="264" selection-end-column="38" />
+              <first_editor relative-caret-position="65">
+                <caret line="258" column="47" selection-start-line="258" selection-start-column="47" selection-end-line="258" selection-end-column="47" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -268,6 +267,9 @@
     <property name="prop_add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\raflo\IdeaProjects\E71Project2\readmeImages" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/stylesheets" />
@@ -920,7 +922,7 @@
       <workItem from="1477875080532" duration="149000" />
       <workItem from="1477875251196" duration="3831000" />
       <workItem from="1478391446466" duration="2869000" />
-      <workItem from="1479049289079" duration="5403000" />
+      <workItem from="1479049289079" duration="5588000" />
     </task>
     <task id="LOCAL-00001" summary="Git ignore for Play Framework">
       <created>1477875403540</created>
@@ -929,15 +931,22 @@
       <option name="project" value="LOCAL" />
       <updated>1477875403540</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added images. changed readme">
+      <created>1479063653127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1479063653127</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12252000" />
+    <option name="totallyTimeSpent" value="12437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="38" width="1346" height="688" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -951,7 +960,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -986,7 +995,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Git ignore for Play Framework" />
     <MESSAGE value="Initial Web App commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Web App commit" />
+    <MESSAGE value="added images. changed readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="added images. changed readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1115,8 +1125,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="167">
-            <caret line="264" column="38" selection-start-line="264" selection-start-column="38" selection-end-line="264" selection-end-column="38" />
+          <first_editor relative-caret-position="65">
+            <caret line="258" column="47" selection-start-line="258" selection-start-column="47" selection-end-line="258" selection-end-column="47" />
             <folding />
           </first_editor>
           <second_editor />

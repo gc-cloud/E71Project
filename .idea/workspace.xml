@@ -4,9 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/conf/application.conf" line="31" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be8123ef-1c39-4574-9bf7-6444a474f9a2" name="Default" comment="added images. changed readme">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readmeImages/scrum20161113.png" />
+    <list default="true" id="be8123ef-1c39-4574-9bf7-6444a474f9a2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <list id="5196bcb2-cada-4fc5-acf5-0523a2a30304" name="Rejected commit: Default" comment="Git ignore for Play Framework" />
     <ignored path="E71Project.iws" />
@@ -76,8 +76,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="65">
-                <caret line="258" column="47" selection-start-line="258" selection-start-column="47" selection-end-line="258" selection-end-column="47" />
+              <first_editor relative-caret-position="186">
+                <caret line="266" column="0" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -922,7 +922,7 @@
       <workItem from="1477875080532" duration="149000" />
       <workItem from="1477875251196" duration="3831000" />
       <workItem from="1478391446466" duration="2869000" />
-      <workItem from="1479049289079" duration="5588000" />
+      <workItem from="1479049289079" duration="5752000" />
     </task>
     <task id="LOCAL-00001" summary="Git ignore for Play Framework">
       <created>1477875403540</created>
@@ -938,15 +938,22 @@
       <option name="project" value="LOCAL" />
       <updated>1479063653127</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added images.">
+      <created>1479063827331</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1479063827331</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12437000" />
+    <option name="totallyTimeSpent" value="12601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="38" width="1346" height="688" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -960,7 +967,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -996,7 +1003,8 @@
     <MESSAGE value="Git ignore for Play Framework" />
     <MESSAGE value="Initial Web App commit" />
     <MESSAGE value="added images. changed readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="added images. changed readme" />
+    <MESSAGE value="added images." />
+    <option name="LAST_COMMIT_MESSAGE" value="added images." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1101,17 +1109,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/readmeImages/scrum20161112.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/ApplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readmeImages/scrum20161112.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -1125,8 +1133,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="65">
-            <caret line="258" column="47" selection-start-line="258" selection-start-column="47" selection-end-line="258" selection-end-column="47" />
+          <first_editor relative-caret-position="186">
+            <caret line="266" column="0" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

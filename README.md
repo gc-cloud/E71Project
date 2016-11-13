@@ -258,11 +258,12 @@ Team updates
 > Done : Deployed application to testorama.online production env. With MySQL<br />
 > Will do : Prepare sprint retrospective.<br />
 > Block : None
+![Alt text](readmeImages/Scrum20161113.png?raw=true )
 
-*Unit Test Evidence - All Tests Passed*
+**Unit Test Evidence - All Tests Passed**
 <br />
 ![Alt text](readmeImages/JunitEvidence.png?raw=true )
-![Alt text](readmeImages/Scrum20161113.png?raw=true )
+
 
 
 

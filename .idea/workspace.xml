@@ -76,8 +76,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="186">
-                <caret line="266" column="0" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+              <first_editor relative-caret-position="180">
+                <caret line="243" column="13" selection-start-line="243" selection-start-column="13" selection-end-line="243" selection-end-column="13" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -922,7 +922,7 @@
       <workItem from="1477875080532" duration="149000" />
       <workItem from="1477875251196" duration="3831000" />
       <workItem from="1478391446466" duration="2869000" />
-      <workItem from="1479049289079" duration="5752000" />
+      <workItem from="1479049289079" duration="5993000" />
     </task>
     <task id="LOCAL-00001" summary="Git ignore for Play Framework">
       <created>1477875403540</created>
@@ -945,11 +945,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479063827331</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="corrected readme">
+      <created>1479063989654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1479063989654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12601000" />
+    <option name="totallyTimeSpent" value="12842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="38" width="1346" height="688" extended-state="0" />
@@ -1004,7 +1011,8 @@
     <MESSAGE value="Initial Web App commit" />
     <MESSAGE value="added images. changed readme" />
     <MESSAGE value="added images." />
-    <option name="LAST_COMMIT_MESSAGE" value="added images." />
+    <MESSAGE value="corrected readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1133,8 +1141,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="186">
-            <caret line="266" column="0" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+          <first_editor relative-caret-position="180">
+            <caret line="243" column="13" selection-start-line="243" selection-start-column="13" selection-end-line="243" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />

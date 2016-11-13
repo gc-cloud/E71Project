@@ -235,7 +235,7 @@ Team updates
 
 **Scrum 11/13/2016**
 <br />
-![Alt text](readmeImages/scrum20161112.png?raw=true "Scrum session 11/12/2016")
+![Alt text](readmeImages/scrum20161113.png?raw=true "Scrum session 11/13/2016")
 <br />
 Team updates
 >    * Alberto Garza <br />
@@ -258,7 +258,7 @@ Team updates
 > Done : Deployed application to testorama.online production env. With MySQL<br />
 > Will do : Prepare sprint retrospective.<br />
 > Block : None
-![Alt text](readmeImages/Scrum20161113.png?raw=true )
+
 
 **Unit Test Evidence - All Tests Passed**
 <br />

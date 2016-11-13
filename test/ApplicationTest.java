@@ -50,14 +50,6 @@ public class ApplicationTest {
         assertTrue(html.body().contains("<link href=\"/assets/stylesheets/modern-business.css\" rel=\"stylesheet\">"));
     }
 
-    /* Confirm addQuestions page shows expected topics */
-    @Test
-    public void renderQuestionTopics(){
-        Content html = views.html.addQuestions.render();
-        assertEquals("text/html", html.contentType());
-        assertTrue(html.body().contains("<option>Circuit Transmitters</option>"));
-        assertTrue(html.body().contains("<option>Policies and Procedures</option>"));
-        assertTrue(html.body().contains("<option>Magical Creatures and Where to Find Them</option>"));
-    }
+
 
 }

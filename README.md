@@ -239,29 +239,30 @@ Team updates
 <br />
 Team updates
 >    * Alberto Garza <br />
->Done : Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
->Will do : Research into persistent database<br />
+>Done : Helped with environment issues.<br />
+>Will do : prepare sprint retrospective<br />
 >Block : None
 >    * Ran Zhang<br />
->Done : Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
->Will do : Research into persistent database<br />
+>Done : Resolved Bug on delete.<br />
+>Will do : prepare sprint retrospective<br />
 >Block : No
 >    * Rafael Flores<br />
->Done : Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
->Will do : Looking into domain and setting up dev environment<br />
->Block : Dev environment issues
+>Done : Resolved env issues.<br />
+>Will do : Prepare sprint retrospective<br />
+>Block : No
 >    * Samuel Chao<br />
->Done : Research on database connection and examples. Mob programmed add/update/delete question functionality. Mock data tables<br />
->Will do : Research into persistent database<br />
+>Done : Testing cases<br />
+>Will do : Prepare sprint retrospective<br />
 >Block : None
 >    * Gerardo Castaneda<br />
-> Done : Set up H2 database. Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
-> Will do : Research into category field constraints. Code cleanup.<br />
+> Done : Deployed application to testorama.online production env. With MySQL<br />
+> Will do : Prepare sprint retrospective.<br />
 > Block : None
 
 *Unit Test Evidence - All Tests Passed*
 <br />
 ![Alt text](readmeImages/JunitEvidence.png?raw=true )
+![Alt text](readmeImages/Scrum20161113.png?raw=true )
 
 
 

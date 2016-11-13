@@ -1,5 +1,5 @@
 # Final Project CSCI E71 - Team  1
-## Testorama.net (A Fair Weather Software Product)   
+## Testorama.online (A Fair Weather Software Product)   
 ## Harvard Extension School    
 
 
@@ -26,7 +26,7 @@
    
 
 #### Your team has identified an open source product to create and given it a name. The name is clearly documented in your git repo's README. 1.0 pts
->  * Testorama.net
+>  * Testorama.online
 
 #### Your team has identified articulated a far vision for the product. It is clearly documented in your git repo's README. 1.0 pts
 >  Far Vision: Provide the world's most collaborative and user-friendly assessment platform.
@@ -180,7 +180,9 @@
 #### You have conducted multiple Daily Scrums. You have evidence of at least one daily scrum documented in your README. 5.0 pts
 
 **Scrum 11/8/2016**
+
 ![Alt text](readmeImages/scrum20161108.png?raw=true "Scrum session 11/8/2106")
+
 Team updates
 >    * Alberto Garza <br />
 >Done : Setup the DEV environment and re-install IntelliJ<br />
@@ -205,7 +207,9 @@ Team updates
 
 
 **Scrum 11/12/2016**
+<br />
 ![Alt text](readmeImages/scrum20161112.png?raw=true "Scrum session 11/12/2016")
+<br />
 Team updates
 >    * Alberto Garza <br />
 >Done : Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />

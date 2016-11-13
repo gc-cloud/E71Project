@@ -32,20 +32,15 @@
                 '_showConstraints -> false
             )
         </fieldset>
-        
+
         <div class="actions">
             <input type="submit" value="Save this question" class="btn btn-primary">
             <a href="@routes.QuestionController.list()" class="btn btn-default"> Cancel </a>
-            @b3.form(routes.QuestionController.delete(id), 'class -> "topRight") {
-                <input type="submit" value="Delete this question" class="btn btn-danger">
-                }
         </div>
-        
     }
-
-
-
-
-
+        @b3.form(routes.QuestionController.delete(id), 'class -> "form-group") {
+            <br/>
+            <input type="submit" value="Delete this question" class="btn btn-danger">
+            }
     </div>
 }

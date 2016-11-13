@@ -5,7 +5,7 @@
 @import b3.vertical.fieldConstructor
 
 @main(title = "Add Questions") {
-    
+    <div class="container">
     <h1>Add a question</h1>
     
     @b3.form(routes.QuestionController.save()) {
@@ -34,9 +34,10 @@
         </fieldset>
         
         <div class="actions">
-            <input type="submit" value="Create this question" class="btn primary"> or
-            <a href="@routes.QuestionController.list()" class="btn">Cancel</a>
+            <input type="submit" value="Create this question" class="btn btn-primary"> or
+            <a href="@routes.QuestionController.list()" class="btn btn-default">Cancel</a>
         </div>
+    </div>
         
     }
     

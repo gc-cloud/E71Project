@@ -1,18 +1,46 @@
 logs
-project/project
-project/target
-target
 tmp
 .history
 dist
-/.idea
-/*.iml
-/out
-/.idea_modules
+#
 /.classpath
-/.project
 /RUNNING_PID
 /.settings
 
 
+# Intellij
+/*.iml
+*.iml
+*.ipr
+*.iws
+.idea
+out
+/.idea
+/out
+/.idea_modules
+/.project
+project/project
+project/target
+target
+**/.idea/workspace.xml
+**/.idea/tasks.xml
 
+
+# VIM
+tags
+.*.swp
+.*.swo
+
+# Eclipse
+build
+.classpath
+.project
+.settings
+org.scala-ide.sdt.core/META-INF/MANIFEST.MF
+org.scala-ide.sdt.update-site/site.xml`
+
+# OS X
+.DS_Store
+
+# SCALA
+*.class

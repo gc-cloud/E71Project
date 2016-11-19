@@ -30,6 +30,7 @@ public class HomeController extends Controller {
 //        Result badRequest = badRequest(views.html.form.render(formWithErrors));
 //        Result oops = internalServerError("Oops");
 //        Result anyStatus = status(488, "Strange response type");
+
           return ok;
     }
 

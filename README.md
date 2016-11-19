@@ -279,6 +279,7 @@ Team updates
 > See Above
 #### There is evidence that you are building your product test-first. There is at least 1 BDD / A-TDD test in your test suite, and it passes. There are at least 10 unit tests in your test suite, and they all pass. 11.0 pts
 > See Above
+
 #### Your team conducts a Sprint Review. 1.0 pts
 > We did a sprint review after our last scrum session.  At the end of our last scrum session, we completed all the Spring 1 backlog items.  During our Sprint 1 review,
 > we determined what we did a good job pulling the Sprint 1 backlog from the total product backlog, because we finished just in time.  We also determined that TDD was more

@@ -269,14 +269,19 @@ Team updates
 
 #### What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts
 > See Above
+
 #### What will you do in the next 24 hours to help the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members plan to do which activities. 5.0 pts
 > See Above
+
 #### Do you see any impediment that prevents me or the Development Team from meeting the Sprint Goal? What are the impediments? What is your impediment removal plan? 3.0 pts
 > See Above
+
 #### Update your sprint backlog task board and burndown chart. Make sure the URLs or images are available in your GitHub repo's README. 2.0 pts
 > See Link Above
+
 #### There is evidence that you paired or mobbed on your code. The evidence could be a photo or video of your team working together, or it could be some other kind of evidence. The evidence is included in your README. 5.0 pts
 > See Above
+
 #### There is evidence that you are building your product test-first. There is at least 1 BDD / A-TDD test in your test suite, and it passes. There are at least 10 unit tests in your test suite, and they all pass. 11.0 pts
 > See Above
 
@@ -358,7 +363,7 @@ Team updates
 
 #### Update your sprint backlog task board and burndown chart. Make sure the URLs or images are available in your GitHub repo's README.
 
-> Both the Sprint 2 backlog/burndown chart and Kanban board were updated throughout sprint 2.
+> Both the Sprint 2 backlog/burndown chart and Kanban board were updated throughout the 2 weeks of the sprint.
 
 > [Sprint 2 Backlog in Google Docs - Sprint 2 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
 
@@ -373,6 +378,8 @@ Team updates
 #### Your team conducts a Sprint Review.
 
 #### Your product increment is working software.
+
+> Check out [www.testorama.online](http://www.testorama.online)
 
 #### At least one stakeholder attends your sprint review. You revise your product backlog based on the feedback you receive.
 

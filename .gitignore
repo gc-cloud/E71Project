@@ -44,3 +44,5 @@ org.scala-ide.sdt.update-site/site.xml`
 
 # SCALA
 *.class
+
+#Test

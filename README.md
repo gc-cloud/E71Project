@@ -278,7 +278,7 @@ Team updates
 #### There is evidence that you paired or mobbed on your code. The evidence could be a photo or video of your team working together, or it could be some other kind of evidence. The evidence is included in your README. 5.0 pts
 > See Above
 #### There is evidence that you are building your product test-first. There is at least 1 BDD / A-TDD test in your test suite, and it passes. There are at least 10 unit tests in your test suite, and they all pass. 11.0 pts
->> See Above
+> See Above
 #### Your team conducts a Sprint Review. 1.0 pts
 > We did a sprint review after our last scrum session.  At the end of our last scrum session, we completed all the Spring 1 backlog items.  During our Sprint 1 review,
 > we determined what we did a good job pulling the Sprint 1 backlog from the total product backlog, because we finished just in time.  We also determined that TDD was more
@@ -301,7 +301,7 @@ Team updates
 > One way to use prior sprints to predict how many points will be completed in the upcoming sprint is to take the average velocity for the past 3 sprints.  However, given 
 > that we've had only one sprint and the current sprint is the second, we will use the points completed in the first sprint only.  All team members participated in the
 > first sprint and all team members will continue to participate in the second sprint, so no need to adjust the forecast by team size.  There were 151 points completed within 2 weeks 
-> in the first sprint by 5 team members.  Subsequently, we are choosing to tackle the next 144 points (PBI #s 5-10) with the smae 5 team members across the next 2 weeks.
+> in the first sprint by 5 team members.  Subsequently, we are choosing to tackle the next 144 points (PBI #s 5-10) with the same 5 team members across the next 2 weeks.
 > The 144 points is very close to the 151 points from the first sprint, and encapsulates all the tasks of the next 6 backlog items without splitting any of the items.
 
 > In summary, using Yesterday's Forecast method, our forecast for Sprint 2 is 144 story points out of 373 total in MVP backlog, consisting of 6 PBIs out of 13.
@@ -343,21 +343,29 @@ Team updates
 
 #### You have a sprint burndown chart. On the x-axis, you display time markers in units of 1 day. On the y-axis, you display story points remaining to get done. There is a linear curve descending from left to right; the leftmost point of the curve is number of story points in your sprint at sprint day 1; the rightmost point is 0 story points remaining on the last day of the sprint. The burndown chart, or the URL of the burndown chart, is document in your README. Richard can view the burndown chart.
 
-> [Sprint 2 Backlog in Google Docs - Sprint 2 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
+> [Sprint 2 Burndown Chart in Google Docs - Sprint 2 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
 
 #### You have conducted multiple Daily Scrums. You have evidence of at least one daily scrum documented in your README.
 
-> See below for Daily Scrum minutes.  The following are addressed by each person in each daily scrum:
+> See below for notes/evidence of our daily scrums.  The following are addressed by each person in each daily scrum:
 
-> 1) What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities.
+>> 1) What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities.
 
-> 2) What will you do in the next 24 hours to help the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members plan to do which activities.
+>> 2) What will you do in the next 24 hours to help the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members plan to do which activities.
 
-> 3) Do you see any impediment that prevents me or the Development Team from meeting the Sprint Goal? What are the impediments? What is your impediment removal plan?
+>> 3) Do you see any impediment that prevents me or the Development Team from meeting the Sprint Goal? What are the impediments? What is your impediment removal plan?
 
 #### Update your sprint backlog task board and burndown chart. Make sure the URLs or images are available in your GitHub repo's README.
 
+> Both the Sprint 2 backlog/burndown chart and Kanban board were updated throughout sprint 2.
+
+> [Sprint 2 Backlog in Google Docs - Sprint 2 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
+
+> [Kanban Board on Trello.com](https://trello.com/b/ctBXfXtq/testorama)
+
 #### There is evidence that you paired or mobbed on your code. The evidence could be a photo or video of your team working together, or it could be some other kind of evidence. The evidence is included in your README.
+
+> See above screenshots of each session in which we mob programmed.
 
 #### There is evidence that you are building your product test-first. There are at least 2 BDD / A-TDD test in your test suite (at least 1 new one this sprint), and it passes. There are at least 20 unit tests in your test suite (at least 10 new unit tests this sprint), and they all pass.
 

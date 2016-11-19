@@ -1,11 +1,18 @@
 logs
+project/project
+project/target
 target
-**/.idea/workspace.xml
-.idea/vcs.xml
-
-
-
-
+tmp
+.history
+dist
+/.idea
+/*.iml
+/out
+/.idea_modules
+/.classpath
+/.project
+/RUNNING_PID
+/.settings
 
 
 

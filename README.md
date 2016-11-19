@@ -147,7 +147,7 @@
 
 #### All of the stories in your sprint backlog have size less than half your forecast velocity. If you noticed PBIs that are too large to get done in a sprint, you refined them by splitting them into smaller stories and estimating the smaller stories. 1.0 pts
 
-> All the stories in the sprint backlog have size less tha half of the total forecast.  Below are the sizes of each backlog item:
+> All the stories in the sprint backlog have size less than half of the total forecast.  Below are the sizes of each backlog item:
  
 > 1) Set up App - 49
 
@@ -165,7 +165,7 @@
 
 #### You decomposed stories into tasks. The tasks are clearly listed in your sprint backlog. 2.0 pts
 
-> All stories were aready decomposed into tasks in the first deliverable of project.
+> All stories were already decomposed into tasks in the first deliverable of project.
 
 > [Sprint 1 Backlog in Google Docs - Sprint 1 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
 
@@ -283,13 +283,94 @@ Team updates
 > We did a sprint review after our last scrum session.  At the end of our last scrum session, we completed all the Spring 1 backlog items.  During our Sprint 1 review,
 > we determined what we did a good job pulling the Sprint 1 backlog from the total product backlog, because we finished just in time.  We also determined that TDD was more
 > time-consuming than originally perceived due to the fact that we were all new to it.  Subsequently, there were ome initial challenges.  In the next sprint, a bit more time
-> will be allotted to developing our unit tests to ensure we have enough time to both develop and test the items in Sprint 2.
+> will be allotted to developing our unit tests to ensure we have enough time to both develop and test there items in Sprint 2.
 
 #### Your product increment is working software. 1.0 pts
 > Check out [www.testorama.online](http://www.testorama.online)
 
 #### At least one stakeholder attends your sprint review. You revise your product backlog based on the feedback you receive. 2.0 pts
 > We had Luis Hidalgo, our Product Owner, attend our sprint review.  Per his review, there did not need to be changes to the MVP backlog at this time.
+
+
+### Project Part 3 / Sprint 2 Criteria
+
+#### You have a forecast of how many story points your team can complete during the sprint. Your forecast is based on the Yesterday's Weather forecasting pattern. The forecast is documented in your README.
+> Yesterday's Weather is a scrum forecasting method based on the idea that yesterday's weather is likely the best predictor of today's weather.  This notion is applied to 
+> Scrum by using the points in the previous Sprint to predict how many points will be completed in the upcoming sprint.  <br />
+
+> One way to use prior sprints to predict how many points will be completed in the upcoming sprint is to take the average velocity for the past 3 sprints.  However, given 
+> that we've had only one sprint and the current sprint is the second, we will use the points completed in the first sprint only.  All team members participated in the
+> first sprint and all team members will continue to participate in the second sprint, so no need to adjust the forecast by team size.  There were 151 points completed within 2 weeks 
+> in the first sprint by 5 team members.  Subsequently, we are choosing to tackle the next 144 points (PBI #s 5-10) with the smae 5 team members across the next 2 weeks.
+> The 144 points is very close to the 151 points from the first sprint, and encapsulates all the tasks of the next 6 backlog items without splitting any of the items.
+
+> In summary, using Yesterday's Forecast method, our forecast for Sprint 2 is 144 story points out of 373 total in MVP backlog, consisting of 6 PBIs out of 13.
+
+#### You pulled stories into your sprint backlog. You pulled stories from the top of your product backlog. The aggregate size of the stories does not exceed your forecast. Only Development Team members participated in this activity.
+
+> [Sprint 2 Backlog in Google Docs - Sprint 2 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
+  
+> The aggregate size of the stories that were pulled from the project backlog to the second sprint does not exceed total forecast.  Six of the 13 MPV PBIs
+> were selected for second sprint.  Only Development Team Members participated in pulling stories into sprint backlog.
+
+#### All of the stories in your sprint backlog have size less than half your forecast velocity. If you noticed PBIs that are too large to get done in a sprint, you refined them by splitting them into smaller stories and estimating the smaller stories.
+
+> All the stories in the sprint backlog have size less than half of the total forecast.  Below are the sizes of each backlog item:
+ 
+> 5) Update Capability - 21
+
+> 6) Delete Capability - 8
+
+> 7) Randomized Selection - 42
+
+> 8) Manual Selection - 26
+
+> 9) Save Exams - 34
+
+> 10) View Exams - 13
+
+> Total sprint backlog size: 144
+
+> None of the PBIs were too large to get done in a sprint, so no need to split them into smaller stories.
+
+#### You decomposed stories into tasks. The tasks are clearly listed in your sprint backlog.
+
+> [Sprint 2 Backlog in Google Docs - Sprint 2 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
+
+#### Your sprint backlog, including both stories and tasks, is represented in a kanban board. The kanban board, or a URL of the kanban board, is documented in your README. Richard can view the kanban board.
+
+> [Kanban Board on Trello.com](https://trello.com/b/ctBXfXtq/testorama)
+
+#### You have a sprint burndown chart. On the x-axis, you display time markers in units of 1 day. On the y-axis, you display story points remaining to get done. There is a linear curve descending from left to right; the leftmost point of the curve is number of story points in your sprint at sprint day 1; the rightmost point is 0 story points remaining on the last day of the sprint. The burndown chart, or the URL of the burndown chart, is document in your README. Richard can view the burndown chart.
+
+> [Sprint 2 Backlog in Google Docs - Sprint 2 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
+
+#### You have conducted multiple Daily Scrums. You have evidence of at least one daily scrum documented in your README.
+
+> See below for Daily Scrum minutes.  The following are addressed by each person in each daily scrum:
+
+> 1) What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities.
+
+> 2) What will you do in the next 24 hours to help the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members plan to do which activities.
+
+> 3) Do you see any impediment that prevents me or the Development Team from meeting the Sprint Goal? What are the impediments? What is your impediment removal plan?
+
+#### Update your sprint backlog task board and burndown chart. Make sure the URLs or images are available in your GitHub repo's README.
+
+#### There is evidence that you paired or mobbed on your code. The evidence could be a photo or video of your team working together, or it could be some other kind of evidence. The evidence is included in your README.
+
+#### There is evidence that you are building your product test-first. There are at least 2 BDD / A-TDD test in your test suite (at least 1 new one this sprint), and it passes. There are at least 20 unit tests in your test suite (at least 10 new unit tests this sprint), and they all pass.
+
+#### Your team conducts a Sprint Review.
+
+#### Your product increment is working software.
+
+#### At least one stakeholder attends your sprint review. You revise your product backlog based on the feedback you receive.
+
+#### You have a Continuous Integration system running. The CI system automatically builds your code every time you merge to master. The CI system executes your tests every time it builds the code.
+
+#### You have a Continuous Deployment system running. The CD system deploys your software to a production-like environment. The CD system executes additional tests of your software in the production-like environment. The CD system deploys your software to a live production environment. Your live production environment works properly.
+
 
 ### Credits
 > Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.

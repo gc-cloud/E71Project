@@ -1,7 +1,9 @@
-language: java
+language: scala
 sudo: true
+scala:
+- 2.11.6
 jdk:
- - oraclejdk8
+- oraclejdk8
 install: true
 script:
  - test/ApplicationTest.java

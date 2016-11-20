@@ -38,7 +38,7 @@
 
 @main(title = "Generate Exam")  {
     <div class="container">
-        <h1 id="homeTitle">@Messages("List Questions", currentPage.getTotalRowCount)</h1>
+        <h1 id="homeTitle">@Messages("Generate Exams", currentPage.getTotalRowCount)</h1>
 
         @if(flash.containsKey("success")) {
             <div class="alert-message warning">
@@ -53,7 +53,7 @@
                     <input type="search" class="form-control " id="searchbox" name="f" value="@currentFilter" placeholder="Filter by question name...">
                 </div>
                 <input type="submit" id="searchsubmit" value="Filter by name" class="btn btn-primary">
-                <a class="btn btn-success" id="add" href="@routes.QuestionController.create()">Add a new question</a>
+
             </form>
 
 
@@ -74,6 +74,7 @@
                     <tr>
                         @header("name", "Question name")
                         @header("category.name", "Category")
+                        @header("select", "Select")
                     </tr>
                 </thead>
                 <tbody>
@@ -88,6 +89,9 @@
                         } else {
                             @question.category.name
                         }
+                        </td>
+                        <td>
+                            <input type="checkbox" name="select" value=@question.id> Add to exam<br>
                         </td>
                     </tr>
                 }

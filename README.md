@@ -2,6 +2,8 @@
 ## Testorama.online (A Fair Weather Software Product)   
 ## Harvard Extension School    
 
+### Build Status from Travis CI
+https://travis-ci.org/gc-cloud/CSCIE71-P1.svg?branch=master
 
 ###Project Part 1 Criteria
 

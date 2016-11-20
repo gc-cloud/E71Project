@@ -34,35 +34,7 @@ public class HomeController extends Controller {
           return ok;
     }
 
-    /**
-     * Process request to generate exam
-     *
-     */
 
-    public Result generateExams(){
-        Result ok = ok(generateExams.render());
-        return ok;
-
-    }
-
-    /**
-     * Process request to view exams
-     *
-     */
-
-    public Result viewExams(){
-        Result ok = ok(viewExams.render());
-        return ok;
-    }
-
-    /**
-     * Process request to print exams
-     *
-     */
-    public Result printExams(){
-        Result ok = ok(printExams.render());
-        return ok;
-    }
 
     /**
      * Process request to signup

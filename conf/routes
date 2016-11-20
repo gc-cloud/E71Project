@@ -10,10 +10,11 @@ GET     /oops                       controllers.HomeController.oops
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
-GET     /printExams                 controllers.HomeController.printExams
-GET     /generateExams              controllers.HomeController.generateExams
-GET     /viewExams                  controllers.HomeController.viewExams
+GET     /printExams                 controllers.ExamController.printExams
+GET     /generateExams              controllers.ExamController.generateExams(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
+GET     /viewExams                  controllers.ExamController.viewExams
 GET     /signup                     controllers.HomeController.signup
+GET     /listExams                  controllers.ExamController.list(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
 
 # List Questions
 GET     /listQuestions              controllers.QuestionController.list(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")

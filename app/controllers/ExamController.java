@@ -1,27 +1,31 @@
 package controllers;
 
-import models.*; // recognize Models
 import com.avaje.ebean.Ebean;
 import com.avaje.ebean.Transaction;
-import javax.inject.Inject; // @Inject
-import javax.persistence.PersistenceException;
-import play.data.*; // FormFactory
-import play.mvc.Controller;
+import models.Question;
+import models.Exam;
 import play.mvc.*;
+import views.html.generateExams;
+import views.html.printExams;
+import views.html.viewExams;
+import play.data.*; // FormFactory
+
+import javax.inject.Inject;
+import javax.persistence.PersistenceException;
 //import views.html.*;
-//import static play.data.Form.*;
+//import static play.data.*;
 
 
 /**
  * This controller contains methods to handle questions.
  */
-public class QuestionController extends Controller {
+public class ExamController extends Controller {
 
     /* FormFactory allows to create forms on the fly given a class type
      e.g. Form<T> newForm = formFactory.form(T.class).fill(T.find.byId());*/
     private FormFactory formFactory;
     @Inject
-    public QuestionController(FormFactory formFactory) {
+    public ExamController(FormFactory formFactory) {
         this.formFactory = formFactory;
     }
 
@@ -29,7 +33,7 @@ public class QuestionController extends Controller {
      * This result directly redirect to application home.
      */
     public Result GO_HOME = Results.redirect(
-            routes.QuestionController.list(0, "name", "asc", "")
+            routes.ExamController.list(0, "name", "asc", "")
     );
 
     /**
@@ -96,7 +100,7 @@ public class QuestionController extends Controller {
      *
      * @param id Id of the question to edit
      */
-    public Result update(Long id) throws PersistenceException {
+/*    public Result update(Long id) throws PersistenceException {
         Form<Question> questionForm = formFactory.form(Question.class).bindFromRequest();
         if(questionForm.hasErrors()) {
             return badRequest(views.html.editForm.render(id, questionForm));
@@ -125,8 +129,43 @@ public class QuestionController extends Controller {
         }
 
         return GO_HOME;
+    }*/
+
+
+    /**
+     * Process request to generate exam
+     *
+     */
+
+    public Result generateExams(int page, String sortBy, String order, String filter){
+        return ok(
+                views.html.generateExams.render(
+                Question.page(page, 10, sortBy, order, filter),
+                sortBy,order,filter
+                )
+        );
     }
 
+    /**
+     * Process request to generate exam
+     *
+     */
 
+    public Result viewExams(){
+        Result ok = ok(viewExams.render());
+        return ok;
+
+    }
+
+    /**
+     * Process request to generate exam
+     *
+     */
+
+    public Result printExams(){
+        Result ok = ok(printExams.render());
+        return ok;
+
+    }
 
 }

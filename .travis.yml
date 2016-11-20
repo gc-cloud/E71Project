@@ -5,5 +5,4 @@ scala:
 jdk:
 - oraclejdk8
 install: true
-script:
- - test/ApplicationTest.java
+

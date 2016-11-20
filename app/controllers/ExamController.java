@@ -149,9 +149,6 @@ public class ExamController extends Controller {
 
     /**
      * Process request to generate exam
-     *
-     *
-     *
      */
 
     public Result viewExams(){

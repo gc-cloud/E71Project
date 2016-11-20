@@ -3,7 +3,7 @@
 ## Harvard Extension School    
 
 ### Build Status from Travis CI
-https://travis-ci.org/gc-cloud/CSCIE71-P1.svg?branch=master
+[![Build Status](https://travis-ci.org/gc-cloud/CSCIE71-P1.svg?branch=master)](https://travis-ci.org/gc-cloud/CSCIE71-P1)
 
 ###Project Part 1 Criteria
 

@@ -56,6 +56,7 @@ public class ExamController extends Controller {
         Form<Question> questionForm = formFactory.form(Question.class);
         return ok(
                views.html.createForm.render(questionForm)
+
         );
     }
 

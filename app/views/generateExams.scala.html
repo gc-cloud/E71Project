@@ -67,9 +67,11 @@
             </div>
 
         } else {
-
+            <form action="viewExams" method="POST">
                 <!--table class="questions zebra-striped"-->
+
             <table class="table table-striped">
+
                 <thead>
                     <tr>
                         @header("name", "Question name")
@@ -82,7 +84,6 @@
                 @for(question <- currentPage.getList) {
                     <tr>
                         <td><a href="@routes.QuestionController.edit(question.id)">@question.name</a></td>
-
                         <td>
                         @if(question.category == null) {
                             <em>-</em>
@@ -97,8 +98,10 @@
                 }
 
                 </tbody>
-            </table>
 
+            </table>
+                <input type="submit" value="Generate Exam" class="btn btn-primary">
+            </form >
             <div id="pagination" class="pagination">
                 <ul class="pagination">
                     @if(currentPage.hasPrev) {

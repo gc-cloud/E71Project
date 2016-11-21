@@ -1,17 +1,24 @@
 package models;
 
-import com.avaje.ebean.Model;
-import com.avaje.ebean.PagedList;
+//import com.avaje.ebean.Model;
+//import com.avaje.ebean.PagedList;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+//import javax.persistence.Entity;
+//import javax.persistence.Id;
+//import javax.persistence.ManyToOne;
 
+//import java.util.*;
+//import play.data.format.*;
+//import play.data.validation.*;
+//import com.avaje.ebean.*;
 import java.util.*;
+import javax.persistence.*;
+
+import com.avaje.ebean.Model;
 import play.data.format.*;
 import play.data.validation.*;
-import com.avaje.ebean.*;
 
+import com.avaje.ebean.*;
 
 /**
  * Created by mob 11/20
@@ -46,7 +53,7 @@ public class Exam extends Model{
                 find.where()
                         .ilike("name", "%" + filter + "%")
                         .orderBy(sortBy + " " + order)
-                        .fetch("category")
+                        //.fetch("category")
                         .findPagedList(page, pageSize);
     }
 

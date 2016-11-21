@@ -7,7 +7,7 @@ import models.Exam;
 import play.mvc.*;
 import views.html.generateExams;
 import views.html.printExams;
-import views.html.viewExams;
+import views.html.*;
 import play.data.*; // FormFactory
 
 import javax.inject.Inject;
@@ -61,15 +61,16 @@ public class ExamController extends Controller {
     }
 
     /**
-     * Handle the 'new question form' submission
+     * Handle the 'new exam form' submission
      */
     public Result save() {
-        Form<Question> questionForm = formFactory.form(Question.class).bindFromRequest();
-        if(questionForm.hasErrors()) {
-            return badRequest(views.html.createForm.render(questionForm));
+        Form<Exam> examForm = formFactory.form(Exam.class).bindFromRequest();
+        if(examForm.hasErrors()) {
+            return badRequest();
+
         }
-        questionForm.get().save();
-        flash("success", "Question " + questionForm.get().name + " has been created");
+        examForm.get().save();
+        flash("success", "Exam " + examForm.get().name + " has been created");
         return GO_HOME;
     }
 

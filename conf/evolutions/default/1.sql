@@ -23,7 +23,11 @@ create table question (
 
 ;
 
-
+create table exam (
+  id                        bigint(20) NOT NULL AUTO_INCREMENT,
+  name                      varchar(255),
+    constraint pk_exam primary key (id))
+;
 
 alter table question add constraint fk_question_category_1 foreign key (category_id) references category (id) on delete restrict on update restrict;
 create index ix_question_category_1 on question (category_id);

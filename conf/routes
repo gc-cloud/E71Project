@@ -13,6 +13,7 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 GET     /printExams                 controllers.ExamController.printExams
 GET     /generateExams              controllers.ExamController.generateExams(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
 GET     /viewExams                  controllers.ExamController.viewExams
+POST    /viewExams                  controllers.ExamController.save()
 GET     /signup                     controllers.HomeController.signup
 GET     /listExams                  controllers.ExamController.list(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
 

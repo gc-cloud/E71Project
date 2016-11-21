@@ -8,6 +8,7 @@ scala:
 - 2.11.7
 
 
+
 sudo: true
 
 # Set Java

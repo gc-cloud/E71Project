@@ -12,20 +12,21 @@ jdk:
 services:
 - mysql
 
-before_install:
+
+env:
+  matrix:
+    secure: hNwT8VUvmkmQBRuFuouK+b1uc9gBRD2e00KVz9joqlN6aKlUt0MPIB6iuWCIWcGNSqyvJH9ggfZVWSmf2zI+JSMWqJBwTAF+u2spveO79e2GUYj7NPf1dGp/9yt7EiPBFbSPprAAb9VmlZmpvZZRTbS6kU0pOs7W4U9QtyxvK9Y4qCygAAOomoadZoy8YK7RH36OnsMd+imnoDi5duECb7qEIhrn5VG7n9M67Z7QCZCPd+kCxUR5uVymyL3/bhAUCGTdCWRXWepMz/x6PwwMPVMGd8gTF+C17VASMNu+xrONfvoNe+MTH3tm8eSLnU+wH6FsQFLl+twPjpsh7lGBF5vwdsvWETKgoZQFZjnH0RCIpX0COZ7P82HwGdnhdHACD0yASlEaKTbABYojC0Wfwu/bUAEb8qKsxd9x1lLWm8niowpIDOt/dbnizH17ZtnjvJ8PTE+pN9zcrxMikFODT++bA2OegLjNcxPzrTsyCG1HtRMA6kmh69T9X+yyxhO1Ds9+Sx0BeJiWZeOpoCFi1Ft+T83iPNQovoLw2bhpylgLv6p/NcMpnbzDxrLg3BSGsY8sh8E+u8KUBXOgneu4HV29EiDo9K1BNYYk082ITp7trs1d9BTshO+TkgrRZhnMGHYJ/QIUlEa6NOinJe+R9KscbsVnBzcpINYyNObKV24=
+env:
 - db.default.url="jdbc:mysql://localhost/testorama"
 - db.default.username="root"
 - db.default.password=""
-- echo $db.default.url
 
 install: true
 
 before_script:
 - mysql -e "create database IF NOT EXISTS testorama;" -uroot
+- echo $db.default.url
 
-env:
-  matrix:
-    secure: hNwT8VUvmkmQBRuFuouK+b1uc9gBRD2e00KVz9joqlN6aKlUt0MPIB6iuWCIWcGNSqyvJH9ggfZVWSmf2zI+JSMWqJBwTAF+u2spveO79e2GUYj7NPf1dGp/9yt7EiPBFbSPprAAb9VmlZmpvZZRTbS6kU0pOs7W4U9QtyxvK9Y4qCygAAOomoadZoy8YK7RH36OnsMd+imnoDi5duECb7qEIhrn5VG7n9M67Z7QCZCPd+kCxUR5uVymyL3/bhAUCGTdCWRXWepMz/x6PwwMPVMGd8gTF+C17VASMNu+xrONfvoNe+MTH3tm8eSLnU+wH6FsQFLl+twPjpsh7lGBF5vwdsvWETKgoZQFZjnH0RCIpX0COZ7P82HwGdnhdHACD0yASlEaKTbABYojC0Wfwu/bUAEb8qKsxd9x1lLWm8niowpIDOt/dbnizH17ZtnjvJ8PTE+pN9zcrxMikFODT++bA2OegLjNcxPzrTsyCG1HtRMA6kmh69T9X+yyxhO1Ds9+Sx0BeJiWZeOpoCFi1Ft+T83iPNQovoLw2bhpylgLv6p/NcMpnbzDxrLg3BSGsY8sh8E+u8KUBXOgneu4HV29EiDo9K1BNYYk082ITp7trs1d9BTshO+TkgrRZhnMGHYJ/QIUlEa6NOinJe+R9KscbsVnBzcpINYyNObKV24=
 deploy:
   provider: boxfuse
   payload: target/universal/e71project-1.0-SNAPSHOT.zip

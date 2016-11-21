@@ -5,7 +5,7 @@ notifications:
 # Set language.  We use scala for play java
 language: scala
 scala:
-- 2.11.6
+- 2.11.7
 
 
 sudo: true
@@ -18,12 +18,14 @@ jdk:
 services:
 - mysql
 
-# Set environment variables
+# Set environment variables so we can connect to the
+# MySQL DB provisioned by Travis CI.  The BOXFUXE_* variables will
+# be overriden by Boxfuse on deployment
 env:
   global:
-  - BOXFUSE_DATABASE_URL="jdbc:mysql://localhost/testorama"
-  - BOXFUSE_DATABASE_USER="root"
-  - BOXFUSE_DATABASE_PASSWORD=""
+ # - BOXFUSE_DATABASE_URL="jdbc:mysql://localhost/testorama"
+ # - BOXFUSE_DATABASE_USER="root"
+ # - BOXFUSE_DATABASE_PASSWORD=""
   matrix:
     secure: hNwT8VUvmkmQBRuFuouK+b1uc9gBRD2e00KVz9joqlN6aKlUt0MPIB6iuWCIWcGNSqyvJH9ggfZVWSmf2zI+JSMWqJBwTAF+u2spveO79e2GUYj7NPf1dGp/9yt7EiPBFbSPprAAb9VmlZmpvZZRTbS6kU0pOs7W4U9QtyxvK9Y4qCygAAOomoadZoy8YK7RH36OnsMd+imnoDi5duECb7qEIhrn5VG7n9M67Z7QCZCPd+kCxUR5uVymyL3/bhAUCGTdCWRXWepMz/x6PwwMPVMGd8gTF+C17VASMNu+xrONfvoNe+MTH3tm8eSLnU+wH6FsQFLl+twPjpsh7lGBF5vwdsvWETKgoZQFZjnH0RCIpX0COZ7P82HwGdnhdHACD0yASlEaKTbABYojC0Wfwu/bUAEb8qKsxd9x1lLWm8niowpIDOt/dbnizH17ZtnjvJ8PTE+pN9zcrxMikFODT++bA2OegLjNcxPzrTsyCG1HtRMA6kmh69T9X+yyxhO1Ds9+Sx0BeJiWZeOpoCFi1Ft+T83iPNQovoLw2bhpylgLv6p/NcMpnbzDxrLg3BSGsY8sh8E+u8KUBXOgneu4HV29EiDo9K1BNYYk082ITp7trs1d9BTshO+TkgrRZhnMGHYJ/QIUlEa6NOinJe+R9KscbsVnBzcpINYyNObKV24=
 
@@ -36,7 +38,7 @@ install: true
 # Set deployment options for boxfuse
 deploy:
   provider: boxfuse
-  payload: target/e71project-1.0.jar
+  payload: e71project-1.0.zip
   user:
     secure: UnnYSDIhzlH/ap8c2DuKzwwhj678eP0dXkqJFbGaEoSz4x5v1JDQ/89iJArLlETsj16mR3Qx9cTG4gtGPaMe83xNEOscqDH44VujjNPhSTFX5b+M6SMGIvBLcXYX5tKknxGUxseoUNXTg7VO2Fqn5ihwW9cKqkJDtGbZ//J3XbSxCwagTmExkLqD4GcmhYunMDvWuCTyRsKaa9s8EM0FcguZw43B9ygY4CsJtR5fdU/6T+93yHRXmWYAoO+GKSUi1gFrimiT8Z2RpfYNkfXQrdhe0d7q7hHEQ6+VURen9lAFVryFVTqg5HBjiyQ2Qo9tiDQqrZ722NpEg1aLPUuTA0Jvc3lveMgBo24x1xxC5E78DA+ftJCSxCqoD509Ks4QaCYOk82vIg8BDk+LL7q4ce+iM8t07bt0z2R/M+Tycb2Fu36qTpNcAF+ME00ZOlRtTc5uU+1ue2t42tqjqYm1wW8NEqAhYu8x2SB7rvcRl1hkkLwG0bwiz5QzGO6Kpb4pBagabbP7t6SwHX4ZZl6P9ASHnJAiEXw5Mt9yEcZfvLZtaoLQCZ+Eto6Of1uaCN4PjntMjn7UH2eZ7zTW8Cz7ufkBj3DsgCT69IFl1Fyd/SdqJY/5K2rAkuDgkw5n3l3EwinkBsgA19WlFF8YkaHgfNCVBZ6wx1iDM8JSIkeg/2Y=
   secret:

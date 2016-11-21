@@ -6,11 +6,7 @@ jdk:
 - oraclejdk8
 services:
 - mysql
-matrix:
- include:
-  env: BOXFUSE_DATABASE_URL="jdbc:mysql://localhost/testorama"
-  env: BOXFUSE_DATABASE_USER="root"
-  env: BOXFUSE_DATABASE_PASSWORD=""
+
 before_install:
 - echo BOXFUSE_DATABASE_URL
 - echo BOXFUSE_DATABASE_USER
@@ -18,6 +14,10 @@ before_install:
 install: true
 before_script:
 - mysql -e "create database IF NOT EXISTS testorama;" -uroot
+env:
+- BOXFUSE_DATABASE_URL="jdbc:mysql://localhost/testorama"
+- BOXFUSE_DATABASE_USER="root"
+- BOXFUSE_DATABASE_PASSWORD=""
 
 env:
   matrix:

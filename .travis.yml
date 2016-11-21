@@ -4,6 +4,8 @@ scala:
 - 2.11.6
 jdk:
 - oraclejdk8
+before_install:
+  - mysql -e "create database IF NOT EXISTS testorama;" -uroot
 install: true
 services:
   - mysql

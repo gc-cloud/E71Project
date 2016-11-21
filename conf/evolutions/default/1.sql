@@ -1,3 +1,4 @@
+
 # --- First database schema
 
 # --- !Ups
@@ -34,5 +35,3 @@ SET FOREIGN_KEY_CHECKS=0;
 drop table if exists question;
 drop table if exists category;
 SET FOREIGN_KEY_CHECKS=1;
-
-

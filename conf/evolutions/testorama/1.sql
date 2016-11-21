@@ -1,3 +1,4 @@
+
 # --- First database schema
 
 # --- !Ups
@@ -45,4 +46,3 @@ SET REFERENTIAL_INTEGRITY TRUE;
 drop sequence if exists category_seq;
 
 drop sequence if exists question_seq;
-

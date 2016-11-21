@@ -12,6 +12,7 @@ public class HomeController extends Controller {
 
     /**
      * Renders index page.
+     *
      */
     public Result index() {
 

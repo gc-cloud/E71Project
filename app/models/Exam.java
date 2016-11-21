@@ -15,6 +15,7 @@ import com.avaje.ebean.*;
 
 /**
  * Created by mob 11/20
+ *
  */
 @Entity
 public class Exam extends Model{

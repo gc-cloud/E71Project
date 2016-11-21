@@ -70,6 +70,7 @@ public class QuestionController extends Controller {
 
     /**
      * Handle question deletion
+     *
      */
     public Result delete(Long id) {
         Question.find.ref(id).delete();

@@ -11,6 +11,7 @@ import com.avaje.ebean.*;
 
 /**
  * Created by gerardocastaneda on 11/11/16.
+ *
  */
 @Entity
 public class Question extends Model{

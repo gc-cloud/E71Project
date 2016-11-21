@@ -9,6 +9,7 @@ import play.data.validation.*;
 /**
  * Created by gerardocastaneda on 11/11/16.
  * Category entity managed by Ebean
+ *
  */
 @Entity
 public class Category extends com.avaje.ebean.Model {

@@ -386,9 +386,21 @@ Team updates
 #### At least one stakeholder attends your sprint review. You revise your product backlog based on the feedback you receive.
 
 #### You have a Continuous Integration system running. The CI system automatically builds your code every time you merge to master. The CI system executes your tests every time it builds the code.
+![Alt text](readmeImages/CI_1_Pass.png?raw=true )
+> Using Travis CI and BoxFuse for Continuous Integration.  Build Status is Passed
+
+
+![Alt text](readmeImages/CI_2_TestsPass.png?raw=true )
+> All tests were executed successfully by Travis CI
 
 #### You have a Continuous Deployment system running. The CD system deploys your software to a production-like environment. The CD system executes additional tests of your software in the production-like environment. The CD system deploys your software to a live production environment. Your live production environment works properly.
 
+![Alt text](readmeImages/CI_3_Deploy_To_Test.png?raw=true )
+> After tests are completed.  Deployment starts automatically
+
+![Alt text](readmeImages/CI_4_Test_Env.png?raw=true )
+> The changes are deployed to a production like environment and accessible at
+> [http://e71project-test-gccloud.boxfuse.io:9000/](http://e71project-test-gccloud.boxfuse.io:9000/)
 
 ### Credits
 > Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.

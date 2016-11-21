@@ -8,5 +8,8 @@ services:
   - mysql
 before_script:
   - mysql -e "create database IF NOT EXISTS testorama;" -uroot
+  - export BOXFUSE_DATABASE_URL="jdbc:mysql://localhost/testorama"
+  - export BOXFUSE_DATABASE_USER="root"
+  - export BOXFUSE_DATABASE_PASSWORD=""
 install: true
 

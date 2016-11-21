@@ -13,9 +13,10 @@ services:
 - mysql
 
 before_install:
-- echo $BOXFUSE_DATABASE_URL
-- echo $BOXFUSE_DATABASE_USER
-- echo $BOXFUSE_DATABASE_PASSWORD
+- db.default.url="jdbc:mysql://localhost/testorama"
+- db.default.username="root"
+- db.default.password=""
+- echo $db.default.url
 
 install: true
 

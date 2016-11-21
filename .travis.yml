@@ -33,7 +33,7 @@ install: true
 # need to test if payload is absolutely required...
 deploy:
   provider: boxfuse
- # payload: e71project-1.0.zip
+  payload: e71project-1.0.zip
   user:
     secure: UnnYSDIhzlH/ap8c2DuKzwwhj678eP0dXkqJFbGaEoSz4x5v1JDQ/89iJArLlETsj16mR3Qx9cTG4gtGPaMe83xNEOscqDH44VujjNPhSTFX5b+M6SMGIvBLcXYX5tKknxGUxseoUNXTg7VO2Fqn5ihwW9cKqkJDtGbZ//J3XbSxCwagTmExkLqD4GcmhYunMDvWuCTyRsKaa9s8EM0FcguZw43B9ygY4CsJtR5fdU/6T+93yHRXmWYAoO+GKSUi1gFrimiT8Z2RpfYNkfXQrdhe0d7q7hHEQ6+VURen9lAFVryFVTqg5HBjiyQ2Qo9tiDQqrZ722NpEg1aLPUuTA0Jvc3lveMgBo24x1xxC5E78DA+ftJCSxCqoD509Ks4QaCYOk82vIg8BDk+LL7q4ce+iM8t07bt0z2R/M+Tycb2Fu36qTpNcAF+ME00ZOlRtTc5uU+1ue2t42tqjqYm1wW8NEqAhYu8x2SB7rvcRl1hkkLwG0bwiz5QzGO6Kpb4pBagabbP7t6SwHX4ZZl6P9ASHnJAiEXw5Mt9yEcZfvLZtaoLQCZ+Eto6Of1uaCN4PjntMjn7UH2eZ7zTW8Cz7ufkBj3DsgCT69IFl1Fyd/SdqJY/5K2rAkuDgkw5n3l3EwinkBsgA19WlFF8YkaHgfNCVBZ6wx1iDM8JSIkeg/2Y=
   secret:

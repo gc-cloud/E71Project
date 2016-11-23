@@ -56,7 +56,6 @@ after_success:
 after_failure:
 - echo $TRAVIS_TEST_RESULT
 - ls -la
-- ls -la
 - ls -la target
 - ls -la target/e71project
 

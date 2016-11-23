@@ -27,6 +27,8 @@ target
 
 # Do not ignore the payload file so we can load it
 !target/universal/e71project-1.0.tgz
+!target/universal/e71project-1.0.zip
+
 
 # VIM
 tags

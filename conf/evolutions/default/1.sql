@@ -26,15 +26,15 @@ create table exam (
   constraint pk_exam primary key (id))
 ;
 
-create table exam_question (
-  eid                       bigint(20) NOT NULL,
-  qid                       bigint(20) NOT NULL,
+create table question_exam (
+  exam_id                       bigint(20) NOT NULL,
+  question_id                       bigint(20) NOT NULL,
   constraint pk_exam_question primary key (eid,qid))
 ;
 
 alter table question add constraint fk_question_category_1 foreign key (category_id) references category (id) on delete restrict on update restrict;
-alter table exam_question add constraint fk_exam_question1 foreign key (eid) references exam (id) on delete restrict on update restrict;
-alter table exam_question add constraint fk_exam_question2 foreign key (qid) references question (id) on delete restrict on update restrict;
+alter table question_exam add constraint fk_exam_question1 foreign key (exam_id) references exam (id) on delete restrict on update restrict;
+alter table question_exam add constraint fk_exam_question2 foreign key (question_id) references question (id) on delete restrict on update restrict;
 create index ix_question_category_1 on question (category_id);
 
 
@@ -45,4 +45,5 @@ drop table if exists question;
 drop table if exists category;
 drop table if exists exam;
 drop table if exists exam_question;
+drop table if exists question_exam
 SET FOREIGN_KEY_CHECKS=1;

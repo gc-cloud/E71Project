@@ -40,6 +40,9 @@ public class Question extends Model{
     @ManyToOne
     public Category category;
 
+    @ManyToMany(cascade=CascadeType.ALL)
+    public Set<Exam> exams = new HashSet<Exam>();
+
     /**
      * Generic query helper for entity Question with id Long
      */

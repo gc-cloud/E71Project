@@ -19,11 +19,11 @@ values (  4,'How to file an expense report',3,'ans1','ans2','ans3','ans4','4');
 insert into exam (id,name) values (100,'Test Exam 1');
 insert into exam (id,name) values (101,'Test Exam 2');
 
-insert into exam_question (eid,qid) values (100,1);
-insert into exam_question (eid,qid) values (100,2);
-insert into exam_question (eid,qid) values (100,3);
-insert into exam_question (eid,qid) values (101,3);
-insert into exam_question (eid,qid) values (101,4);
+insert into question_exam (exam_id,question_id) values (100,1);
+insert into question_exam (exam_id,question_id) values (100,2);
+insert into question_exam (exam_id,question_id) values (100,3);
+insert into question_exam (exam_id,question_id) values (101,3);
+insert into question_exam (exam_id,question_id) values (101,4);
 
 # --- !Downs
 

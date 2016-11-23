@@ -31,8 +31,12 @@ public class Exam extends Model{
     @Id
     public Long id;
 
-    @Constraints.Required
+//    @Constraints.Required
     public String name;
+
+//    @Constraints.Required
+    @ManyToMany(cascade=CascadeType.ALL,mappedBy="exams")
+    public Set<Question> questions = new HashSet<Question>();
 
     /**
      * Generic query helper for entity Question with id Long

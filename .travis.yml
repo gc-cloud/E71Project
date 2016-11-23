@@ -58,7 +58,7 @@ after_failure:
 - ls -la
 - ls -la
 - ls -la target
-- ls -la target/universal
+- ls -la target/e71project
 
 
 #Step 7 Before Deploy

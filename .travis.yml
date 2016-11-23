@@ -1,3 +1,11 @@
+#Step 1 Apt addons
+#---------------------------------------
+
+
+#Step 2 Before Install
+#---------------------------------------
+before_install:
+
 # disable automated email notification after every build
 notifications:
   email: false
@@ -23,19 +31,45 @@ env:
   matrix:
     secure: hNwT8VUvmkmQBRuFuouK+b1uc9gBRD2e00KVz9joqlN6aKlUt0MPIB6iuWCIWcGNSqyvJH9ggfZVWSmf2zI+JSMWqJBwTAF+u2spveO79e2GUYj7NPf1dGp/9yt7EiPBFbSPprAAb9VmlZmpvZZRTbS6kU0pOs7W4U9QtyxvK9Y4qCygAAOomoadZoy8YK7RH36OnsMd+imnoDi5duECb7qEIhrn5VG7n9M67Z7QCZCPd+kCxUR5uVymyL3/bhAUCGTdCWRXWepMz/x6PwwMPVMGd8gTF+C17VASMNu+xrONfvoNe+MTH3tm8eSLnU+wH6FsQFLl+twPjpsh7lGBF5vwdsvWETKgoZQFZjnH0RCIpX0COZ7P82HwGdnhdHACD0yASlEaKTbABYojC0Wfwu/bUAEb8qKsxd9x1lLWm8niowpIDOt/dbnizH17ZtnjvJ8PTE+pN9zcrxMikFODT++bA2OegLjNcxPzrTsyCG1HtRMA6kmh69T9X+yyxhO1Ds9+Sx0BeJiWZeOpoCFi1Ft+T83iPNQovoLw2bhpylgLv6p/NcMpnbzDxrLg3BSGsY8sh8E+u8KUBXOgneu4HV29EiDo9K1BNYYk082ITp7trs1d9BTshO+TkgrRZhnMGHYJ/QIUlEa6NOinJe+R9KscbsVnBzcpINYyNObKV24=
 
+#Step 3 Install
+#---------------------------------------
+install: true #Skip the installation step
+
+#Step 4 Before Script
+#---------------------------------------
 # Create testorama database
 before_script:
  - mysql -e "create database IF NOT EXISTS testorama;" -uroot
 
-install: true
+#Step 5 Script
+#---------------------------------------
 
+#Step 6 After Success or After Failure
+#---------------------------------------
+after_success:
+- Travis_Test_Result
+- echo $TRAVIS_TEST_RESULT
+- activator universal:package-zip-tarball
+
+#Step 7 Before Deploy
+#---------------------------------------
+
+#Step 8 Deploy
+#---------------------------------------
 # Set deployment options for boxfuse payload is the folder in github.
 # need to test if payload is absolutely required...
 deploy:
   provider: boxfuse
-  payload: e71project-1.0.zip
+  #payload: e71project-1.0.zip
+  payload: e71project-1.0.tgz
   user:
     secure: UnnYSDIhzlH/ap8c2DuKzwwhj678eP0dXkqJFbGaEoSz4x5v1JDQ/89iJArLlETsj16mR3Qx9cTG4gtGPaMe83xNEOscqDH44VujjNPhSTFX5b+M6SMGIvBLcXYX5tKknxGUxseoUNXTg7VO2Fqn5ihwW9cKqkJDtGbZ//J3XbSxCwagTmExkLqD4GcmhYunMDvWuCTyRsKaa9s8EM0FcguZw43B9ygY4CsJtR5fdU/6T+93yHRXmWYAoO+GKSUi1gFrimiT8Z2RpfYNkfXQrdhe0d7q7hHEQ6+VURen9lAFVryFVTqg5HBjiyQ2Qo9tiDQqrZ722NpEg1aLPUuTA0Jvc3lveMgBo24x1xxC5E78DA+ftJCSxCqoD509Ks4QaCYOk82vIg8BDk+LL7q4ce+iM8t07bt0z2R/M+Tycb2Fu36qTpNcAF+ME00ZOlRtTc5uU+1ue2t42tqjqYm1wW8NEqAhYu8x2SB7rvcRl1hkkLwG0bwiz5QzGO6Kpb4pBagabbP7t6SwHX4ZZl6P9ASHnJAiEXw5Mt9yEcZfvLZtaoLQCZ+Eto6Of1uaCN4PjntMjn7UH2eZ7zTW8Cz7ufkBj3DsgCT69IFl1Fyd/SdqJY/5K2rAkuDgkw5n3l3EwinkBsgA19WlFF8YkaHgfNCVBZ6wx1iDM8JSIkeg/2Y=
   secret:
     secure: Ix6azlozpnRwIg/EflPCU9q4wN7Ki8RmoRK6Nq+VQ2BEzHXYYYHi412fMnZcn/F+oe1rFYvg9U6qQkrMDrll0HdQKHQz79NM7O1LxmrmPxLUDzM47mPa2fIES9HerKaoo7xtpKvG6MRjFYBJPZq2TiceUvkg8XdpLLXDpTYLJC0wCr1qUS37nbSHpeQOW1kLF1DkFYKsbfK59dUPDKPUEsLJWvswhPB5aNd1y7gqlcb4RN5gT6+y+pUs5Ccwq0DTOoauAfON8UfXnQW2quYR7Zw+Kyj7KxzuXyKPA3d/rXIBhebJ96GPKhDPYWC4qhPP8OgHlbUs1gLDYSFYA0byaeHBbWHNt7eVhDFEl3jQP8kk7v5Q3i2I7xwqIzf0QVskiL2bWVPJXlx4gKA/+egR/a+MCjoCjbUs7jNc+wIKxl/AEfJ+7jHsywCdZAWfFrIg2I0yGcVSL3FMwFtDCA/ckDxLfje29W1wSU8a9w63j3SsdZJK90PQiXc5kCkIklX0TgE9CnDTwvKKrwZW7GGLZLsTvmq/1tJLIO3WgqGMh7ISIAq/6pVUKaH/vYLUYf9kD+N1fM0wXRv+QLp5Q/5+LR7dLPqLHMH5LnvbglTixwYeymMF44MqlSbfo9lBHb9mDhoKO60038ubvxhGuRmdiwpiw0h8Awnl5tQFAJuhiSk=
+  env:
 
+#Step 9 After Deploy
+#---------------------------------------
+
+#Step 10 After Script
+#---------------------------------------

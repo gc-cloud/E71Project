@@ -25,7 +25,8 @@ target
 **/.idea/workspace.xml
 **/.idea/tasks.xml
 
-
+# Do not ignore the payload file so we can load it
+!target/universal/e71project-1.0.tgz
 
 # VIM
 tags

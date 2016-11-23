@@ -47,9 +47,14 @@ before_script:
 #Step 6 After Success or After Failure
 #---------------------------------------
 after_success:
-- Travis_Test_Result
+- echo Travis_Test_Result
 - echo $TRAVIS_TEST_RESULT
 - activator universal:package-zip-tarball
+
+after_failure:
+- echo Travis_Test_Result
+- echo $TRAVIS_TEST_RESULT
+
 
 #Step 7 Before Deploy
 #---------------------------------------

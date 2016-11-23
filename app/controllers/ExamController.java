@@ -74,12 +74,12 @@ public class ExamController extends Controller {
                 if ("select".equals(key)) questions.add(Question.find.ref(Long.valueOf(val)));
             }
         }
-        // Check if form hasn't errors and if it contains authors
+        // Check if form has no errors and if it contains questions
         if (examForm.hasErrors() || questions.size() < 1) {
             return badRequest();
         }
 
-        // Create a Book, fill with data from form, add relations, save
+        // Create an Exam, fill with data from form, save
         Exam exam = new Exam();
         exam = examForm.get();
         exam.questions = questions;

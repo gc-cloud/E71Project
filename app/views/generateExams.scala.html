@@ -42,7 +42,7 @@
 
         @if(flash.containsKey("success")) {
             <div class="alert-message warning">
-                <strong>Done!</strong> @flash.get("success")
+                <strong>Done!</strong> @flash.get("success")<br>
             </div>
         }
 
@@ -71,6 +71,8 @@
                 <!--table class="questions zebra-striped"-->
 
             <table class="table table-striped">
+
+                <br><b>New Exam Name:</b> <input type="text" name="name"> <br>
 
                 <thead>
                     <tr>

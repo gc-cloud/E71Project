@@ -29,7 +29,7 @@ create table exam (
 create table question_exam (
   exam_id                       bigint(20) NOT NULL,
   question_id                       bigint(20) NOT NULL,
-  constraint pk_exam_question primary key (eid,qid))
+  constraint pk_exam_question primary key (exam_id,question_id))
 ;
 
 alter table question add constraint fk_question_category_1 foreign key (category_id) references category (id) on delete restrict on update restrict;

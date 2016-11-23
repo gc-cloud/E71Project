@@ -50,10 +50,15 @@ after_success:
 - echo $TRAVIS_TEST_RESULT
 - activator universal:package-zip-tarball
 - ls -la
+- ls -la target
+- ls -la target/universal
 
 after_failure:
 - echo $TRAVIS_TEST_RESULT
 - ls -la
+- ls -la
+- ls -la target
+- ls -la target/universal
 
 
 #Step 7 Before Deploy

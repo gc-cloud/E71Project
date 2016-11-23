@@ -1,4 +1,3 @@
-
 # --- First database schema
 
 # --- !Ups
@@ -7,7 +6,6 @@ create table category (
   id                        bigint(20) NOT NULL AUTO_INCREMENT,
   name                      varchar(255),
   constraint pk_category primary key (id))
-
 ;
 
 create table question (
@@ -20,16 +18,23 @@ create table question (
   answer4                   varchar(255),
   correct_answer            varchar(255),
   constraint pk_question primary key (id))
-
 ;
 
 create table exam (
   id                        bigint(20) NOT NULL AUTO_INCREMENT,
   name                      varchar(255),
-    constraint pk_exam primary key (id))
+  constraint pk_exam primary key (id))
+;
+
+create table exam_question (
+  eid                       bigint(20) NOT NULL,
+  qid                       bigint(20) NOT NULL,
+  constraint pk_exam_question primary key (eid,qid))
 ;
 
 alter table question add constraint fk_question_category_1 foreign key (category_id) references category (id) on delete restrict on update restrict;
+alter table exam_question add constraint fk_exam_question1 foreign key (eid) references exam (id) on delete restrict on update restrict;
+alter table exam_question add constraint fk_exam_question2 foreign key (qid) references question (id) on delete restrict on update restrict;
 create index ix_question_category_1 on question (category_id);
 
 
@@ -38,4 +43,6 @@ create index ix_question_category_1 on question (category_id);
 SET FOREIGN_KEY_CHECKS=0;
 drop table if exists question;
 drop table if exists category;
+drop table if exists exam;
+drop table if exists exam_question;
 SET FOREIGN_KEY_CHECKS=1;

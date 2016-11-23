@@ -5,14 +5,10 @@ import com.avaje.ebean.Transaction;
 import models.Question;
 import models.Exam;
 import play.mvc.*;
-import views.html.generateExams;
-import views.html.printExams;
 import views.html.*;
 import play.data.*; // FormFactory
-
 import javax.inject.Inject;
 import javax.persistence.PersistenceException;
-//import views.html.*;
 //import static play.data.*;
 
 

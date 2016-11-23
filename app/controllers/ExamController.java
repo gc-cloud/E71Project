@@ -103,11 +103,11 @@ public class ExamController extends Controller {
      * @param id Id of the computer to edit
      */
     public Result edit(Long id) {
-        Form<Question> questionForm = formFactory.form(Question.class).fill(
-                Question.find.byId(id)
+        Form<Exam> examForm = formFactory.form(Exam.class).fill(
+                Exam.find.byId(id)
         );
         return ok(
-                views.html.editForm.render(id, questionForm)
+                views.html.editExamForm.render(id,examForm)
         );
     }
 

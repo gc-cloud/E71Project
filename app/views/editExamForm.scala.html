@@ -1,0 +1,12 @@
+@(id: Long, examForm: Form[Exam])
+
+@import b3.vertical.fieldConstructor  // Declares a vertical field constructor as default
+@import helper._
+
+@main(title = "Edit Exam") {
+
+    <div class="container">
+        <h3> @b3.text(examForm("name"), '_label -> "Exam name", '_help -> "")</h3>
+
+
+}

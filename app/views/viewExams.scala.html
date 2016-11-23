@@ -79,7 +79,7 @@
 
                 @for(exam <- currentPage.getList) {
                     <tr>
-                        <td><a href="">@exam.name</a></td>
+                        <td><a href="@routes.ExamController.edit(exam.id)">@exam.name</a></td>
                     </tr>
                 }
 

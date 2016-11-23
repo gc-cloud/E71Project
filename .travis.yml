@@ -51,7 +51,7 @@ after_success:
 - activator universal:package-zip-tarball
 - ls -la
 - ls -la target
-- ls -la target/universal
+- ls -la target/e71project
 
 after_failure:
 - echo $TRAVIS_TEST_RESULT

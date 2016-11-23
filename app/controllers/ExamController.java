@@ -33,7 +33,7 @@ public class ExamController extends Controller {
     );
 
     /**
-     * List questions
+     * List exams
      *
      */
     public Result list(int page, String sortBy, String order, String filter) {
@@ -149,10 +149,12 @@ public class ExamController extends Controller {
      * Process request to generate exam
      */
 
-    public Result viewExams(){
-        Result ok = ok(viewExams.render());
-        return ok;
-
+    public Result viewExams(int page, String sortBy, String order, String filter){
+        return ok(
+                views.html.viewExams.render(
+                        Exam.page(page, 10, sortBy, order, filter),
+                        sortBy, order, filter
+                ));
     }
 
     /**

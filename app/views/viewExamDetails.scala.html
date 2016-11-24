@@ -1,0 +1,17 @@
+@(id: Long, examForm: Form[Exam], questions: Set[Question])
+
+@import b3.vertical.fieldConstructor  // Declares a vertical field constructor as default
+@import helper._
+
+@main(title = "Edit Exam") {
+
+    <div class="container">
+
+        <h2>@examForm("name").value()</h2> </br>
+
+        @for(question <- questions){
+            <tr>
+                @question.name </br>
+            </tr>
+}
+}

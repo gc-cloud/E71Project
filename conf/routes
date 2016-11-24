@@ -15,7 +15,7 @@ GET     /generateExams              controllers.ExamController.generateExams(p:I
 GET     /viewExams                  controllers.ExamController.viewExams(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
 POST    /viewExams                  controllers.ExamController.save()
 GET     /signup                     controllers.HomeController.signup
-GET     /viewExams/:id              controllers.ExamController.edit(id:Long)
+GET     /viewExams/:id              controllers.ExamController.view(id:Long)
 GET     /listExams                  controllers.ExamController.list(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
 
 # List Questions

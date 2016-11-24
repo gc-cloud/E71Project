@@ -98,16 +98,18 @@ public class ExamController extends Controller {
     }
 
     /**
-     * Display the 'edit form' of a existing Question.
+     * Display the 'view detail' of a existing Question.
      *
      * @param id Id of the computer to edit
      */
-    public Result edit(Long id) {
+    public Result view(Long id) {
+        Exam exam = Exam.find.byId(id);
+        Set<Question> questions = exam.questions;
         Form<Exam> examForm = formFactory.form(Exam.class).fill(
                 Exam.find.byId(id)
         );
         return ok(
-                views.html.editExamForm.render(id,examForm)
+                views.html.viewExamDetails.render(id,examForm,questions)
         );
     }
 

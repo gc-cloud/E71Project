@@ -85,7 +85,9 @@ public class ExamController extends Controller {
         exam.questions = questions;
         exam.save();
         flash("success", "Exam " + examForm.get().name + " has been created");
-        return GO_HOME;
+        return ok(
+                views.html.viewExamDetails.render(exam.id,examForm,questions)
+        );
     }
 
     /**
@@ -105,9 +107,7 @@ public class ExamController extends Controller {
     public Result view(Long id) {
         Exam exam = Exam.find.byId(id);
         Set<Question> questions = exam.questions;
-        Form<Exam> examForm = formFactory.form(Exam.class).fill(
-                Exam.find.byId(id)
-        );
+        Form<Exam> examForm = formFactory.form(Exam.class).fill(exam);
         return ok(
                 views.html.viewExamDetails.render(id,examForm,questions)
         );

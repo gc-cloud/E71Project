@@ -1,3 +1,4 @@
+
 # --- First database schema
 
 # --- !Ups
@@ -17,6 +18,7 @@ create table question (
   answer3                   varchar(255),
   answer4                   varchar(255),
   correct_answer            varchar(255),
+  answer_description        varchar(255),
   constraint pk_question primary key (id))
 ;
 
@@ -40,10 +42,9 @@ create index ix_question_category_1 on question (category_id);
 
 # --- !Downs
 
-SET FOREIGN_KEY_CHECKS=0;
+SET REFERENTIAL_INTEGRITY FALSE;
 drop table if exists question;
 drop table if exists category;
 drop table if exists exam;
 drop table if exists exam_question;
-drop table if exists question_exam
-SET FOREIGN_KEY_CHECKS=1;
+SET REFERENTIAL_INTEGRITY TRUE;

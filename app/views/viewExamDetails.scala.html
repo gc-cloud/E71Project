@@ -1,41 +1,41 @@
 @(id: Long, examForm: Form[Exam], questions: Set[Question])
 
-@import b3.vertical.fieldConstructor  // Declares a vertical field constructor as default
-@import helper._
+    @import b3.vertical.fieldConstructor  // Declares a vertical field constructor as default
+    @import helper._
 
-@main(title = "View Exam") {
-    @if(flash.containsKey("success")) {
-        <div class="alert-message warning">
-            <strong>Done!</strong> @flash.get("success")<br>
+    @main(title = "View Exam") {
+        @if(flash.containsKey("success")) {
+            <div class="alert-message warning">
+                <strong>Done!</strong> @flash.get("success")<br>
+            </div>
+        }
+        <div class="container">
+
+            <h2>@examForm("name").value()</h2> </br>
+            <table>
+                      @for(question <- questions){
+                <dl>
+                    <dt>
+                        @question.name
+                    </dt>
+
+                    <dd>
+                        (1) @question.answer1
+                    </dd>
+                    <dd>
+                        (2) @question.answer2
+                    </dd>
+                    <dd>
+                        (3) @question.answer3
+                    </dd>
+                    <dd>
+                        (4) @question.answer4
+                    </dd>
+                    <dd>
+                        Correct Answer : @question.correct_answer
+                    </dd>
+                </dl>
+            }
+            </table>
         </div>
     }
-    <div class="container">
-
-        <h2>@examForm("name").value()</h2> </br>
-<table>
-        @for(question <- questions){
-            <dl>
-                <dt>
-                @question.name
-                </dt>
-
-            <dd>
-                (1) @question.answer1
-            </dd>
-                <dd>
-                (2) @question.answer2
-              </dd>
-                <dd>
-                (3) @question.answer3
-               </dd>
-                <dd>
-                (4) @question.answer4
-                </dd>
-                <dd>
-               Correct Answer : @question.correct_answer
-                </dd>
-</dl>
-}
-</table>
-    </div>
-}

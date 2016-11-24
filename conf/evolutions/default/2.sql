@@ -27,9 +27,4 @@ insert into question_exam (exam_id,question_id) values (101,4);
 
 # --- !Downs
 
-SET FOREIGN_KEY_CHECKS=0;
-delete from question;
-delete from category;
-delete from exam;
-delete from exam_question;
-SET FOREIGN_KEY_CHECKS=1;
+

@@ -46,5 +46,6 @@ SET REFERENTIAL_INTEGRITY FALSE;
 drop table if exists question;
 drop table if exists category;
 drop table if exists exam;
+drop table if exists question_exam;
 drop table if exists exam_question;
 SET REFERENTIAL_INTEGRITY TRUE;

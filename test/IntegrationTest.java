@@ -2,6 +2,7 @@ import org.junit.*;
 
 import play.mvc.*;
 import play.test.*;
+import play.twirl.api.Content;
 
 import static play.test.Helpers.*;
 import static org.junit.Assert.*;
@@ -20,6 +21,19 @@ public class IntegrationTest {
 //            browser.goTo("http://localhost:3333");
 //            assertTrue(browser.pageSource().contains("Your new application is ready."));
 //        });
+
+    }
+
+
+    @Test
+    public void testSomething() {
+        running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
+            browser.goTo("http://e71project-test-gccloud.boxfuse.io:9000/");
+            assertTrue(browser.pageSource().contains("Testorama"));
+        });
+
+
+
     }
 
 }

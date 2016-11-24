@@ -17,6 +17,7 @@ create table question (
   answer3                   varchar(255),
   answer4                   varchar(255),
   correct_answer            varchar(255),
+  answer_description        varchar(255),
   constraint pk_question primary key (id))
 ;
 

@@ -21,8 +21,11 @@ GET     /listExams                  controllers.ExamController.list(p:Int ?= 0, 
 # List Questions
 GET     /listQuestions              controllers.QuestionController.list(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
 
+GET     /addQuestion               controllers.QuestionController.create()
+
 # Add question
 GET     /questions/new              controllers.QuestionController.create()
+GET     /addQuestion               controllers.QuestionController.create()
 POST    /questions                  controllers.QuestionController.save()
 
 # Delete Questions

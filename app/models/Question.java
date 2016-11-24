@@ -35,6 +35,9 @@ public class Question extends Model{
     @Constraints.Required
     public String correct_answer;
 
+    @Constraints.Required
+    public String answer_description;
+
     //TODO: this should be mandatory
     @Constraints.Required
     @ManyToOne

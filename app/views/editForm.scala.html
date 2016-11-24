@@ -25,6 +25,8 @@
                 '_showConstraints -> false
             )
 
+            @b3.text(questionForm("answer_description"), '_label -> "Answer Description", '_help -> "")
+
             @b3.select(
                 questionForm("category.id"),
                 options(Category.options),

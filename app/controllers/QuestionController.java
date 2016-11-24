@@ -116,6 +116,7 @@ public class QuestionController extends Controller {
                 savedQuestion.answer3 = newQuestionData.answer3;
                 savedQuestion.answer4 = newQuestionData.answer4;
                 savedQuestion.correct_answer = newQuestionData.correct_answer;
+                savedQuestion.answer_description = newQuestionData.answer_description;
 
                 savedQuestion.update();
                 flash("success", "Question " + questionForm.get().name + " has been updated");

@@ -9,6 +9,12 @@ create table category (
   constraint pk_category primary key (id)
 );
 
+create table exam (
+  id                            bigint auto_increment not null,
+  name                          varchar(255),
+  constraint pk_exam primary key (id)
+);
+
 create table question (
   id                            bigint auto_increment not null,
   name                          varchar(255),
@@ -31,6 +37,8 @@ alter table question drop foreign key fk_question_category_id;
 drop index ix_question_category_id on question;
 
 drop table if exists category;
+
+drop table if exists exam;
 
 drop table if exists question;
 

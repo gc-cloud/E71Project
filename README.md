@@ -6,7 +6,7 @@
 [![Build Status](https://travis-ci.org/gc-cloud/E71Project.svg?branch=master)](https://travis-ci.org/gc-cloud/E71Project)
 
 ###Project Part 1 Criteria
-_--------------------------------------------------------------------------------------------------------------------_
+__________________________________________________________________________________________________________________
 
 #### You have self-organized into a team. You have joined one of the "Scrum Teams" groups in Canvas. 2.0 pts
 >  * Joined [Project Team 1](https://canvas.harvard.edu/groups/19345)

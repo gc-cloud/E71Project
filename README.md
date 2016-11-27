@@ -436,10 +436,10 @@ Team updates
 >  We have two batteries of tests 
 > * Application Testing runs unit tests in the development environment
 
- ![Alt text](readmeImages/sprint2_application_tests.png?raw=true "Scrum session 11/19/2016")
+ ![Alt text](sprint2_application_tests.png "Sprint 2 Application Tests")
 > * Integration Testing runs tests in the production -like environment
 
- ![Alt text](readmeImages/sprint2_integration_tests.png?raw=true "Scrum session 11/19/2016")
+ ![Alt text](readmeImages/sprint2_integration_tests.pn "Sprint 2 Integration Tests")
 
 
 

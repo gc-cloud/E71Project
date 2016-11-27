@@ -320,9 +320,7 @@ ________________________________________________________________________________
 
 #### You pulled stories into your sprint backlog. You pulled stories from the top of your product backlog. The aggregate size of the stories does not exceed your forecast. Only Development Team members participated in this activity.
 
-> [Sprint 2 Backlog in Google Docs - Sprint 2 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
-  
-> Stories are highlighted on our Trello board with Capital letters and stories / tasks color coded to provide visual clues   
+> [Sprint 2 Backlog in Google Docs - Sprint 2 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing) 
  
 > The aggregate size of the stories that were pulled from the project backlog to the second sprint does not exceed total forecast.  Five of the 13 MPV PBIs
 > were selected for second sprint.  Only Development Team Members participated in pulling stories into sprint backlog.
@@ -353,6 +351,8 @@ ________________________________________________________________________________
 
 #### Your sprint backlog, including both stories and tasks, is represented in a kanban board. The kanban board, or a URL of the kanban board, is documented in your README. Richard can view the kanban board.
 
+> Stories are highlighted on our Trello board with Capital letters and stories / tasks color coded to provide visual cues  
+
 > [Kanban Board on Trello.com](https://trello.com/b/ctBXfXtq/testorama)
 
 #### You have a sprint burndown chart. On the x-axis, you display time markers in units of 1 day. On the y-axis, you display story points remaining to get done. There is a linear curve descending from left to right; the leftmost point of the curve is number of story points in your sprint at sprint day 1; the rightmost point is 0 story points remaining on the last day of the sprint. The burndown chart, or the URL of the burndown chart, is document in your README. Richard can view the burndown chart.
@@ -362,7 +362,7 @@ ________________________________________________________________________________
 #### You have conducted multiple Daily Scrums. You have evidence of at least one daily scrum documented in your README.
 
 > We conducted daily scrums Nov 19th, Nov 20th, Nov 21st, Nov 23rd, and a sprint review on Nov 27th.
-> Each member responded to the three questions on each daily scrum.  A representative sample is below:
+> Each member responded to the three questions on each daily scrum.  Representative samples for the sessions on the 19th and 23rd below:
  
 > **Scrum 11/19/2016**
 >   

@@ -2,10 +2,10 @@
 ## Testorama.online (A Fair Weather Software Product)   
 ## Harvard Extension School    
 
-### Build Status from Travis CI
+### Continuous Integration Build Status from Travis CI
 [![Build Status](https://travis-ci.org/gc-cloud/E71Project.svg?branch=master)](https://travis-ci.org/gc-cloud/E71Project)
 
-###Project Part 1 Criteria
+_###Project Part 1 Criteria_
 
 #### You have self-organized into a team. You have joined one of the "Scrum Teams" groups in Canvas. 2.0 pts
 >  * Joined [Project Team 1](https://canvas.harvard.edu/groups/19345)
@@ -117,7 +117,7 @@
 
 
 
-### Project Part 2 / Sprint 1 Criteria
+_###Project Part 2 / Sprint 1 Criteria_
 
 #### You have a forecast of how many story points your team can complete during the sprint. The forecast is documented in your README. 1.0 pts
 
@@ -267,8 +267,6 @@ Team updates
 ![Alt text](readmeImages/JunitEvidence.png?raw=true )
 
 
-
-
 #### What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts
 > See Above
 
@@ -300,7 +298,7 @@ Team updates
 > We had Luis Hidalgo, our Product Owner, attend our sprint review.  Per his review, there did not need to be changes to the MVP backlog at this time.
 
 
-### Project Part 3 / Sprint 2 Criteria
+_###Project Part 3 / Sprint 2 Criteria_
 
 #### You have a forecast of how many story points your team can complete during the sprint. Your forecast is based on the Yesterday's Weather forecasting pattern. The forecast is documented in your README.
 > Yesterday's Weather is a scrum forecasting method based on the idea that yesterday's weather is likely the best predictor of today's weather.  This notion is applied to 
@@ -318,6 +316,8 @@ Team updates
 
 > [Sprint 2 Backlog in Google Docs - Sprint 2 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
   
+> Stories are highlighted on our Trello board with Capital letters and stories / tasks color coded to provide visual clues   
+ 
 > The aggregate size of the stories that were pulled from the project backlog to the second sprint does not exceed total forecast.  Six of the 13 MPV PBIs
 > were selected for second sprint.  Only Development Team Members participated in pulling stories into sprint backlog.
 
@@ -343,6 +343,8 @@ Team updates
 
 #### You decomposed stories into tasks. The tasks are clearly listed in your sprint backlog.
 
+> Stories and their corresponding tasks are grouped together in the backlog
+
 > [Sprint 2 Backlog in Google Docs - Sprint 2 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
 
 #### Your sprint backlog, including both stories and tasks, is represented in a kanban board. The kanban board, or a URL of the kanban board, is documented in your README. Richard can view the kanban board.
@@ -355,13 +357,67 @@ Team updates
 
 #### You have conducted multiple Daily Scrums. You have evidence of at least one daily scrum documented in your README.
 
-> See below for notes/evidence of our daily scrums.  The following are addressed by each person in each daily scrum:
-
->> 1) What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities.
-
->> 2) What will you do in the next 24 hours to help the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members plan to do which activities.
-
->> 3) Do you see any impediment that prevents me or the Development Team from meeting the Sprint Goal? What are the impediments? What is your impediment removal plan?
+> We conducted daily scrums Nov 19th, Nov 20th, Nov 21st, Nov 23rd, and a sprint review on Nov 27th.
+> Each member responded to the three questions on each daily scrum.  A representative sample is below:
+ 
+ **Scrum 11/19/2016**
+ <br />
+ ![Alt text](readmeImages/scrum20161119.png?raw=true "Scrum session 11/13/2016")
+ <br />
+ Team updates
+ >    * Alberto Garza <br />
+ >Done : Programmed. Edited evolutions<br />
+ >Will do : Enhance Trello board. Continue learning Play Framework<br />
+ >Block : None
+ >    * Ran Zhang<br />
+ >Done : Programmed. <br />
+ >Will do : Investigate many-to-many save<br />
+ >Block : No
+ >    * Rafael Flores<br />
+ >Done : Added checklist to question selection.<br />
+ >Will do : Continue learning Play Framework<br />
+ >Block : No
+ >    * Samuel Chao<br />
+ >Done : Programmed. <br />
+ >Will do : Continue learning play framework<br />
+ >Block : IntelliJ Freezing
+ >    * Gerardo Castaneda<br />
+ > Done : Setup initial CI/CD. Programmed.  <br />
+ > Will do : Contact Travis support to solve deployment issue.<br />
+ > Block : Travis not deploying to AWS server. 
+ 
+ > Impediment removal plan:  
+ > 1) GC to read documentation on CI/ CD touchpoints
+ > between boxfuse and Travis. Contact Travis and BoxFuse support to get sample 
+ > instructions specific to Play Framework.   
+ 
+ > 2) Sam to reinstall IntelliJ IDEA and re-import project as Play project
+ 
+**Scrum 11/23/2016**
+<br />
+![Alt text](readmeImages/scrum20161123.png?raw=true "Scrum session 11/13/2016")
+<br />
+Team updates
+>    * Alberto Garza <br />
+>Done : Helped with environment issues. Programmed. Maintained Trello Board<br />
+>Will do : Continue learning Play Framework<br />
+>Block : None
+>    * Ran Zhang<br />
+>Done : Programmed. Solved many-to-many save.<br />
+>Will do : Continue learning Play Framework<br />
+>Block : No
+>    * Rafael Flores<br />
+>Done : Programmed.<br />
+>Will do : Continue learning Play Framework<br />
+>Block : No
+>    * Samuel Chao<br />
+>Done : Programmed. Solved IntelliJ impediment from 11/19 <br />
+>Will do : Clean up menus and code<br />
+>Block : None
+>    * Gerardo Castaneda<br />
+> Done : Contacted Travis & BoxFuse support and solved CI/CD impediment from 11/19 . CI/CD is now working<br />
+> Will do : Investigate Travis conf file settings.<br />
+> Block : None
 
 #### Update your sprint backlog task board and burndown chart. Make sure the URLs or images are available in your GitHub repo's README.
 
@@ -373,34 +429,58 @@ Team updates
 
 #### There is evidence that you paired or mobbed on your code. The evidence could be a photo or video of your team working together, or it could be some other kind of evidence. The evidence is included in your README.
 
-> See above screenshots of each session in which we mob programmed.
+> See above screenshots of each session in which we mob programmed.  Also, Github commits show evidence of mobprogramming sessions
 
 #### There is evidence that you are building your product test-first. There are at least 2 BDD / A-TDD test in your test suite (at least 1 new one this sprint), and it passes. There are at least 20 unit tests in your test suite (at least 10 new unit tests this sprint), and they all pass.
 
+>  ADD SCREENSHOT WITH TESTS PASSING 
+
 #### Your team conducts a Sprint Review.
 
+
+>We did a sprint review after our last scrum session on Nov 27th. We agreed that we did a good job on the Sprint 2 
+>because we finished slightly ahead of time despite having some initial impediments. Other positives  during the 
+>sprint were  learning about Integration Testing and CI/CD. In the next sprint we are planning to complete the remainder of the 
+>MVP backlog. 
+
 #### Your product increment is working software.
+> Our product increment works as expected and includes functionality to create questions, assign questions to exams, and 
+> display exams.  It also shows sample seed data loaded using Play's Evolutions.
 
 > Check out [www.testorama.online](http://www.testorama.online)
 
 #### At least one stakeholder attends your sprint review. You revise your product backlog based on the feedback you receive.
+>Luis Hidalgo attended the review as an external stakeholder. Per his feedback, the product is on track and 
+> no changes to the MVP backlog are needed at this time. 
+
+![Alt text](readmeImages/SprintReview.png?raw=true )
 
 #### You have a Continuous Integration system running. The CI system automatically builds your code every time you merge to master. The CI system executes your tests every time it builds the code.
 ![Alt text](readmeImages/CI_1_Pass.png?raw=true )
-> Using Travis CI and BoxFuse for Continuous Integration.  Build Status is Passed
+> We are using Travis CI and BoxFuse for Continuous Integration and Continuous Deployment to Amazon Web Services.  
+> The screenshot below shows Travis' report of Build Status  Passed.  The Build Status is also included at the beginning 
+> of this Readme File
 
+[![Build Status](https://travis-ci.org/gc-cloud/E71Project.svg?branch=master)](https://travis-ci.org/gc-cloud/E71Project)
+
+> The screenshot below shows all tests were executed successfully by Travis CI.  
 
 ![Alt text](readmeImages/CI_2_TestsPass.png?raw=true )
-> All tests were executed successfully by Travis CI
 
 #### You have a Continuous Deployment system running. The CD system deploys your software to a production-like environment. The CD system executes additional tests of your software in the production-like environment. The CD system deploys your software to a live production environment. Your live production environment works properly.
 
-![Alt text](readmeImages/CI_3_Deploy_To_Test.png?raw=true )
+> Travis / Deploys our solution to a test environment hosted at AWS ( this is our production-like environment).  
+
+> The screenshot below shows the two AWS environments on the BoxFuse console
+
+![Alt text](readmeImages/BoxFuse.png?raw=true )
+
 > After tests are completed.  Deployment starts automatically
 
 ![Alt text](readmeImages/CI_4_Test_Env.png?raw=true )
+
 > The changes are deployed to a production like environment and accessible at
-> [http://e71project-test-gccloud.boxfuse.io:9000/](http://e71project-test-gccloud.boxfuse.io:9000/)
+> [http://e71project-test-gccloud.boxfuse.io/](http://e71project-test-gccloud.boxfuse.io/)
 
 ### Credits
 > Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.

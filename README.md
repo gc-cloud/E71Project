@@ -363,11 +363,11 @@ ________________________________________________________________________________
 > We conducted daily scrums Nov 19th, Nov 20th, Nov 21st, Nov 23rd, and a sprint review on Nov 27th.
 > Each member responded to the three questions on each daily scrum.  A representative sample is below:
  
- **Scrum 11/19/2016**
- <br />
- ![Alt text](readmeImages/scrum20161119.png?raw=true "Scrum session 11/19/2016")
- <br />
- Team updates
+> **Scrum 11/19/2016**
+>   
+> ![Alt text](readmeImages/scrum20161119.png?raw=true "Scrum session 11/19/2016")
+>   
+> Team updates
  >    * Alberto Garza <br />
  >Done : Programmed. Edited evolutions<br />
  >Will do : Enhance Trello board. Continue learning Play Framework<br />
@@ -393,14 +393,14 @@ ________________________________________________________________________________
  > 1) GC to read documentation on CI/ CD touchpoints
  > between boxfuse and Travis. Contact Travis and BoxFuse support to get sample 
  > instructions specific to Play Framework.   
- 
+ >   
  > 2) Sam to reinstall IntelliJ IDEA and re-import project as Play project
  
-**Scrum 11/23/2016**
-<br />
-![Alt text](readmeImages/scrum20161123.png?raw=true "Scrum session 11/33/2016")
-<br />
-Team updates
+> **Scrum 11/23/2016**
+>   
+>   ![Alt text](readmeImages/scrum20161123.png?raw=true "Scrum session 11/33/2016")
+>    
+> Team updates
 >    * Alberto Garza <br />
 >Done : Helped with environment issues. Programmed. Maintained Trello Board<br />
 >Will do : Continue learning Play Framework<br />
@@ -438,12 +438,12 @@ Team updates
 
 >  We have two batteries of tests 
 > * Application Testing runs unit tests in the development environment
-   
-![Alt text](readmeImages/sprint2_application_tests.png?raw=true)
+>      
+> ![Alt text](readmeImages/sprint2_application_tests.png?raw=true)
    
 > * Integration Testing runs tests in the production -like environment
-   
-![Alt text](readmeImages/sprint2_integration_tests.png?raw=true )
+>      
+> ![Alt text](readmeImages/sprint2_integration_tests.png?raw=true )
    
 
 
@@ -463,11 +463,11 @@ Team updates
 #### At least one stakeholder attends your sprint review. You revise your product backlog based on the feedback you receive.
 >Luis Hidalgo attended the review as an external stakeholder. Per his feedback, the product is on track and 
 > no changes to the MVP backlog are needed at this time. 
-
-![Alt text](readmeImages/SprintReview.png?raw=true )
+>   
+> ![Alt text](readmeImages/SprintReview.png?raw=true )
 
 #### You have a Continuous Integration system running. The CI system automatically builds your code every time you merge to master. The CI system executes your tests every time it builds the code.
-![Alt text](readmeImages/CI_1_Pass.png?raw=true )
+> ![Alt text](readmeImages/CI_1_Pass.png?raw=true )
 > We are using Travis CI and BoxFuse for Continuous Integration and Continuous Deployment to Amazon Web Services.  
 > The screenshot below shows Travis' report of Build Status  Passed.  The Build Status is also included at the beginning 
 > of this Readme File
@@ -475,20 +475,20 @@ Team updates
 [![Build Status](https://travis-ci.org/gc-cloud/E71Project.svg?branch=master)](https://travis-ci.org/gc-cloud/E71Project)
 
 > The screenshot below shows all tests were executed successfully by Travis CI.  
-
-![Alt text](readmeImages/CI_2_TestsPass.png?raw=true )
+>   
+> ![Alt text](readmeImages/CI_2_TestsPass.png?raw=true )
 
 #### You have a Continuous Deployment system running. The CD system deploys your software to a production-like environment. The CD system executes additional tests of your software in the production-like environment. The CD system deploys your software to a live production environment. Your live production environment works properly.
 
 > Travis / Deploys our solution to a test environment hosted at AWS ( this is our production-like environment).  
 
 > The screenshot below shows the two AWS environments on the BoxFuse console
-
-![Alt text](readmeImages/BoxFuse.png?raw=true )
+>   
+> ![Alt text](readmeImages/BoxFuse.png?raw=true )
 
 > After tests are completed.  Deployment starts automatically
-
-![Alt text](readmeImages/CI_4_Test_Env.png?raw=true )
+>   
+> ![Alt text](readmeImages/CI_4_Test_Env.png?raw=true )
 
 > The changes are deployed to a production like environment and accessible at
 > [http://e71project-test-gccloud.boxfuse.io/](http://e71project-test-gccloud.boxfuse.io/)

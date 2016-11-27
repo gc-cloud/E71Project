@@ -311,10 +311,11 @@ ________________________________________________________________________________
 > One way to use prior sprints to predict how many points will be completed in the upcoming sprint is to take the average velocity for the past 3 sprints.  However, given 
 > that we've had only one sprint and the current sprint is the second, we will use the points completed in the first sprint only.  All team members participated in the
 > first sprint and all team members will continue to participate in the second sprint, so no need to adjust the forecast by team size.  There were 151 points completed within 2 weeks 
-> in the first sprint by 5 team members.  Subsequently, we are choosing to tackle the next 144 points (PBI #s 5-10) with the same 5 team members across the next 2 weeks.
-> The 144 points is very close to the 151 points from the first sprint, and encapsulates all the tasks of the next 6 backlog items without splitting any of the items.
+> in the first sprint by 5 team members.  However, last sprint there were more days available to work than this 2nd sprint because of the Thanksgiving holiday where 
+> some group members will be unavailable for several days around Thanksgiving.  Subsequently, we are choosing to tackle the next 102 points (PBI #s 5-9) with the same 5 team members across the next 2 weeks.
+> The decrease in points for the 2nd sprint is to ensure we get everything done in the reduced number of work days.  The Sprint 2 encapsulates all the tasks of the next 5 backlog items without splitting any of the items.
 
-> **In summary, using Yesterday's Forecast method, our forecast for Sprint 2 is 144 story points out of 373 total in MVP backlog, consisting of 6 PBIs out of 13.**
+> **In summary, using Yesterday's Forecast method, our forecast for Sprint 2 is 102 story points out of 373 total in MVP backlog, consisting of 5 PBIs out of 13.**
 
 #### You pulled stories into your sprint backlog. You pulled stories from the top of your product backlog. The aggregate size of the stories does not exceed your forecast. Only Development Team members participated in this activity.
 
@@ -322,7 +323,7 @@ ________________________________________________________________________________
   
 > Stories are highlighted on our Trello board with Capital letters and stories / tasks color coded to provide visual clues   
  
-> The aggregate size of the stories that were pulled from the project backlog to the second sprint does not exceed total forecast.  Six of the 13 MPV PBIs
+> The aggregate size of the stories that were pulled from the project backlog to the second sprint does not exceed total forecast.  Five of the 13 MPV PBIs
 > were selected for second sprint.  Only Development Team Members participated in pulling stories into sprint backlog.
 
 #### All of the stories in your sprint backlog have size less than half your forecast velocity. If you noticed PBIs that are too large to get done in a sprint, you refined them by splitting them into smaller stories and estimating the smaller stories.
@@ -333,15 +334,13 @@ ________________________________________________________________________________
 
 > 6) Delete Capability - 8
 
-> 7) Randomized Selection - 42
+> 7) Manual Selection - 26
 
-> 8) Manual Selection - 26
+> 8) Save Exams - 34
 
-> 9) Save Exams - 34
+> 9) View Exams - 13
 
-> 10) View Exams - 13
-
-> Total sprint backlog size: 144
+> Total sprint backlog size: 102
 
 > None of the PBIs were too large to get done in a sprint, so no need to split them into smaller stories.
 

@@ -5,6 +5,7 @@
 ### Continuous Integration Build Status from Travis CI
 [![Build Status](https://travis-ci.org/gc-cloud/E71Project.svg?branch=master)](https://travis-ci.org/gc-cloud/E71Project)
 
+__________________________________________________________________________________________________________________
 ###Project Part 1 Criteria
 __________________________________________________________________________________________________________________
 
@@ -117,7 +118,7 @@ ________________________________________________________________________________
 >    * Gerardo Castaneda - Developer
 
 
-
+__________________________________________________________________________________________________________________
 ###Project Part 2 / Sprint 1 Criteria
 __________________________________________________________________________________________________________________
 
@@ -183,11 +184,11 @@ ________________________________________________________________________________
 
 #### You have conducted multiple Daily Scrums. You have evidence of at least one daily scrum documented in your README. 5.0 pts
 
-**Scrum 11/8/2016**
+> **Scrum 11/8/2016**
 
-![Alt text](readmeImages/scrum20161108.png?raw=true "Scrum session 11/8/2106")
+> ![Alt text](readmeImages/scrum20161108.png?raw=true "Scrum session 11/8/2106")
 
-Team updates
+> Team updates
 >    * Alberto Garza <br />
 >Done : Setup the DEV environment and re-install IntelliJ<br />
 >Will do : Research db connect<br />
@@ -210,11 +211,11 @@ Team updates
 > Block : No
 
 
-**Scrum 11/12/2016**
-<br />
-![Alt text](readmeImages/scrum20161112.png?raw=true "Scrum session 11/12/2016")
-<br />
-Team updates
+> **Scrum 11/12/2016**
+>      
+> ![Alt text](readmeImages/scrum20161112.png?raw=true "Scrum session 11/12/2016")
+>   
+> Team updates
 >    * Alberto Garza <br />
 >Done : Research on database connection and examples. Mob programmed add/update/delete question functionality.<br />
 >Will do : Research into persistent database<br />
@@ -237,11 +238,11 @@ Team updates
 > Block : None
 
 
-**Scrum 11/13/2016**
-<br />
-![Alt text](readmeImages/scrum20161113.png?raw=true "Scrum session 11/13/2016")
-<br />
-Team updates
+> **Scrum 11/13/2016**
+>   
+> ![Alt text](readmeImages/scrum20161113.png?raw=true "Scrum session 11/13/2016")
+>   
+> Team updates
 >    * Alberto Garza <br />
 >Done : Helped with environment issues.<br />
 >Will do : prepare sprint retrospective<br />
@@ -264,9 +265,9 @@ Team updates
 > Block : None
 
 
-**Unit Test Evidence - All Tests Passed**
-<br />
-![Alt text](readmeImages/JunitEvidence.png?raw=true )
+> **Unit Test Evidence - All Tests Passed**
+>   
+> ![Alt text](readmeImages/JunitEvidence.png?raw=true )
 
 
 #### What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts
@@ -299,7 +300,7 @@ Team updates
 #### At least one stakeholder attends your sprint review. You revise your product backlog based on the feedback you receive. 2.0 pts
 > We had Luis Hidalgo, our Product Owner, attend our sprint review.  Per his review, there did not need to be changes to the MVP backlog at this time.
 
-
+__________________________________________________________________________________________________________________
 ###Project Part 3 / Sprint 2 Criteria
 __________________________________________________________________________________________________________________
 
@@ -445,9 +446,6 @@ ________________________________________________________________________________
 >      
 > ![Alt text](readmeImages/sprint2_integration_tests.png?raw=true )
    
-
-
-
 #### Your team conducts a Sprint Review.
 >We did a sprint review after our last scrum session on Nov 27th. We agreed that we did a good job on the Sprint 2 
 >because we finished slightly ahead of time despite having some initial impediments. Other positives  during the 
@@ -472,7 +470,7 @@ ________________________________________________________________________________
 > The screenshot below shows Travis' report of Build Status  Passed.  The Build Status is also included at the beginning 
 > of this Readme File
 
-[![Build Status](https://travis-ci.org/gc-cloud/E71Project.svg?branch=master)](https://travis-ci.org/gc-cloud/E71Project)
+> [![Build Status](https://travis-ci.org/gc-cloud/E71Project.svg?branch=master)](https://travis-ci.org/gc-cloud/E71Project)
 
 > The screenshot below shows all tests were executed successfully by Travis CI.  
 >   

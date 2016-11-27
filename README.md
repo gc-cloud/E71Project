@@ -5,7 +5,8 @@
 ### Continuous Integration Build Status from Travis CI
 [![Build Status](https://travis-ci.org/gc-cloud/E71Project.svg?branch=master)](https://travis-ci.org/gc-cloud/E71Project)
 
-_###Project Part 1 Criteria_
+###Project Part 1 Criteria
+_--------------------------------------------------------------------------------------------------------------------_
 
 #### You have self-organized into a team. You have joined one of the "Scrum Teams" groups in Canvas. 2.0 pts
 >  * Joined [Project Team 1](https://canvas.harvard.edu/groups/19345)
@@ -117,7 +118,8 @@ _###Project Part 1 Criteria_
 
 
 
-_###Project Part 2 / Sprint 1 Criteria_
+###Project Part 2 / Sprint 1 Criteria
+_--------------------------------------------------------------------------------------------------------------------_
 
 #### You have a forecast of how many story points your team can complete during the sprint. The forecast is documented in your README. 1.0 pts
 
@@ -298,7 +300,8 @@ Team updates
 > We had Luis Hidalgo, our Product Owner, attend our sprint review.  Per his review, there did not need to be changes to the MVP backlog at this time.
 
 
-_###Project Part 3 / Sprint 2 Criteria_
+###Project Part 3 / Sprint 2 Criteria
+_--------------------------------------------------------------------------------------------------------------------_
 
 #### You have a forecast of how many story points your team can complete during the sprint. Your forecast is based on the Yesterday's Weather forecasting pattern. The forecast is documented in your README.
 > Yesterday's Weather is a scrum forecasting method based on the idea that yesterday's weather is likely the best predictor of today's weather.  This notion is applied to 

@@ -437,12 +437,15 @@ ________________________________________________________________________________
 
 #### There is evidence that you are building your product test-first. There are at least 2 BDD / A-TDD test in your test suite (at least 1 new one this sprint), and it passes. There are at least 20 unit tests in your test suite (at least 10 new unit tests this sprint), and they all pass.
 
->  We have two batteries of tests 
-> * Application Testing runs unit tests in the development environment
+> For Sprint 2 we added several additional tests. A BDD approach was included in new tests such as testCategorySave() 
+> and testQuestionNameSave(). Reference:  [CodeUtopia : What’s the difference between Unit Testing, TDD and BDD?](https://codeutopia.net/blog/2015/03/01/unit-testing-tdd-and-bdd/)
+>   
+>  We have two batteries of tests: 
+> * Application Testing runs unit tests in the development environment.  All tests passed
 >      
 > ![Alt text](readmeImages/sprint2_application_tests.png?raw=true)
    
-> * Integration Testing runs tests in the production -like environment
+> * Integration Testing runs tests in the production-like environment.  All tests passed.
 >      
 > ![Alt text](readmeImages/sprint2_integration_tests.png?raw=true )
    

@@ -119,7 +119,7 @@ ________________________________________________________________________________
 
 
 ###Project Part 2 / Sprint 1 Criteria
-_--------------------------------------------------------------------------------------------------------------------_
+__________________________________________________________________________________________________________________
 
 #### You have a forecast of how many story points your team can complete during the sprint. The forecast is documented in your README. 1.0 pts
 
@@ -301,7 +301,7 @@ Team updates
 
 
 ###Project Part 3 / Sprint 2 Criteria
-_--------------------------------------------------------------------------------------------------------------------_
+__________________________________________________________________________________________________________________
 
 #### You have a forecast of how many story points your team can complete during the sprint. Your forecast is based on the Yesterday's Weather forecasting pattern. The forecast is documented in your README.
 > Yesterday's Weather is a scrum forecasting method based on the idea that yesterday's weather is likely the best predictor of today's weather.  This notion is applied to 
@@ -438,18 +438,17 @@ Team updates
 
 >  We have two batteries of tests 
 > * Application Testing runs unit tests in the development environment
-
- ![Alt text](sprint2_application_tests.png "Sprint 2 Application Tests")
+   
+![Alt text](readmeImages/sprint2_application_tests.png?raw=true)
+   
 > * Integration Testing runs tests in the production -like environment
-
- ![Alt text](readmeImages/sprint2_integration_tests.pn "Sprint 2 Integration Tests")
-
+   
+![Alt text](readmeImages/sprint2_integration_tests.png?raw=true )
+   
 
 
 
 #### Your team conducts a Sprint Review.
-
-
 >We did a sprint review after our last scrum session on Nov 27th. We agreed that we did a good job on the Sprint 2 
 >because we finished slightly ahead of time despite having some initial impediments. Other positives  during the 
 >sprint were  learning about Integration Testing and CI/CD. In the next sprint we are planning to complete the remainder of the 

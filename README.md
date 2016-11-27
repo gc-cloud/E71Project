@@ -362,7 +362,7 @@ _###Project Part 3 / Sprint 2 Criteria_
  
  **Scrum 11/19/2016**
  <br />
- ![Alt text](readmeImages/scrum20161119.png?raw=true "Scrum session 11/13/2016")
+ ![Alt text](readmeImages/scrum20161119.png?raw=true "Scrum session 11/19/2016")
  <br />
  Team updates
  >    * Alberto Garza <br />
@@ -395,7 +395,7 @@ _###Project Part 3 / Sprint 2 Criteria_
  
 **Scrum 11/23/2016**
 <br />
-![Alt text](readmeImages/scrum20161123.png?raw=true "Scrum session 11/13/2016")
+![Alt text](readmeImages/scrum20161123.png?raw=true "Scrum session 11/33/2016")
 <br />
 Team updates
 >    * Alberto Garza <br />
@@ -433,7 +433,16 @@ Team updates
 
 #### There is evidence that you are building your product test-first. There are at least 2 BDD / A-TDD test in your test suite (at least 1 new one this sprint), and it passes. There are at least 20 unit tests in your test suite (at least 10 new unit tests this sprint), and they all pass.
 
->  ADD SCREENSHOT WITH TESTS PASSING 
+>  We have two batteries of tests 
+> * Application Testing runs unit tests in the development environment
+
+ ![Alt text](readmeImages/sprint2_application_tests.png?raw=true "Scrum session 11/19/2016")
+> * Integration Testing runs tests in the production -like environment
+
+ ![Alt text](readmeImages/sprint2_integration_tests.png?raw=true "Scrum session 11/19/2016")
+
+
+
 
 #### Your team conducts a Sprint Review.
 

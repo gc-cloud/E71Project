@@ -2,10 +2,10 @@
 ## Testorama.online (A Fair Weather Software Product)   
 ## Harvard Extension School    
 
-### Build Status from Travis CI
+### Continuous Integration Build Status from Travis CI
 [![Build Status](https://travis-ci.org/gc-cloud/E71Project.svg?branch=master)](https://travis-ci.org/gc-cloud/E71Project)
 
-###Project Part 1 Criteria
+###_Project Part 1 Criteria_
 
 #### You have self-organized into a team. You have joined one of the "Scrum Teams" groups in Canvas. 2.0 pts
 >  * Joined [Project Team 1](https://canvas.harvard.edu/groups/19345)
@@ -117,7 +117,7 @@
 
 
 
-### Project Part 2 / Sprint 1 Criteria
+### _Project Part 2 / Sprint 1 Criteria_
 
 #### You have a forecast of how many story points your team can complete during the sprint. The forecast is documented in your README. 1.0 pts
 
@@ -267,8 +267,6 @@ Team updates
 ![Alt text](readmeImages/JunitEvidence.png?raw=true )
 
 
-
-
 #### What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts
 > See Above
 
@@ -300,7 +298,7 @@ Team updates
 > We had Luis Hidalgo, our Product Owner, attend our sprint review.  Per his review, there did not need to be changes to the MVP backlog at this time.
 
 
-### Project Part 3 / Sprint 2 Criteria
+### _Project Part 3 / Sprint 2 Criteria_
 
 #### You have a forecast of how many story points your team can complete during the sprint. Your forecast is based on the Yesterday's Weather forecasting pattern. The forecast is documented in your README.
 > Yesterday's Weather is a scrum forecasting method based on the idea that yesterday's weather is likely the best predictor of today's weather.  This notion is applied to 
@@ -364,7 +362,7 @@ Team updates
  
  **Scrum 11/19/2016**
  <br />
- ![Alt text](readmeImages/scrum20161113.png?raw=true "Scrum session 11/13/2016")
+ ![Alt text](readmeImages/scrum20161119.png?raw=true "Scrum session 11/13/2016")
  <br />
  Team updates
  >    * Alberto Garza <br />
@@ -396,7 +394,7 @@ Team updates
  
 **Scrum 11/23/2016**
 <br />
-![Alt text](readmeImages/scrum20161113.png?raw=true "Scrum session 11/13/2016")
+![Alt text](readmeImages/scrum20161123.png?raw=true "Scrum session 11/13/2016")
 <br />
 Team updates
 >    * Alberto Garza <br />
@@ -445,7 +443,6 @@ Team updates
 >MVP backlog. 
 
 #### Your product increment is working software.
-
 > Our product increment works as expected and includes functionality to create questions, assign questions to exams, and 
 > display exams.  It also shows sample seed data loaded using Play's Evolutions.
 
@@ -471,8 +468,9 @@ Team updates
 
 #### You have a Continuous Deployment system running. The CD system deploys your software to a production-like environment. The CD system executes additional tests of your software in the production-like environment. The CD system deploys your software to a live production environment. Your live production environment works properly.
 
-> Travis / Deploys our solution to a test environment hosted at AWS.  The screenshot below shows the two AWS environments
-> on the BoxFuse console
+> Travis / Deploys our solution to a test environment hosted at AWS ( this is our production-like environment).  
+
+> The screenshot below shows the two AWS environments on the BoxFuse console
 
 ![Alt text](readmeImages/BoxFuse.png?raw=true )
 

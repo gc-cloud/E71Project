@@ -310,10 +310,11 @@ ________________________________________________________________________________
 
 > One way to use prior sprints to predict how many points will be completed in the upcoming sprint is to take the average velocity for the past 3 sprints.  However, given 
 > that we've had only one sprint and the current sprint is the second, we will use the points completed in the first sprint only.  All team members participated in the
-> first sprint and all team members will continue to participate in the second sprint, so no need to adjust the forecast by team size.  There were 151 points completed within 2 weeks 
-> in the first sprint by 5 team members.  However, last sprint there were more days available to work than this 2nd sprint because of the Thanksgiving holiday where 
+> first sprint and all team members will continue to participate in the second sprint.  There were 151 points completed within 2 weeks 
+> in the first sprint by 5 team members.  However, last sprint there were more days available to work than this 2nd sprint because of the Thanksgiving holiday during which 
 > some group members will be unavailable for several days around Thanksgiving.  Subsequently, we are choosing to tackle the next 102 points (PBI #s 5-9) with the same 5 team members across the next 2 weeks.
-> The decrease in points for the 2nd sprint is to ensure we get everything done in the reduced number of work days.  The Sprint 2 encapsulates all the tasks of the next 5 backlog items without splitting any of the items.
+> The decrease in points for the 2nd sprint is to ensure we get everything done in the reduced number of work days.  Sprint 2 encapsulates all the tasks of the next 5 backlog items without splitting any of the items.
+> Completing 102 points for Sprint 2 leaves 112 points for Sprint 3 which is a good amount because there are no holidays during Sprint 3.
 
 > **In summary, using Yesterday's Forecast method, our forecast for Sprint 2 is 102 story points out of 373 total in MVP backlog, consisting of 5 PBIs out of 13.**
 

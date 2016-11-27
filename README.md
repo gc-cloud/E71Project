@@ -5,7 +5,7 @@
 ### Continuous Integration Build Status from Travis CI
 [![Build Status](https://travis-ci.org/gc-cloud/E71Project.svg?branch=master)](https://travis-ci.org/gc-cloud/E71Project)
 
-###_Project Part 1 Criteria_
+_###Project Part 1 Criteria_
 
 #### You have self-organized into a team. You have joined one of the "Scrum Teams" groups in Canvas. 2.0 pts
 >  * Joined [Project Team 1](https://canvas.harvard.edu/groups/19345)
@@ -117,7 +117,7 @@
 
 
 
-### _Project Part 2 / Sprint 1 Criteria_
+_###Project Part 2 / Sprint 1 Criteria_
 
 #### You have a forecast of how many story points your team can complete during the sprint. The forecast is documented in your README. 1.0 pts
 
@@ -298,7 +298,7 @@ Team updates
 > We had Luis Hidalgo, our Product Owner, attend our sprint review.  Per his review, there did not need to be changes to the MVP backlog at this time.
 
 
-### _Project Part 3 / Sprint 2 Criteria_
+_###Project Part 3 / Sprint 2 Criteria_
 
 #### You have a forecast of how many story points your team can complete during the sprint. Your forecast is based on the Yesterday's Weather forecasting pattern. The forecast is documented in your README.
 > Yesterday's Weather is a scrum forecasting method based on the idea that yesterday's weather is likely the best predictor of today's weather.  This notion is applied to 
@@ -389,7 +389,8 @@ Team updates
  > Impediment removal plan:  
  > 1) GC to read documentation on CI/ CD touchpoints
  > between boxfuse and Travis. Contact Travis and BoxFuse support to get sample 
- > instructions specific to Play Framework.
+ > instructions specific to Play Framework.   
+ 
  > 2) Sam to reinstall IntelliJ IDEA and re-import project as Play project
  
 **Scrum 11/23/2016**

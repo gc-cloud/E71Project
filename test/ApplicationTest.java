@@ -2,8 +2,12 @@
 import org.junit.*;
 import models.Question; // recognize Models
 import models.Category;
+import models.Exam;
 
 import play.twirl.api.Content;
+
+import java.util.HashSet;
+import java.util.Set;
 
 import static play.test.Helpers.*;
 import static org.junit.Assert.*;
@@ -143,6 +147,65 @@ public class ApplicationTest {
         });
     }
 
+    /* Confirm Question Name Save  */
+    @Test
+    public void testExamNameSave() {
+        running(fakeApplication(), new Runnable() {
+            public void run() {
+                Exam savedExam = new Exam();
+                savedExam.name = "Test Exam Name";
+                savedExam.save();
+                Exam findMe = Exam.find.byId(savedExam.id);
+                assertEquals(findMe.name,"Test Exam Name");
+            }
+        });
+    }
+
+    /* Confirm Question Name Save  */
+    @Test
+    public void testExamWithQuestionsSave() {
+        running(fakeApplication(), new Runnable() {
+            public void run() {
+                Exam savedExam = new Exam();
+                savedExam.name = "Test Exam Name";
+                Set<Question> examQuestions= new HashSet<Question>();
+                examQuestions.add(Question.find.byId(Long.valueOf(1)));
+                savedExam.questions = examQuestions;
+                savedExam.save();
+                Exam findMe = Exam.find.byId(savedExam.id);
+                assertEquals(findMe.name,"Test Exam Name");
+            }
+        });
+    }
+
+    /* Confirm Question Name Save  */
+    @Test
+    public void testCreateExamRetrieveQuestion() {
+        running(fakeApplication(), new Runnable() {
+            public void run() {
+                Exam savedExam = new Exam();
+                savedExam.name = "Test Exam Name";
+                Set<Question> examQuestions= new HashSet<Question>();
+                examQuestions.add(Question.find.byId(Long.valueOf(1)));
+                savedExam.questions = examQuestions;
+                savedExam.save();
+                Question findMe = savedExam.questions.iterator().next();
+                assertEquals(findMe.name,"List 3 phones");
+            }
+        });
+    }
+
+    /* Confirm Question Name Save  */
+    @Test
+    public void testRetrieveQuestionFromExam() {
+        running(fakeApplication(), new Runnable() {
+            public void run() {
+                Exam savedExam = Exam.find.byId(Long.valueOf(100));
+                Question findMe = savedExam.questions.iterator().next();
+                assertEquals(findMe.name,"List 3 phones");
+            }
+        });
+    }
 
 
 }

@@ -314,7 +314,7 @@ ________________________________________________________________________________
 > in the first sprint by 5 team members.  Subsequently, we are choosing to tackle the next 144 points (PBI #s 5-10) with the same 5 team members across the next 2 weeks.
 > The 144 points is very close to the 151 points from the first sprint, and encapsulates all the tasks of the next 6 backlog items without splitting any of the items.
 
-> In summary, using Yesterday's Forecast method, our forecast for Sprint 2 is 144 story points out of 373 total in MVP backlog, consisting of 6 PBIs out of 13.
+> **In summary, using Yesterday's Forecast method, our forecast for Sprint 2 is 144 story points out of 373 total in MVP backlog, consisting of 6 PBIs out of 13.**
 
 #### You pulled stories into your sprint backlog. You pulled stories from the top of your product backlog. The aggregate size of the stories does not exceed your forecast. Only Development Team members participated in this activity.
 

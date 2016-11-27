@@ -4,13 +4,13 @@
 # --- !Ups
 
 create table category (
-  id                        bigint(20) NOT NULL AUTO_INCREMENT,
+  id                        bigint NOT NULL AUTO_INCREMENT,
   name                      varchar(255),
   constraint pk_category primary key (id))
 ;
 
 create table question (
-  id                        bigint(20) NOT NULL AUTO_INCREMENT,
+  id                        bigint NOT NULL AUTO_INCREMENT,
   name                      varchar(255),
   category_id               bigint,
   answer1                   varchar(255),
@@ -23,14 +23,14 @@ create table question (
 ;
 
 create table exam (
-  id                        bigint(20) NOT NULL AUTO_INCREMENT,
+  id                        bigint NOT NULL AUTO_INCREMENT,
   name                      varchar(255),
   constraint pk_exam primary key (id))
 ;
 
 create table question_exam (
-  exam_id                       bigint(20) NOT NULL,
-  question_id                       bigint(20) NOT NULL,
+  exam_id                   bigint NOT NULL,
+  question_id               bigint NOT NULL,
   constraint pk_exam_question primary key (exam_id,question_id))
 ;
 
@@ -43,9 +43,9 @@ create index ix_question_category_1 on question (category_id);
 # --- !Downs
 
 SET REFERENTIAL_INTEGRITY FALSE;
+drop table if exists question_exam;
+drop table if exists exam;
 drop table if exists question;
 drop table if exists category;
-drop table if exists exam;
-drop table if exists question_exam;
-drop table if exists exam_question;
+
 SET REFERENTIAL_INTEGRITY TRUE;

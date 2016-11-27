@@ -360,8 +360,7 @@ Team updates
 #### You have conducted multiple Daily Scrums. You have evidence of at least one daily scrum documented in your README.
 
 > We conducted daily scrums Nov 19th, Nov 20th, Nov 21st, Nov 23rd, and a sprint review on Nov 27th.
- GC TO ADD PICKS.  Each member responded to the three questions on each daily scrum.  A representative
- sample is below:
+> Each member responded to the three questions on each daily scrum.  A representative sample is below:
  
  **Scrum 11/19/2016**
  <br />

@@ -468,14 +468,13 @@ ________________________________________________________________________________
 > ![Alt text](readmeImages/SprintReview.png?raw=true )
 
 #### You have a Continuous Integration system running. The CI system automatically builds your code every time you merge to master. The CI system executes your tests every time it builds the code.
-> ![Alt text](readmeImages/CI_1_Pass.png?raw=true )
 > We are using Travis CI and BoxFuse for Continuous Integration and Continuous Deployment to Amazon Web Services.  
-> The screenshot below shows Travis' report of Build Status  Passed.  The Build Status is also included at the beginning 
-> of this Readme File
+> The screenshot below shows Travis' report of Build Status  Passed.  
 
-> [![Build Status](https://travis-ci.org/gc-cloud/E71Project.svg?branch=master)](https://travis-ci.org/gc-cloud/E71Project)
+> ![Alt text](readmeImages/CI_1_Pass.png?raw=true )
+>   
 
-> The screenshot below shows all tests were executed successfully by Travis CI.  
+> The screenshot below shows all tests were executed successfully by Travis CI and start of automatic deployment 
 >   
 > ![Alt text](readmeImages/CI_2_TestsPass.png?raw=true )
 
@@ -487,12 +486,11 @@ ________________________________________________________________________________
 >   
 > ![Alt text](readmeImages/BoxFuse.png?raw=true )
 
-> After tests are completed.  Deployment starts automatically
+> After tests are successfully completed. The changes are deployed automatically to a production like environment accessible at
+> [http://e71project-test-gccloud.boxfuse.io/](http://e71project-test-gccloud.boxfuse.io/)
 >   
 > ![Alt text](readmeImages/CI_4_Test_Env.png?raw=true )
 
-> The changes are deployed to a production like environment and accessible at
-> [http://e71project-test-gccloud.boxfuse.io/](http://e71project-test-gccloud.boxfuse.io/)
 
 ### Credits
 > Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.

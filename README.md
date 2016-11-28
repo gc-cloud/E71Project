@@ -2,9 +2,6 @@
 ## Testorama.online (A Fair Weather Software Product)   
 ## Harvard Extension School    
 
-### Continuous Integration Build Status from Travis CI
-[![Build Status](https://travis-ci.org/gc-cloud/E71Project.svg?branch=master)](https://travis-ci.org/gc-cloud/E71Project)
-
 __________________________________________________________________________________________________________________
 ###Project Part 1 Criteria
 __________________________________________________________________________________________________________________
@@ -313,7 +310,8 @@ ________________________________________________________________________________
 > first sprint and all team members will continue to participate in the second sprint.  There were 151 points completed within 2 weeks 
 > in the first sprint by 5 team members.  However, last sprint there were more days available to work than this 2nd sprint because of the Thanksgiving holiday during which 
 > some group members will be unavailable for several days around Thanksgiving.  Subsequently, we are choosing to tackle the next 102 points (PBI #s 5-9) with the same 5 team members across the next 2 weeks.
-> The decrease in points for the 2nd sprint is to ensure we get everything done in the reduced number of work days.  Sprint 2 encapsulates all the tasks of the next 5 backlog items without splitting any of the items.
+> The decrease in points for the 2nd sprint is to ensure we get everything done in the reduced number of work days and also have time to 
+> investigate the technical setup for the CI/CD requirements.  Sprint 2 encapsulates all the tasks of the next 5 backlog items without splitting any of the items.
 > Completing 102 points for Sprint 2 leaves 112 points for Sprint 3 which is a good amount because there are no holidays during Sprint 3.
 
 > **In summary, using Yesterday's Forecast method, our forecast for Sprint 2 is 102 story points out of 373 total in MVP backlog, consisting of 5 PBIs out of 13.**
@@ -437,15 +435,15 @@ ________________________________________________________________________________
 
 #### There is evidence that you are building your product test-first. There are at least 2 BDD / A-TDD test in your test suite (at least 1 new one this sprint), and it passes. There are at least 20 unit tests in your test suite (at least 10 new unit tests this sprint), and they all pass.
 
-> For Sprint 2 we added several additional tests. A BDD approach was included in new tests such as testCategorySave() 
-> and testQuestionNameSave(). Reference:  [CodeUtopia : What’s the difference between Unit Testing, TDD and BDD?](https://codeutopia.net/blog/2015/03/01/unit-testing-tdd-and-bdd/)
+> For Sprint 2 we added several additional tests. A BDD approach was included many of the new tests such as testExamWithQuestionsSave() 
+> and testCreateExamRetrieveQuestion (Reference: [CodeUtopia: Unit Testing, TDD and BDD](https://codeutopia.net/blog/2015/03/01/unit-testing-tdd-and-bdd/)).
 >   
 >  We have two batteries of tests: 
-> * Application Testing runs unit tests in the development environment.  All tests passed
+> * Application Testing runs unit tests in the development environment.  The screenshot below shows all tests passed.
 >      
 > ![Alt text](readmeImages/sprint2_application_tests.png?raw=true)
    
-> * Integration Testing runs tests in the production-like environment.  All tests passed.
+> * Integration Testing runs tests in the production-like environment.  The screenshot below shows all tests passed.
 >      
 > ![Alt text](readmeImages/sprint2_integration_tests.png?raw=true )
    
@@ -489,8 +487,7 @@ ________________________________________________________________________________
 > After tests are successfully completed. The changes are deployed automatically to a production like environment accessible at
 > [http://e71project-test-gccloud.boxfuse.io/](http://e71project-test-gccloud.boxfuse.io/)
 >   
-> ![Alt text](readmeImages/CI_4_Test_Env.png?raw=true )
-
+> ![Alt text](readmeImages/CI_4_Test_Env.png?raw=true)
 
 ### Credits
 > Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.

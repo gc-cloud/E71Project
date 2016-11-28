@@ -484,12 +484,18 @@ ________________________________________________________________________________
 >   
 > ![Alt text](readmeImages/BoxFuse.png?raw=true )
 
-> After tests are successfully completed. The changes are deployed automatically to a production like environment accessible at
-> [http://e71project-test-gccloud.boxfuse.io/](http://e71project-test-gccloud.boxfuse.io/)
+> After tests are successfully completed. The changes are deployed automatically to a production like environment 
+> accessible at [http://e71project-test-gccloud.boxfuse.io/](http://e71project-test-gccloud.boxfuse.io/)
+>   
+> This screenshot shows how Travis CI successfully launched BoxFuse and deployed the application to AWS
+>   
+> ![Alt text](readmeImages/DeploymentComplete.png?raw=true )
+>  
+> This is a screenshot of the deployed application 
 >   
 > ![Alt text](readmeImages/CI_4_Test_Env.png?raw=true)
 
 ### Credits
-> Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.
-> Photostock from pexels.com
+> Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.   
+> Photostock from pexels.com   
 > Solution inspired by Will Sargent's [play ebean example.](https://github.com/playframework/play-ebean-example)

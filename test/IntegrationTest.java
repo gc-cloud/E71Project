@@ -42,7 +42,7 @@ public class IntegrationTest {
 
     @Test
     public void testProductionLikeGenerateExams() {
-        running(testServer(80, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
+        running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
             browser.goTo("http://e71project-test-gccloud.boxfuse.io/generateExams");
             assertTrue(browser.pageSource().contains("Generate Exams"));
         });
@@ -51,7 +51,7 @@ public class IntegrationTest {
     @Test
     public void testProductionLikeEditQuestion() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-            browser.goTo("hhttp://e71project-test-gccloud.boxfuse.io/questions/4");
+            browser.goTo("http://e71project-test-gccloud.boxfuse.io/questions/4");
             assertTrue(browser.pageSource().contains("Edit Question"));
         });
     }

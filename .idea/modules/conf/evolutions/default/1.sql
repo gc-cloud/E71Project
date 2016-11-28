@@ -4,19 +4,21 @@
 # --- !Ups
 
 create table category (
-  id                            bigint auto_increment not null,
+  id                            bigint not null,
   name                          varchar(255),
   constraint pk_category primary key (id)
 );
+create sequence category_seq;
 
 create table exam (
-  id                            bigint auto_increment not null,
+  id                            bigint not null,
   name                          varchar(255),
   constraint pk_exam primary key (id)
 );
+create sequence exam_seq;
 
 create table question (
-  id                            bigint auto_increment not null,
+  id                            bigint not null,
   name                          varchar(255),
   answer1                       varchar(255),
   answer2                       varchar(255),
@@ -27,6 +29,7 @@ create table question (
   category_id                   bigint,
   constraint pk_question primary key (id)
 );
+create sequence question_seq;
 
 create table question_exam (
   question_id                   bigint not null,
@@ -46,20 +49,23 @@ create index ix_question_exam_exam on question_exam (exam_id);
 
 # --- !Downs
 
-alter table question drop foreign key fk_question_category_id;
-drop index ix_question_category_id on question;
+alter table question drop constraint if exists fk_question_category_id;
+drop index if exists ix_question_category_id;
 
-alter table question_exam drop foreign key fk_question_exam_question;
-drop index ix_question_exam_question on question_exam;
+alter table question_exam drop constraint if exists fk_question_exam_question;
+drop index if exists ix_question_exam_question;
 
-alter table question_exam drop foreign key fk_question_exam_exam;
-drop index ix_question_exam_exam on question_exam;
+alter table question_exam drop constraint if exists fk_question_exam_exam;
+drop index if exists ix_question_exam_exam;
 
 drop table if exists category;
+drop sequence if exists category_seq;
 
 drop table if exists exam;
+drop sequence if exists exam_seq;
 
 drop table if exists question;
+drop sequence if exists question_seq;
 
 drop table if exists question_exam;
 

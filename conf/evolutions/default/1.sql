@@ -42,10 +42,12 @@ create index ix_question_category_1 on question (category_id);
 
 # --- !Downs
 
-SET REFERENTIAL_INTEGRITY FALSE;
+
+
+SET FOREIGN_KEY_CHECKS=0;
 drop table if exists question_exam;
 drop table if exists exam;
 drop table if exists question;
 drop table if exists category;
-
-SET REFERENTIAL_INTEGRITY TRUE;
+drop table if exists play_evolutions;
+SET FOREIGN_KEY_CHECKS=1;

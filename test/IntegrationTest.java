@@ -33,34 +33,34 @@ public class IntegrationTest {
     }
 
     @Test
-    public void testProductionLikeExam() {
+    public void testProductionLikeViewExams() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
             browser.goTo("http://e71project-test-gccloud.boxfuse.io/viewExams");
-            assertTrue(browser.pageSource().contains("Testorama"));
+            assertTrue(browser.pageSource().contains("List Exams"));
         });
     }
 
     @Test
-    public void testLiveHome() {
+    public void testProductionLikeGenerateExams() {
         running(testServer(80, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-            browser.goTo("http://www.testorama.online/");
-            assertTrue(browser.pageSource().contains("Testorama"));
+            browser.goTo("http://e71project-test-gccloud.boxfuse.io/generateExams");
+            assertTrue(browser.pageSource().contains("Generate Exams"));
         });
     }
 
     @Test
-    public void testLiveQuestions() {
+    public void testProductionLikeEditQuestion() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-            browser.goTo("http://www.testorama.online/listQuestions");
-            assertTrue(browser.pageSource().contains("Testorama"));
+            browser.goTo("hhttp://e71project-test-gccloud.boxfuse.io/questions/4");
+            assertTrue(browser.pageSource().contains("Edit Question"));
         });
     }
 
     @Test
-    public void testLiveExams() {
+    public void testProductionLikePrintExams() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-            browser.goTo("http://www.testorama.online/viewExams");
-            assertTrue(browser.pageSource().contains("Testorama"));
+            browser.goTo("http://e71project-test-gccloud.boxfuse.io/printExams");
+            assertTrue(browser.pageSource().contains("Print Exams"));
         });
     }
 

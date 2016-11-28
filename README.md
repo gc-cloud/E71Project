@@ -360,11 +360,11 @@ ________________________________________________________________________________
 #### You have conducted multiple Daily Scrums. You have evidence of at least one daily scrum documented in your README.
 
 > We conducted daily scrums Nov 19th, Nov 20th, Nov 21st, Nov 23rd, and a sprint review on Nov 27th.
-> Each member responded to the three questions on each daily scrum.  Representative samples for the sessions on the 19th and 23rd below:
+> Each member responded to the three questions on each daily scrum.  Representative samples for the sessions on the 20th and 23rd below:
  
-> **Scrum 11/19/2016**
+> **Scrum 11/20/2016**
 >   
-> ![Alt text](readmeImages/scrum20161119.png?raw=true "Scrum session 11/19/2016")
+> ![Alt text](readmeImages/scrum20161119.png?raw=true "Scrum session 11/20/2016")
 >   
 > Team updates
  >    * Alberto Garza <br />

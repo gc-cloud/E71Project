@@ -195,17 +195,18 @@ public class ApplicationTest {
         });
     }
 
-    /* Confirm Question Name Save  */
+    /* Confirm Exam was loaded by  Evolutions  */
     @Test
-    public void testRetrieveQuestionFromExam() {
+    public void testRetrieveExam() {
         running(fakeApplication(), new Runnable() {
             public void run() {
-                Exam savedExam = Exam.find.byId(Long.valueOf(100));
-                Question findMe = savedExam.questions.iterator().next();
-                assertEquals(findMe.name,"List 3 phones");
+               Exam savedExam = Exam.find.byId(Long.valueOf(100));
+                assertEquals(savedExam.name,"Test Exam 1");
             }
         });
     }
+
+
 
 
 }

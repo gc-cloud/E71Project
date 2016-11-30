@@ -63,15 +63,26 @@ public class ExamController extends Controller {
      * Handle the 'new exam form' submission
      */
     public Result save() {
-        Map<String, String[]> formUrlEncoded = request().body().asFormUrlEncoded();
         Form<Exam> examForm = formFactory.form(Exam.class).bindFromRequest();
         Set<Question> questions = new HashSet<Question>();
-
-        // iterate through the keys to find values and pre-fill required Set(s)
-        for (String key : formUrlEncoded.keySet()) {
-            String[] values = formUrlEncoded.get(key);
-            for (String val : values) {
-                if ("select".equals(key)) questions.add(Question.find.ref(Long.valueOf(val)));
+        String[] postAction = request().body().asFormUrlEncoded().get("action");
+        String action = postAction[0];
+        if ("random".equals(action)) {
+            int questionAmount=3;
+            List<Question> questionlist= Question.find.all();
+            long seed = System.nanoTime();
+            Collections.shuffle(questionlist, new Random(seed));
+            for(int m=0;m<questionAmount;m++){
+                questions.add(questionlist.get(m));
+            }
+        }else {
+            Map<String, String[]> formUrlEncoded = request().body().asFormUrlEncoded();
+            // iterate through the keys to find values and pre-fill required Set(s)
+            for (String key : formUrlEncoded.keySet()) {
+                String[] values = formUrlEncoded.get(key);
+                for (String val : values) {
+                    if ("select".equals(key)) questions.add(Question.find.ref(Long.valueOf(val)));
+                }
             }
         }
         // Check if form has no errors and if it contains questions

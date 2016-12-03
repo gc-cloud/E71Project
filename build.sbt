@@ -12,6 +12,8 @@ libraryDependencies ++= Seq(
   cache,
   javaWs,
   "com.adrianhurt" %% "play-bootstrap" % "1.0-P25-B3",
-  "mysql" % "mysql-connector-java" % "5.1.28"
+  "mysql" % "mysql-connector-java" % "5.1.28",
+  "it.innove" % "play2-pdf" % "1.5.1",
+  "de.joergviola" %% "play-pdf" % "0.7-SNAPSHOT"
 )
 

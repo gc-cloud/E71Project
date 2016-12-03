@@ -10,7 +10,7 @@ import play.data.*; // FormFactory
 import javax.inject.Inject;
 import javax.persistence.PersistenceException;
 import java.util.*;
-
+import util.pdf.PDF;
 import static sun.security.ssl.Debug.println;
 //import static play.data.*;
 
@@ -119,9 +119,10 @@ public class ExamController extends Controller {
         Exam exam = Exam.find.byId(id);
         Set<Question> questions = exam.questions;
         Form<Exam> examForm = formFactory.form(Exam.class).fill(exam);
-        return ok(
-                views.html.viewExamDetails.render(id,examForm,questions)
-        );
+//        return ok(
+//                views.html.viewExamDetails.render(id,examForm,questions)
+//        );
+        return PDF.ok(views.html.viewExamDetails.render(id,examForm,questions));
     }
 
     /**
@@ -194,9 +195,7 @@ public class ExamController extends Controller {
      */
 
     public Result printExams(){
-        Result ok = ok(printExams.render());
-        return ok;
-
+        return ok();
     }
 
 }

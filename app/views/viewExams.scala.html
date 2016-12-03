@@ -73,13 +73,16 @@
                 <thead>
                     <tr>
                         @header("name", "Exam Name")
+                        <td></td> <!-- Print Column -->
                     </tr>
+
                 </thead>
                 <tbody>
 
                 @for(exam <- currentPage.getList) {
                     <tr>
                         <td><a href="@routes.ExamController.view(exam.id)">@exam.name</a></td>
+                        <td><a href="@routes.ExamController.pdfView(exam.id)"><span class="glyphicon glyphicon-print"></span></a></td>
                     </tr>
                 }
 

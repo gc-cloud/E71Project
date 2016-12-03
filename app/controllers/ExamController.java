@@ -111,7 +111,7 @@ public class ExamController extends Controller {
     }
 
     /**
-     * Display the 'view detail' of a existing Question.
+     * Display the 'view detail' of a existing Exam.
      *
      * @param id Id of the computer to edit
      */
@@ -119,9 +119,21 @@ public class ExamController extends Controller {
         Exam exam = Exam.find.byId(id);
         Set<Question> questions = exam.questions;
         Form<Exam> examForm = formFactory.form(Exam.class).fill(exam);
-//        return ok(
-//                views.html.viewExamDetails.render(id,examForm,questions)
-//        );
+        return ok(
+                views.html.viewExamDetails.render(id,examForm,questions)
+        );
+
+    }
+
+    /**
+     * Display the 'PDF view ' of a existing Exam.
+     *
+     * @param id Id of the computer to edit
+     */
+    public Result pdfView(Long id) {
+        Exam exam = Exam.find.byId(id);
+        Set<Question> questions = exam.questions;
+        Form<Exam> examForm = formFactory.form(Exam.class).fill(exam);
         return PDF.ok(views.html.viewExamDetails.render(id,examForm,questions));
     }
 

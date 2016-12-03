@@ -63,7 +63,7 @@ public class Question extends Model{
     public static PagedList<Question> page(int page, int pageSize, String sortBy, String order, String filter) {
         return
                 find.where()
-                        .ilike("name", "%" + filter + "%")
+                        .ilike("category.name", "%" + filter + "%")
                         .orderBy(sortBy + " " + order)
                         .fetch("category")
                         .findPagedList(page, pageSize);

@@ -97,7 +97,7 @@ public class ExamController extends Controller {
         exam.save();
         flash("success", "Exam " + examForm.get().name + " has been created");
         return ok(
-                views.html.viewExamDetails.render(exam.id,examForm,questions)
+                views.html.viewExamDetails.render(exam.id,examForm,questions,true)
         );
     }
 
@@ -120,7 +120,7 @@ public class ExamController extends Controller {
         Set<Question> questions = exam.questions;
         Form<Exam> examForm = formFactory.form(Exam.class).fill(exam);
         return ok(
-                views.html.viewExamDetails.render(id,examForm,questions)
+                views.html.viewExamDetails.render(id,examForm,questions,true)
         );
 
     }
@@ -130,11 +130,11 @@ public class ExamController extends Controller {
      *
      * @param id Id of the computer to edit
      */
-    public Result pdfView(Long id) {
+    public Result pdfView(Long id,boolean withAnswer) {
         Exam exam = Exam.find.byId(id);
         Set<Question> questions = exam.questions;
         Form<Exam> examForm = formFactory.form(Exam.class).fill(exam);
-        return PDF.ok(views.html.viewExamDetails.render(id,examForm,questions));
+        return PDF.ok(views.html.viewExamDetails.render(id,examForm,questions,withAnswer));
     }
 
     /**

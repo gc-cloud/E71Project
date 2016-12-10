@@ -495,6 +495,115 @@ ________________________________________________________________________________
 >   
 > ![Alt text](readmeImages/CI_4_Test_Env.png?raw=true)
 
+
+__________________________________________________________________________________________________________________
+###Project Part 4 / Sprint 3 Criteria
+__________________________________________________________________________________________________________________
+
+#### You have a forecast of how many story points your team can complete during the sprint. Your forecast is based on the Yesterday's Weather forecasting pattern. The forecast is documented in your README. 1.0 pts
+
+> Yesterday's Weather is a scrum forecasting method based on the idea that yesterday's weather is likely the best predictor of today's weather.  This notion is applied to 
+> Scrum by using the points in the previous Sprint to predict how many points will be completed in the upcoming sprint.  <br />
+
+> One way to predict how many points will be completed in the upcoming sprint is to take the average velocity for 
+> the past 3 sprints.  Another way is to take the actual points from the last completed sprint to estimate the upcoming sprint if it 
+> is believed that the upcoming sprint will be similar to the previous sprint.  The previous sprint (#2) had 102 points. 
+> Therefore, it was decided to tackle 117 points for the 3rd and final sprint, which also happens to be the number of points needed 
+> to complete the MVP for the project.
+
+#### You pulled stories into your sprint backlog. You pulled stories from the top of your product backlog. The aggregate size of the stories does not exceed your forecast. Only Development Team members participated in this activity. 4.0 pts
+
+> [Sprint 3 Backlog in Google Docs - Sprint 3 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing) 
+
+> The aggregate size of the stories that were pulled from the project backlog to the second sprint does not exceed total forecast.  The last five of the 14 MPV PBIs
+> were selected for third sprint.  Completing these five would mean completing the MVP for our product.  
+> Only Development Team Members participated in pulling stories into sprint backlog.
+
+#### All of the stories in your sprint backlog have size less than half your forecast velocity. If you noticed PBIs that are too large to get done in a sprint, you refined them by splitting them into smaller stories and estimating the smaller stories. 1.0 pts
+
+> All the stories in the sprint backlog have size less than half of the total forecast.  Below are the sizes of each backlog item:
+ 
+> 10) Update Capability - 34
+
+> 11) Delete Capability - 5
+
+> 12) Manual Selection - 37
+
+> 13) Save Exams - 18
+
+> 14) View Exams - 23
+
+> Total sprint backlog size: 117
+
+> None of the PBIs were too large to get done in a sprint, so no need to split them into smaller stories.
+
+#### You decomposed stories into tasks. The tasks are clearly listed in your sprint backlog. 2.0 pts
+
+> Stories and their corresponding tasks are grouped together in the backlog
+
+> [Sprint 3 Backlog in Google Docs - Sprint 3 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
+
+#### Your sprint backlog, including both stories and tasks, is represented in a kanban board. The kanban board, or a URL of the kanban board, is documented in your README. Richard can view the kanban board. 3.0 pts
+
+> Stories are highlighted on our Trello board with Capital letters and stories / tasks color coded to provide visual cues  
+
+> [Kanban Board on Trello.com](https://trello.com/b/ctBXfXtq/testorama)
+
+#### You have a sprint burndown chart. On the x-axis, you display time markers in units of 1 day. On the y-axis, you display story points remaining to get done. There is a linear curve descending from left to right; the leftmost point of the curve is number of story points in your sprint at sprint day 1; the rightmost point is 0 story points remaining on the last day of the sprint. The burndown chart, or the URL of the burndown chart, is document in your README. Richard can view the burndown chart. 8.0 pts
+
+> [Sprint 3 Burndown Chart in Google Docs - Sprint 3 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
+
+#### You have conducted multiple Daily Scrums. You have evidence of at least one daily scrum documented in your README. 5.0 pts
+
+> We conducted daily scrums on Dec 3rd, Dec 6th, Dec 10th, and Dec 11th with a Sprint Review also done on Dec 11th.
+> Each member responded to the three questions on each daily scrum.  Representative samples for the sessions on the 10th and 11th below:
+ 
+> **Scrum 12/10/2016**
+
+> **Scrum 12/11/2016**
+
+#### - What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts
+#### - What will you do in the next 24 hours to help the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members plan to do which activities. 5.0 pts
+#### - Do you see any impediment that prevents me or the Development Team from meeting the Sprint Goal? What are the impediments? What is your impediment removal plan? 3.0 pts
+
+#### Update your sprint backlog task board and burndown chart. Make sure the URLs or images are available in your GitHub repo's README. 2.0 pts
+
+> Both the Sprint 3 backlog/burndown chart and Kanban board were updated throughout the 2 weeks of the sprint.
+
+> [Sprint 3 Backlog in Google Docs - Sprint 3 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing)
+
+> [Kanban Board on Trello.com](https://trello.com/b/ctBXfXtq/testorama)
+
+#### There is evidence that you paired or mobbed on your code. The evidence could be a photo or video of your team working together, or it could be some other kind of evidence. The evidence is included in your README. 5.0 pts
+
+#### There is evidence that you are building your product test-first. There are at least 3 BDD / A-TDD tests in your test suite (at least 1 new one this sprint), and it passes. There are at least 30 unit tests in your test suite (at least 10 new unit tests this sprint), and they all pass. 11.0 pts
+
+#### You have a Continuous Integration system running. The CI system automatically builds your code every time you merge to master. The CI system executes your tests every time it builds the code. 5.0 pts
+
+#### You have a Continuous Deployment system running. The CD system deploys your software to a production-like environment. The CD system executes additional tests of your software in the production-like environment. The CD system deploys your software to a live production environment. Your live production environment works properly. 5.0 pts
+
+#### Your team conducts an in-class Sprint Review. 1.0 pts
+
+#### - Your Product Owner explains your product's far vision and near vision. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 3.0 pts
+
+#### - Your PO describes your stakeholders and user personas. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 5.0 pts
+
+#### - Your Development Team demonstrates your product increment. You demonstrate each product backlog item that you completed. You use big visible information radiators (e.g., your sprint backlog with details of the user stories) to facilitate your stakeholders' ability to follow along. 3.0 pts
+
+#### - Your product increment is working software. 1.0 pts
+
+#### - Your PO solicits feedback from your stakeholders (using class attendees as stand-ins). You ask them what they would like the next product increment to contain, now that they've seen this increment. You revise your product backlog based on the feedback you receive. 3.0 pts
+
+#### - Your PO shares future plans for your product. 1.0 pts
+
+#### - Your PO begins the sprint review by stating its purpose. You welcome your stakeholders to the event, tell them how grateful you are for their participation, and that you're eager to hear their feedback after you show them the product increment. 4.0 pts
+
+#### - Your PO wraps up the sprint review with a forecast of what you might deliver in the next sprint (pretend there will be a next sprint), a brief summary of this sprint review, and a message of gratitude to your Scrum team and stakeholders. 3.0 pts
+
+#### - Your Scrum Master facilitates as needed: keep track of time, prompt your PO and Development Team at the right moments, etc. 2.0 pts
+
+#### - You rehearsed your sprint review at least once before the event. 1.0 pts
+
 ### Credits
 > Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.   
 > Photostock from pexels.com   

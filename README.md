@@ -515,9 +515,8 @@ ________________________________________________________________________________
 
 > [Sprint 3 Backlog in Google Docs - Sprint 3 Backlog/Burndown Tab](https://docs.google.com/spreadsheets/d/10QoYgJVWE09Q55wbZcUjWuv7aTQS75cbwmrXVXkWp8o/edit?usp=sharing) 
 
-> The aggregate size of the stories that were pulled from the project backlog to the second sprint does not exceed total forecast.  The last five of the 14 MPV PBIs
-> were selected for third sprint.  Completing these five would mean completing the MVP for our product.  
-> Only Development Team Members participated in pulling stories into sprint backlog.
+> The aggregate size of the stories that were pulled from the project backlog to the third sprint does not exceed total forecast.  The last five of the 14 MPV PBIs
+> were selected for third sprint.  Completing these five would mean completing the MVP for our product.  Only Development Team Members participated in pulling stories into sprint backlog.
 
 #### All of the stories in your sprint backlog have size less than half your forecast velocity. If you noticed PBIs that are too large to get done in a sprint, you refined them by splitting them into smaller stories and estimating the smaller stories. 1.0 pts
 
@@ -559,12 +558,56 @@ ________________________________________________________________________________
 > Each member responded to the three questions on each daily scrum.  Representative samples for the sessions on the 10th and 11th below:
  
 > **Scrum 12/10/2016**
+>   
+>   ![Alt text](readmeImages/scrum20161123.png?raw=true "Scrum session 12/10/2016")
+>    
+> Team updates
+>    * Alberto Garza <br />
+>Done : <br />
+>Will do : <br />
+>Block : None
+>    * Ran Zhang<br />
+>Done : <br />
+>Will do : <br />
+>Block : No
+>    * Rafael Flores<br />
+>Done : <br />
+>Will do : <br />
+>Block : No
+>    * Samuel Chao<br />
+>Done : <br />
+>Will do : <br />
+>Block : None
+>    * Gerardo Castaneda<br />
+> Done : <br />
+> Will do : <br />
+> Block : None
 
 > **Scrum 12/11/2016**
-
-#### - What did you do in the last 24 hours that helped the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members did which activities. 5.0 pts
-#### - What will you do in the next 24 hours to help the Development Team meet the Sprint Goal? Annotate your team's response so it's clear which team members plan to do which activities. 5.0 pts
-#### - Do you see any impediment that prevents me or the Development Team from meeting the Sprint Goal? What are the impediments? What is your impediment removal plan? 3.0 pts
+>   
+>   ![Alt text](readmeImages/scrum20161123.png?raw=true "Scrum session 12/11/2016")
+>    
+> Team updates
+>    * Alberto Garza <br />
+>Done : <br />
+>Will do : <br />
+>Block : None
+>    * Ran Zhang<br />
+>Done : <br />
+>Will do : <br />
+>Block : No
+>    * Rafael Flores<br />
+>Done : <br />
+>Will do : <br />
+>Block : No
+>    * Samuel Chao<br />
+>Done : <br />
+>Will do : <br />
+>Block : None
+>    * Gerardo Castaneda<br />
+> Done : <br />
+> Will do : <br />
+> Block : None
 
 #### Update your sprint backlog task board and burndown chart. Make sure the URLs or images are available in your GitHub repo's README. 2.0 pts
 
@@ -582,27 +625,27 @@ ________________________________________________________________________________
 
 #### You have a Continuous Deployment system running. The CD system deploys your software to a production-like environment. The CD system executes additional tests of your software in the production-like environment. The CD system deploys your software to a live production environment. Your live production environment works properly. 5.0 pts
 
-#### Your team conducts an in-class Sprint Review. 1.0 pts
+#### Your team conducts an in-class Sprint Review. 1.0 pts - TO BE DONE IN CLASS
 
-#### - Your Product Owner explains your product's far vision and near vision. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 3.0 pts
+> #### - Your Product Owner explains your product's far vision and near vision. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 3.0 pts
 
-#### - Your PO describes your stakeholders and user personas. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 5.0 pts
+> #### - Your PO describes your stakeholders and user personas. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 5.0 pts
 
-#### - Your Development Team demonstrates your product increment. You demonstrate each product backlog item that you completed. You use big visible information radiators (e.g., your sprint backlog with details of the user stories) to facilitate your stakeholders' ability to follow along. 3.0 pts
+> #### - Your Development Team demonstrates your product increment. You demonstrate each product backlog item that you completed. You use big visible information radiators (e.g., your sprint backlog with details of the user stories) to facilitate your stakeholders' ability to follow along. 3.0 pts
 
-#### - Your product increment is working software. 1.0 pts
+> #### - Your product increment is working software. 1.0 pts
 
-#### - Your PO solicits feedback from your stakeholders (using class attendees as stand-ins). You ask them what they would like the next product increment to contain, now that they've seen this increment. You revise your product backlog based on the feedback you receive. 3.0 pts
+> #### - Your PO solicits feedback from your stakeholders (using class attendees as stand-ins). You ask them what they would like the next product increment to contain, now that they've seen this increment. You revise your product backlog based on the feedback you receive. 3.0 pts
 
-#### - Your PO shares future plans for your product. 1.0 pts
+> #### - Your PO shares future plans for your product. 1.0 pts
 
-#### - Your PO begins the sprint review by stating its purpose. You welcome your stakeholders to the event, tell them how grateful you are for their participation, and that you're eager to hear their feedback after you show them the product increment. 4.0 pts
+> #### - Your PO begins the sprint review by stating its purpose. You welcome your stakeholders to the event, tell them how grateful you are for their participation, and that you're eager to hear their feedback after you show them the product increment. 4.0 pts
 
-#### - Your PO wraps up the sprint review with a forecast of what you might deliver in the next sprint (pretend there will be a next sprint), a brief summary of this sprint review, and a message of gratitude to your Scrum team and stakeholders. 3.0 pts
+> #### - Your PO wraps up the sprint review with a forecast of what you might deliver in the next sprint (pretend there will be a next sprint), a brief summary of this sprint review, and a message of gratitude to your Scrum team and stakeholders. 3.0 pts
 
-#### - Your Scrum Master facilitates as needed: keep track of time, prompt your PO and Development Team at the right moments, etc. 2.0 pts
+> #### - Your Scrum Master facilitates as needed: keep track of time, prompt your PO and Development Team at the right moments, etc. 2.0 pts
 
-#### - You rehearsed your sprint review at least once before the event. 1.0 pts
+> #### - You rehearsed your sprint review at least once before the event. 1.0 pts
 
 ### Credits
 > Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.   

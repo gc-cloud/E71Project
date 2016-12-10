@@ -69,7 +69,7 @@ public class ExamController extends Controller {
         String[] postAction = request().body().asFormUrlEncoded().get("action");
         String action = postAction[0];
         if ("random".equals(action)) {
-            int questionAmount=3;
+            int questionAmount=6;
             List<Question> questionlist= Question.find.all();
             long seed = System.nanoTime();
             Collections.shuffle(questionlist, new Random(seed));

@@ -14,8 +14,7 @@ libraryDependencies ++= Seq(
   "com.adrianhurt" %% "play-bootstrap" % "1.0-P25-B3",
   "mysql" % "mysql-connector-java" % "5.1.28",
   "it.innove" % "play2-pdf" % "1.5.1",
-  "de.joergviola" %% "play-pdf" % "0.7-SNAPSHOT",
-
+//  "de.joergviola" %% "play-pdf" % "0.7-SNAPSHOT",
 "org.pac4j" % "play-pac4j" % "2.6.0",
 "org.pac4j" % "pac4j-http" % "1.9.4",
 "org.pac4j" % "pac4j-cas" % "1.9.4",
@@ -32,8 +31,5 @@ libraryDependencies ++= Seq(
 "com.typesafe.play" % "play-cache_2.11" % "2.5.4",
 "commons-io" % "commons-io" % "2.4",
 "be.objectify" %% "deadbolt-java" % "2.5.1"
-  
 )
-resolvers ++= Seq(Resolver.mavenLocal, "Sonatype snapshots repository" at "https://oss.sonatype.org/content/repositories/snapshots/")
 
-routesGenerator := InjectedRoutesGenerator

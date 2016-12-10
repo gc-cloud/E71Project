@@ -15,5 +15,6 @@ libraryDependencies ++= Seq(
   "mysql" % "mysql-connector-java" % "5.1.28",
   "it.innove" % "play2-pdf" % "1.5.1",
   "de.joergviola" %% "play-pdf" % "0.7-SNAPSHOT"
+  
 )
 

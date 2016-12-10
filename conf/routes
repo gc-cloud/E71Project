@@ -36,3 +36,14 @@ POST    /questions/:id/delete       controllers.QuestionController.delete(id:Lon
 GET     /questions/:id              controllers.QuestionController.edit(id:Long)
 POST    /questions/:id              controllers.QuestionController.update(id:Long)
 
+# pac4j
+GET         /oidc/index.html                  controllers.Application.oidcIndex()
+GET         /protected/index.html             controllers.Application.protectedIndex()
+GET         /callback                         @org.pac4j.play.CallbackController.callback()
+POST        /callback                         @org.pac4j.play.CallbackController.callback()
+GET         /logout                           @org.pac4j.play.ApplicationLogoutController.logout()
+
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file                     controllers.Assets.at(path="/public", file)
+
+

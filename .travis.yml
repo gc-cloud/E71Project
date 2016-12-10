@@ -6,8 +6,7 @@
 #---------------------------------------
 before_install:
 #git clone https://github.com/benjohnde/play20-pdf.git
-cd play20-pdf/module
-activator publish-local
+
 
 
 # disable automated email notification after every build

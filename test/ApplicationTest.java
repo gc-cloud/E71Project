@@ -44,7 +44,7 @@ public class ApplicationTest {
         running(fakeApplication(), new Runnable() {
             public void run() {
                 Category findMe = Category.find.byId(1L);
-                assertEquals(findMe.name,"Network"); // "Network" loaded with evolution
+                assertEquals(findMe.name,"Agile/Scrum"); // "Network" loaded with evolution
             }
         });
     }
@@ -190,7 +190,7 @@ public class ApplicationTest {
                 savedExam.questions = examQuestions;
                 savedExam.save();
                 Question findMe = savedExam.questions.iterator().next();
-                assertEquals(findMe.name,"List 3 phones");
+                assertEquals(findMe.name,"What is the main reason for the Scrum Master to be at the Daily Scrum?");
             }
         });
     }
@@ -201,7 +201,7 @@ public class ApplicationTest {
         running(fakeApplication(), new Runnable() {
             public void run() {
                Exam savedExam = Exam.find.byId(Long.valueOf(100));
-                assertEquals(savedExam.name,"Test Exam 1");
+                assertEquals(savedExam.name,"Agile/Scrum Exam");
             }
         });
     }

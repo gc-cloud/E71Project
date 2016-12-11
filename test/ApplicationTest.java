@@ -58,7 +58,19 @@ public class ApplicationTest {
                 newCategory.name = "To be or not to be";
                 newCategory.save();
                 assertNotNull(newCategory);
+            }
+        });
+    }
 
+    /* Confirm Category is allowed to be null*/
+    @Test
+    public void testNoCategorySave() {
+        running(fakeApplication(), new Runnable() {
+            public void run() {
+                Category newCategory = new Category();
+                newCategory.name = "";
+                newCategory.save();
+                assertNotNull(newCategory);
             }
         });
     }
@@ -77,16 +89,54 @@ public class ApplicationTest {
         });
     }
 
-    /* Confirm Question Answer1 Save  */
+    /* Confirm Question Name Null  */
     @Test
-    public void testQuestionAnswer1Save() {
+    public void testQuestionNameUpdate() {
         running(fakeApplication(), new Runnable() {
             public void run() {
                 Question savedQuestion = new Question();
-                savedQuestion.answer1 = "yes";
+                savedQuestion.name = "first save";
                 savedQuestion.save();
                 Question findMe = Question.find.byId(savedQuestion.id);
-                assertEquals(findMe.answer1,"yes");
+                assertEquals(findMe.name,"first save");
+
+                savedQuestion.name = "second save";
+                savedQuestion.save();
+                findMe = Question.find.byId(savedQuestion.id);
+                assertEquals(findMe.name,"second save");
+            }
+        });
+    }
+
+    /* Confirm Question Answer1 Save  */
+    @Test
+    public void testQuestionAnswerSave() {
+        running(fakeApplication(), new Runnable() {
+            public void run() {
+                Question savedQuestion = new Question();
+                savedQuestion.answer1 = "ans1";
+                savedQuestion.save();
+                Question findMe = Question.find.byId(savedQuestion.id);
+                assertEquals(findMe.answer1,"ans1");
+            }
+        });
+    }
+
+    /* Confirm Question Answer1 Update  */
+    @Test
+    public void testQuestionAnswerUpdate() {
+        running(fakeApplication(), new Runnable() {
+            public void run() {
+                Question savedQuestion = new Question();
+                savedQuestion.answer1 = "ans1";
+                savedQuestion.save();
+                Question findMe = Question.find.byId(savedQuestion.id);
+                assertEquals(findMe.answer1,"ans1");
+
+                savedQuestion.answer1 = "ans2";
+                savedQuestion.save();
+                findMe = Question.find.byId(savedQuestion.id);
+                assertEquals(findMe.answer1,"ans2");
             }
         });
     }
@@ -139,10 +189,30 @@ public class ApplicationTest {
         running(fakeApplication(), new Runnable() {
             public void run() {
                 Question savedQuestion = new Question();
-                savedQuestion.correct_answer = "why did the chicken cross the road?";
+                savedQuestion.correct_answer = "ans1";
                 savedQuestion.save();
                 Question findMe = Question.find.byId(savedQuestion.id);
-                assertEquals(findMe.correct_answer,"why did the chicken cross the road?");
+                assertEquals(findMe.correct_answer,"ans1");
+            }
+        });
+    }
+
+
+    /* Confirm Question Correct Answer Save  */
+    @Test
+    public void testQuestionCorrectAnswerUpdate() {
+        running(fakeApplication(), new Runnable() {
+            public void run() {
+                Question savedQuestion = new Question();
+                savedQuestion.correct_answer = "ans1";
+                savedQuestion.save();
+                Question findMe = Question.find.byId(savedQuestion.id);
+                assertEquals(findMe.correct_answer,"ans1");
+
+                savedQuestion.correct_answer = "ans2";
+                savedQuestion.save();
+                findMe = Question.find.byId(savedQuestion.id);
+                assertEquals(findMe.correct_answer,"ans2");
             }
         });
     }
@@ -153,10 +223,29 @@ public class ApplicationTest {
         running(fakeApplication(), new Runnable() {
             public void run() {
                 Exam savedExam = new Exam();
-                savedExam.name = "Test Exam Name";
+                savedExam.name = "Test Exam Name1";
                 savedExam.save();
                 Exam findMe = Exam.find.byId(savedExam.id);
-                assertEquals(findMe.name,"Test Exam Name");
+                assertEquals(findMe.name,"Test Exam Name1");
+            }
+        });
+    }
+
+    /* Confirm Question Name Save  */
+    @Test
+    public void testExamNameUpdate() {
+        running(fakeApplication(), new Runnable() {
+            public void run() {
+                Exam savedExam = new Exam();
+                savedExam.name = "Test Exam Name1";
+                savedExam.save();
+                Exam findMe = Exam.find.byId(savedExam.id);
+                assertEquals(findMe.name,"Test Exam Name1");
+
+                savedExam.name = "Test Exam Name2";
+                savedExam.save();
+                findMe = Exam.find.byId(savedExam.id);
+                assertEquals(findMe.name,"Test Exam Name2");
             }
         });
     }
@@ -195,7 +284,7 @@ public class ApplicationTest {
         });
     }
 
-    /* Confirm Exam was loaded by  Evolutions  */
+    /* Confirm Exam was loaded by Evolutions  */
     @Test
     public void testRetrieveExam() {
         running(fakeApplication(), new Runnable() {
@@ -206,6 +295,48 @@ public class ApplicationTest {
         });
     }
 
+    /* */
+    @Test
+    public void testIndexAuthentication() {
+        Content html = views.html.index.render();
+        assertEquals("text/html", html.contentType());
+        assertTrue(html.body().contains("Testorama"));
+    }
+
+    /* */
+    @Test
+    public void testViewExamsAuthentication() {
+        running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
+            browser.goTo("http://localhost:9000/viewExams");
+            assertTrue(browser.pageSource().contains("Unauthorized"));
+        });
+    }
+
+    /* */
+    @Test
+    public void testViewQuestionAuthentication() {
+        running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
+            browser.goTo("http://localhost:9000/questions/4");
+            assertTrue(browser.pageSource().contains("Unauthorized"));
+        });
+    }
+
+    /* */
+    @Test
+    public void testGenerateExamAuthentication() {
+        running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
+            browser.goTo("http://localhost:9000/generateExams");
+            assertTrue(browser.pageSource().contains("Unauthorized"));
+        });
+    }
+
+    @Test
+    public void testListQuestionsAuthentication() {
+        running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
+            browser.goTo("http://localhost:9000/listQuestions");
+            assertTrue(browser.pageSource().contains("Unauthorized"));
+        });
+    }
 
 
 

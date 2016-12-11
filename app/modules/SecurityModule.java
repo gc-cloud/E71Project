@@ -84,8 +84,8 @@ public class SecurityModule extends AbstractModule {
 
         // OpenID Connect
         final OidcConfiguration oidcConfiguration = new OidcConfiguration();
-        oidcConfiguration.setClientId("343992089165-i1es0qvej18asl33mvlbeq750i3ko32k.apps.googleusercontent.com");
-        oidcConfiguration.setSecret("unXK_RSCbCXLTic2JACTiAo9");
+        oidcConfiguration.setClientId("908666347081-7kqut9gg5ttlidg5822ntb1gqk1jermv.apps.googleusercontent.com");
+        oidcConfiguration.setSecret("MU-p_Uwz7yFOFQEQJAjfq_Iu");
         oidcConfiguration.setDiscoveryURI("https://accounts.google.com/.well-known/openid-configuration");
         oidcConfiguration.addCustomParam("prompt", "consent");
         final OidcClient oidcClient = new OidcClient(oidcConfiguration);

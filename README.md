@@ -555,58 +555,58 @@ ________________________________________________________________________________
 #### You have conducted multiple Daily Scrums. You have evidence of at least one daily scrum documented in your README. 5.0 pts
 
 > We conducted daily scrums on Dec 3rd, Dec 6th, Dec 10th, and Dec 11th with a Sprint Review also done on Dec 11th.
-> Each member responded to the three questions on each daily scrum.  Representative samples for the sessions on the 10th and 11th below:
+> Each member responded to the three questions on each daily scrum.  Representative samples for the sessions on the 6th and 10th below:
  
+> **Scrum 12/06/2016**
+>   
+>   ![Alt text](readmeImages/scrum20161123.png?raw=true "Scrum session 12/06/2016")
+>    
+> Team updates
+>    * Alberto Garza <br />
+>Done : Programmed <br />
+>Will do : Research into PDF solution<br />
+>Block : None
+>    * Ran Zhang<br />
+>Done : Programmed <br />
+>Will do : Research into authentication with Play framework <br />
+>Block : None
+>    * Rafael Flores<br />
+>Done : Programmed <br />
+>Will do : Research into authentication with Play framework<br />
+>Block : No
+>    * Samuel Chao<br />
+>Done : Programmed <br />
+>Will do : Update README and backlog; research into authentication with Play framework<br />
+>Block : None
+>    * Gerardo Castaneda<br />
+> Done : Programmed; fixed database evolutions <br />
+> Will do : Research into PDF and authentication <br />
+> Block : None
+
 > **Scrum 12/10/2016**
 >   
 >   ![Alt text](readmeImages/scrum20161123.png?raw=true "Scrum session 12/10/2016")
 >    
 > Team updates
 >    * Alberto Garza <br />
->Done : <br />
->Will do : <br />
+>Done : Programmed; Found and implemented PDF print solution<br />
+>Will do : Prepare for presentation <br />
 >Block : None
 >    * Ran Zhang<br />
->Done : <br />
->Will do : <br />
+>Done : Programmed; implemented authentication<br />
+>Will do : Prepare for presentation<br />
 >Block : No
 >    * Rafael Flores<br />
->Done : <br />
->Will do : <br />
+>Done : Programmed; implemented authentication<br />
+>Will do : Prepare for presentation<br />
 >Block : No
->    * Samuel Chao<br />
->Done : <br />
->Will do : <br />
+>    * Samuel Chao <br />
+>Done : Programmed; updated README and documentation; updated data seeders and code cleanup<br />
+>Will do : Prepare for presentation<br />
 >Block : None
 >    * Gerardo Castaneda<br />
-> Done : <br />
-> Will do : <br />
-> Block : None
-
-> **Scrum 12/11/2016**
->   
->   ![Alt text](readmeImages/scrum20161123.png?raw=true "Scrum session 12/11/2016")
->    
-> Team updates
->    * Alberto Garza <br />
->Done : <br />
->Will do : <br />
->Block : None
->    * Ran Zhang<br />
->Done : <br />
->Will do : <br />
->Block : No
->    * Rafael Flores<br />
->Done : <br />
->Will do : <br />
->Block : No
->    * Samuel Chao<br />
->Done : <br />
->Will do : <br />
->Block : None
->    * Gerardo Castaneda<br />
-> Done : <br />
-> Will do : <br />
+> Done : Programmed; Fixed Travis CI and PDF package issue<br />
+> Will do : Prepare for presentation<br />
 > Block : None
 
 #### Update your sprint backlog task board and burndown chart. Make sure the URLs or images are available in your GitHub repo's README. 2.0 pts
@@ -622,8 +622,34 @@ ________________________________________________________________________________
 #### There is evidence that you are building your product test-first. There are at least 3 BDD / A-TDD tests in your test suite (at least 1 new one this sprint), and it passes. There are at least 30 unit tests in your test suite (at least 10 new unit tests this sprint), and they all pass. 11.0 pts
 
 #### You have a Continuous Integration system running. The CI system automatically builds your code every time you merge to master. The CI system executes your tests every time it builds the code. 5.0 pts
+> We are using Travis CI and BoxFuse for Continuous Integration and Continuous Deployment to Amazon Web Services.
+> The screenshot below shows Travis' report of Build Status  Passed.
 
-#### You have a Continuous Deployment system running. The CD system deploys your software to a production-like environment. The CD system executes additional tests of your software in the production-like environment. The CD system deploys your software to a live production environment. Your live production environment works properly. 5.0 pts
+> ![Alt text](TODO: add screenshot)
+>
+
+> The screenshot below shows all tests were executed successfully by Travis CI and start of automatic deployment
+>
+> ![Alt text](TODO: add screenshot)
+
+#### You have a Continuous Deployment system running. The CD system deploys your software to a production-like environment. The CD system executes additional tests of your software in the production-like environment. The CD system deploys your software to a live production environment. Your live production environment works properly.
+
+> Travis / Deploys our solution to a test environment hosted at AWS ( this is our production-like environment).
+
+> The screenshot below shows the two AWS environments on the BoxFuse console
+>
+> ![Alt text](TODO: add screenshot)
+
+> After tests are successfully completed. The changes are deployed automatically to a production like environment
+> accessible at [http://e71project-test-gccloud.boxfuse.io/](http://e71project-test-gccloud.boxfuse.io/)
+>
+> This screenshot shows how Travis CI successfully launched BoxFuse and deployed the application to AWS
+>
+> ![Alt text](TODO: add screenshot)
+>
+> This is a screenshot of the deployed application
+>
+> ![Alt text](TODO: add screenshot)
 
 #### Your team conducts an in-class Sprint Review. 1.0 pts - TO BE DONE IN CLASS
 

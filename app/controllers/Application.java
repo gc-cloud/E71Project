@@ -137,11 +137,6 @@ public class Application extends Controller {
         return ok(views.html.csrf.render(getProfiles()));
     }
 
-    public Result loginForm() throws TechnicalException {
-        final FormClient formClient = (FormClient) config.getClients().findClient("FormClient");
-        return ok(views.html.loginForm.render(formClient.getCallbackUrl()));
-    }
-
     public Result jwt() {
         final List<CommonProfile> profiles = getProfiles();
         final JwtGenerator generator = new JwtGenerator(SecurityModule.JWT_SALT);

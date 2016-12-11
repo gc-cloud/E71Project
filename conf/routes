@@ -5,8 +5,6 @@
 # Go to home page
 GET     /                           controllers.HomeController.index
 
-# Manage various http request issues
-GET     /oops                       controllers.HomeController.oops
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
@@ -14,7 +12,6 @@ GET     /printExams                 controllers.ExamController.printExams
 GET     /generateExams              controllers.ExamController.generateExams(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
 GET     /viewExams                  controllers.ExamController.viewExams(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
 POST    /viewExams                  controllers.ExamController.save()
-GET     /signup                     controllers.HomeController.signup
 GET     /viewExams/:id              controllers.ExamController.view(id:Long)
 GET     /pdfView/:id                controllers.ExamController.pdfView(id:Long,withAnswer:Boolean)
 GET     /listExams                  controllers.ExamController.list(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
@@ -22,11 +19,11 @@ GET     /listExams                  controllers.ExamController.list(p:Int ?= 0, 
 # List Questions
 GET     /listQuestions              controllers.QuestionController.list(p:Int ?= 0, s ?= "name", o ?= "asc", f ?= "")
 
-GET     /addQuestion               controllers.QuestionController.create()
+GET     /addQuestion                controllers.QuestionController.create()
 
 # Add question
 GET     /questions/new              controllers.QuestionController.create()
-GET     /addQuestion               controllers.QuestionController.create()
+GET     /addQuestion                controllers.QuestionController.create()
 POST    /questions                  controllers.QuestionController.save()
 
 # Delete Questions
@@ -37,13 +34,13 @@ GET     /questions/:id              controllers.QuestionController.edit(id:Long)
 POST    /questions/:id              controllers.QuestionController.update(id:Long)
 
 # pac4j
-GET         /oidc/index.html                  controllers.Application.oidcIndex()
-GET         /protected/index.html             controllers.Application.protectedIndex()
-GET         /callback                         @org.pac4j.play.CallbackController.callback()
-POST        /callback                         @org.pac4j.play.CallbackController.callback()
-GET         /logout                           @org.pac4j.play.ApplicationLogoutController.logout()
+GET     /oidc/index.html            controllers.Application.oidcIndex()
+GET     /protected/index.html       controllers.Application.protectedIndex()
+GET     /callback                   @org.pac4j.play.CallbackController.callback()
+POST    /callback                   @org.pac4j.play.CallbackController.callback()
+GET     /logout                     @org.pac4j.play.ApplicationLogoutController.logout()
 
 # Map static resources from the /public folder to the /assets URL path
-GET         /assets/*file                     controllers.Assets.at(path="/public", file)
+GET      /assets/*file              controllers.Assets.at(path="/public", file)
 
 

@@ -559,7 +559,7 @@ ________________________________________________________________________________
  
 > **Scrum 12/06/2016**
 >   
->   ![Alt text](readmeImages/scrum20161123.png?raw=true "Scrum session 12/06/2016")
+>   ![Alt text](readmeImages/scrum2016120623.png?raw=true "Scrum session 12/06/2016")
 >    
 > Team updates
 >    * Alberto Garza <br />
@@ -585,7 +585,7 @@ ________________________________________________________________________________
 
 > **Scrum 12/10/2016**
 >   
->   ![Alt text](readmeImages/scrum20161123.png?raw=true "Scrum session 12/10/2016")
+>   ![Alt text](readmeImages/scrum20161210.png?raw=true "Scrum session 12/10/2016")
 >    
 > Team updates
 >    * Alberto Garza <br />
@@ -630,26 +630,22 @@ ________________________________________________________________________________
 
 > The screenshot below shows all tests were executed successfully by Travis CI and start of automatic deployment
 >
-> ![Alt text](TODO: add screenshot)
+> ![Alt text](readmeImages/TravisBuildPassed.png?raw=true "Final Travis Build Passed")
 
 #### You have a Continuous Deployment system running. The CD system deploys your software to a production-like environment. The CD system executes additional tests of your software in the production-like environment. The CD system deploys your software to a live production environment. Your live production environment works properly.
 
 > Travis / Deploys our solution to a test environment hosted at AWS ( this is our production-like environment).
-
-> The screenshot below shows the two AWS environments on the BoxFuse console
->
-> ![Alt text](TODO: add screenshot)
 
 > After tests are successfully completed. The changes are deployed automatically to a production like environment
 > accessible at [http://e71project-test-gccloud.boxfuse.io/](http://e71project-test-gccloud.boxfuse.io/)
 >
 > This screenshot shows how Travis CI successfully launched BoxFuse and deployed the application to AWS
 >
-> ![Alt text](TODO: add screenshot)
+> ![Alt text](readmeImages/TravisDeploymentFinal.png?raw=true "Final Travis Deployment Passed")
 >
 > This is a screenshot of the deployed application
 >
-> ![Alt text](TODO: add screenshot)
+> ![Alt text](readmeImages/TestoramaFinalProductIncrement.png?raw=true "Final Travis Deployment Passed")
 
 #### Your team conducts an in-class Sprint Review. 1.0 pts - TO BE DONE IN CLASS
 
@@ -676,4 +672,6 @@ ________________________________________________________________________________
 ### Credits
 > Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.   
 > Photostock from pexels.com   
+> PDF solution from [Play2-PDF](https://github.com/innoveit/play2-pdf)
+> Authorization solution from [PAC4J](https://github.com/pac4j/play-pac4j)
 > Solution inspired by Will Sargent's [play ebean example.](https://github.com/playframework/play-ebean-example)

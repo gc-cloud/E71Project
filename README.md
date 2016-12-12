@@ -559,7 +559,7 @@ ________________________________________________________________________________
  
 > **Scrum 12/06/2016**
 >   
->   ![Alt text](readmeImages/scrum2016120623.png?raw=true "Scrum session 12/06/2016")
+>   ![Alt text](readmeImages/scrum20161206.png?raw=true "Scrum session 12/06/2016")
 >    
 > Team updates
 >    * Alberto Garza <br />

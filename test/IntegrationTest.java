@@ -56,12 +56,12 @@ public class IntegrationTest {
         });
     }
 
-//    @Test
-//    public void testProductionLikePrintExams() {
-//        running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-//            browser.goTo("http://e71project-test-gccloud.boxfuse.io/printExams");
-//            assertTrue(browser.pageSource().contains("Print Exams"));
-//        });
-//    }
+    @Test
+    public void testProductionLikePrintExams() {
+        running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
+            browser.goTo("http://e71project-test-gccloud.boxfuse.io/viewExams");
+            assertTrue(browser.pageSource().contains("Answer Sheet"));
+        });
+    }
 
 }

@@ -645,7 +645,9 @@ ________________________________________________________________________________
 >
 > ![Alt text](readmeImages/TestoramaFinalProductIncrement.png?raw=true "Final Travis Deployment Passed")
 
-#### Your team conducts an in-class Sprint Review. 1.0 pts - TO BE DONE IN CLASS
+#### TO BE DONE IN CLASS
+#### --------------------------------------------------------------------------
+#### Your team conducts an in-class Sprint Review. 1.0 pts 
 
 > #### - Your Product Owner explains your product's far vision and near vision. You use big visible information radiators (e.g., posters or a slide deck) to facilitate your stakeholders' ability to follow along. 3.0 pts
 
@@ -664,8 +666,9 @@ ________________________________________________________________________________
 > #### - Your PO wraps up the sprint review with a forecast of what you might deliver in the next sprint (pretend there will be a next sprint), a brief summary of this sprint review, and a message of gratitude to your Scrum team and stakeholders. 3.0 pts
 
 > #### - Your Scrum Master facilitates as needed: keep track of time, prompt your PO and Development Team at the right moments, etc. 2.0 pts
-
+#### ---------------------------------------------------------------------------
 > #### - You rehearsed your sprint review at least once before the event. 1.0 pts
+> ![Alt text](readmeImages/SprintReviewPractice.png?raw=true "Sprint Review Practice")
 
 ### Credits
 > Testorama is built using the [Play MVC Framework](https://www.playframework.com/) for Java using a MySQL database for the backend.   

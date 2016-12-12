@@ -629,7 +629,7 @@ ________________________________________________________________________________
 > The screenshot below shows Travis' report of Build Status  Passed.
 >
 > ![Alt text](readmeImages/TravisBuildPassed.png?raw=true "Final Travis Build Passed")
-
+>
 #### You have a Continuous Deployment system running. The CD system deploys your software to a production-like environment. The CD system executes additional tests of your software in the production-like environment. The CD system deploys your software to a live production environment. Your live production environment works properly.
 
 > Travis / Deploys our solution to a test environment hosted at AWS ( this is our production-like environment).

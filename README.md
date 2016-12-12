@@ -621,16 +621,12 @@ ________________________________________________________________________________
 
 #### There is evidence that you are building your product test-first. There are at least 3 BDD / A-TDD tests in your test suite (at least 1 new one this sprint), and it passes. There are at least 30 unit tests in your test suite (at least 10 new unit tests this sprint), and they all pass. 11.0 pts
 
-![Alt text](readmeImages/applicationTests20161210.png?raw=true "New Tests Passing 12/10/2016"
+>![Alt text](readmeImages/applicationTests20161210.png?raw=true "New Tests Passing 12/10/2016")
 
 #### You have a Continuous Integration system running. The CI system automatically builds your code every time you merge to master. The CI system executes your tests every time it builds the code. 5.0 pts
 > We are using Travis CI and BoxFuse for Continuous Integration and Continuous Deployment to Amazon Web Services.
+
 > The screenshot below shows Travis' report of Build Status  Passed.
-
-> ![Alt text](TODO: add screenshot)
->
-
-> The screenshot below shows all tests were executed successfully by Travis CI and start of automatic deployment
 >
 > ![Alt text](readmeImages/TravisBuildPassed.png?raw=true "Final Travis Build Passed")
 

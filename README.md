@@ -563,23 +563,23 @@ ________________________________________________________________________________
 >    
 > Team updates
 >    * Alberto Garza <br />
->Done : Programmed <br />
+>Done : Programmed - authentication <br />
 >Will do : Research into PDF solution<br />
 >Block : None
 >    * Ran Zhang<br />
->Done : Programmed <br />
+>Done : Programmed - authentication<br />
 >Will do : Research into authentication with Play framework <br />
 >Block : None
 >    * Rafael Flores<br />
->Done : Programmed <br />
+>Done : Programmed - authentication<br />
 >Will do : Research into authentication with Play framework<br />
 >Block : No
 >    * Samuel Chao<br />
->Done : Programmed <br />
+>Done : Programmed - authentication <br />
 >Will do : Update README and backlog; research into authentication with Play framework<br />
 >Block : None
 >    * Gerardo Castaneda<br />
-> Done : Programmed; fixed database evolutions <br />
+> Done : Programmed - authentication and fixed database evolutions <br />
 > Will do : Research into PDF and authentication <br />
 > Block : None
 

@@ -289,7 +289,7 @@ public class ApplicationTest {
     public void testRetrieveExam() {
         running(fakeApplication(), new Runnable() {
             public void run() {
-               Exam savedExam = Exam.find.byId(Long.valueOf(100));
+                Exam savedExam = Exam.find.byId(Long.valueOf(100));
                 assertEquals(savedExam.name,"Agile/Scrum Exam");
             }
         });
@@ -297,47 +297,46 @@ public class ApplicationTest {
 
     /* */
     @Test
-    public void testIndexContent() {
+    public void testIndexAuthentication() {
         Content html = views.html.index.render();
         assertEquals("text/html", html.contentType());
         assertTrue(html.body().contains("Testorama"));
     }
 
-
+    /*  Commenting out Authentication tests since that story was moved to the next Sprint  s
     @Test
-    public void testViewExamsContent() {
+    public void testViewExamsAuthentication() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-            browser.goTo("http://www.testorama.online/viewExams");
-            assertTrue(browser.pageSource().contains("Agile/Scrum Exam"));
+            browser.goTo("http://localhost:9000/viewExams");
+            assertTrue(browser.pageSource().contains("Unauthorized"));
         });
     }
 
 
     @Test
-    public void testViewQuestionContent() {
+    public void testViewQuestionAuthentication() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-            browser.goTo("http://www.testorama.online/questions/4");
-            assertTrue(browser.pageSource().contains("6+3 people"));
+            browser.goTo("http://localhost:9000/questions/4");
+            assertTrue(browser.pageSource().contains("Unauthorized"));
         });
     }
 
 
     @Test
-    public void testGenerateExamContent() {
+    public void testGenerateExamAuthentication() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-            browser.goTo("http://www.testorama.online/generateExams");
-            assertTrue(browser.pageSource().contains("The maximum length of the Sprint Review"));
+            browser.goTo("http://localhost:9000/generateExams");
+            assertTrue(browser.pageSource().contains("Unauthorized"));
         });
     }
 
     @Test
-    public void testListQuestionsContent() {
+    public void testListQuestionsAuthentication() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-            browser.goTo("http://www.testorama.online/listQuestions");
-            assertTrue(browser.pageSource().contains("The optimal size of a work team is"));
+            browser.goTo("http://localhost:9000/listQuestions");
+            assertTrue(browser.pageSource().contains("Unauthorized"));
         });
-    }
-
+    }*/
 
 
 }

@@ -297,46 +297,46 @@ public class ApplicationTest {
 
     /* */
     @Test
-    public void testIndexAuthentication() {
+    public void testIndexContent() {
         Content html = views.html.index.render();
         assertEquals("text/html", html.contentType());
         assertTrue(html.body().contains("Testorama"));
     }
 
-    /*  Commenting out Authentication tests since that story was moved to the next Sprint
+
     @Test
-    public void testViewExamsAuthentication() {
+    public void testViewExamsContent() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-            browser.goTo("http://localhost:9000/viewExams");
-            assertTrue(browser.pageSource().contains("Unauthorized"));
+            browser.goTo("http://www.testorama.online/viewExams");
+            assertTrue(browser.pageSource().contains("Agile/Scrum Exam"));
         });
     }
 
 
     @Test
-    public void testViewQuestionAuthentication() {
+    public void testViewQuestionContent() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-            browser.goTo("http://localhost:9000/questions/4");
-            assertTrue(browser.pageSource().contains("Unauthorized"));
+            browser.goTo("http://www.testorama.online/questions/4");
+            assertTrue(browser.pageSource().contains("6+3 people"));
         });
     }
 
 
     @Test
-    public void testGenerateExamAuthentication() {
+    public void testGenerateExamContent() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-            browser.goTo("http://localhost:9000/generateExams");
-            assertTrue(browser.pageSource().contains("Unauthorized"));
+            browser.goTo("http://www.testorama.online/generateExams");
+            assertTrue(browser.pageSource().contains("The maximum length of the Sprint Review"));
         });
     }
 
     @Test
-    public void testListQuestionsAuthentication() {
+    public void testListQuestionsContent() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-            browser.goTo("http://localhost:9000/listQuestions");
-            assertTrue(browser.pageSource().contains("Unauthorized"));
+            browser.goTo("http://www.testorama.online/listQuestions");
+            assertTrue(browser.pageSource().contains("The optimal size of a work team is"));
         });
-    }*/
+    }
 
 
 

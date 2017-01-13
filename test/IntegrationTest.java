@@ -23,7 +23,7 @@ public class IntegrationTest {
             assertTrue(browser.pageSource().contains("Testorama"));
         });
     }
-
+/*
     @Test
     public void testProductionLikeQuestions() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
@@ -31,7 +31,7 @@ public class IntegrationTest {
             assertTrue(browser.pageSource().contains("Testorama"));
         });
     }
-
+*/
     @Test
     public void testProductionLikeViewExams() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {

@@ -74,6 +74,7 @@ deploy:
   skip_cleanup: true
   provider: boxfuse
   payload: e71project-1.0.zip
+  app: testorama
   #payload: /files/e71project-1.0.tgz
   #payload: /home/travis/build/gc-cloud/E71Project/target/universal/e71project-1.0.tgz
   user:

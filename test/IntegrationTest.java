@@ -20,18 +20,10 @@ public class IntegrationTest {
     public void testProductionLikeHome() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
             browser.goTo("http://e71project-test-gccloud.boxfuse.io/");
-            assertTrue(browser.pageSource().contains("Testorama"));
+            assertTrue(browser.pageSource().contains("Driving innovation"));
         });
     }
-/*
-    @Test
-    public void testProductionLikeQuestions() {
-        running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-            browser.goTo("http://e71project-test-gccloud.boxfuse.io/listQuestions");
-            assertTrue(browser.pageSource().contains("Testorama"));
-        });
-    }
-*/
+
     @Test
     public void testProductionLikeViewExams() {
         running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
@@ -56,12 +48,5 @@ public class IntegrationTest {
         });
     }
 
-    @Test
-    public void testProductionLikePrintExams() {
-        running(testServer(9000, fakeApplication(inMemoryDatabase())), HTMLUNIT, browser -> {
-            browser.goTo("http://e71project-test-gccloud.boxfuse.io/viewExams");
-            assertTrue(browser.pageSource().contains("Answer Sheet"));
-        });
-    }
 
 }

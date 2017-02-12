@@ -42,6 +42,20 @@ header.carousel .fill {
     background-size: cover;
 }
 
+
+/* Image Styles */
+.padded {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.colored {
+    #color: #2b669a;
+    color: orange;
+}
+
 /* 404 Page Styles */
 
 .error-404 {
